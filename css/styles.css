@@ -1,3 +1,9 @@
+/* INDEX
+ * 01 - GENERAL
+ * 02 - HEADER
+ * 03 - CAROUSEL
+ * 00 - FOOTER */
+/* -------------- 01 - GENERAL -------------- */
 body {
   background-color: #E9E9E9;
   font-size: 16px;
@@ -15,6 +21,7 @@ body {
   text-align: center;
 }
 
+/* ------------------ 02 - HEADER ------------------ */
 .header {
   position: relative;
   width: 100%;
@@ -74,7 +81,6 @@ body {
 }
 
 .header .main-menu ul {
-  background-color: rgba(0, 0, 0, 0.7);
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -100,6 +106,7 @@ body {
 }
 
 .header .main-menu ul li a {
+  background-color: rgba(0, 0, 0, 0.7);
   color: #fff;
   text-decoration: none;
   display: inline-block;
@@ -107,6 +114,20 @@ body {
   padding: 14px 0;
   letter-spacing: 2px;
   width: 100%;
+}
+
+.header .main-menu ul li a:hover {
+  background-color: rgba(181, 79, 27, 0.8);
+  font-weight: bold;
+}
+
+.header .main-menu ul li.active a {
+  color: #cb591e;
+  font-weight: bold;
+}
+
+.header .main-menu ul li.active a:hover {
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .header .main-menu ul li:before {
@@ -124,11 +145,86 @@ body {
   display: none;
 }
 
-.header .main-menu ul li.active a {
-  color: #cb591e;
-  font-weight: bold;
+.header .address {
+  color: #ffffff;
+  height: 116px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
+.header .address .left-column {
+  margin-right: 7px;
+}
+
+.header .address i.icon-mark:before,
+.header .address i.icon-mail:before,
+.header .address i.icon-phone:before {
+  position: relative;
+  top: 2px;
+  padding-right: 5px;
+  font-size: 18px;
+}
+
+.header .address p {
+  margin-bottom: 10px;
+  font-size: .95em;
+}
+
+.header .address .social-icons {
+  margin-top: 10px;
+}
+
+.header .address .social-icons > div {
+  display: inline-block;
+  margin-right: 2px;
+  height: 30px;
+  width: 30px;
+}
+
+.header .address .social-icons > div a {
+  text-decoration: none;
+}
+
+.header .address .social-icons > div i {
+  color: #ffffff;
+  position: relative;
+  font-size: 22px;
+}
+
+.header .address .social-icons > div i:before {
+  position: relative;
+  top: 5px;
+  left: 3px;
+}
+
+.header .address .social-icons .twitter {
+  background-color: #62aee6;
+}
+
+.header .address .social-icons .facebook {
+  background-color: #243f8b;
+}
+
+.header .address .social-icons .youtube {
+  background-color: #db1f25;
+}
+
+.header .address .social-icons .youtube i:before {
+  top: 5px;
+}
+
+.header .address .social-icons .google-plus {
+  background-color: #da4835;
+}
+
+/* --------- 03 - CAROUSEL --------- */
 .carousel {
   width: 100%;
   position: relative;
@@ -142,6 +238,7 @@ body {
   width: 100%;
 }
 
+/* ------------ 00 - FOOTER ------------ */
 .footer {
   background-color: #04090F;
   color: #ffffff;
