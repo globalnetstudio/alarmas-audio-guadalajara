@@ -2,6 +2,7 @@
  * 01 - GENERAL
  * 02 - HEADER
  * 03 - CAROUSEL
+ * 04 - CAROUSEL
  * 00 - FOOTER */
 /* -------------- 01 - GENERAL -------------- */
 body {
@@ -19,6 +20,11 @@ body {
 
 .center {
   text-align: center;
+}
+
+.img-responsive {
+  height: auto;
+  width: 100%;
 }
 
 /* ------------------ 02 - HEADER ------------------ */
@@ -236,6 +242,98 @@ body {
 .carousel img {
   height: auto;
   width: 100%;
+}
+
+/* ------------------ 05 - CONTENT ------------------ */
+.content {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.content .security-comfort {
+  text-align: center;
+}
+
+.content .security-comfort h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  margin-bottom: 0.5em;
+  color: #3c3c3c;
+}
+
+.content .security-comfort p {
+  font-family: Arial, Geneva, sans-serif;
+  color: #7d7d7d;
+  font-size: 17px;
+  margin-bottom: 1em;
+}
+
+.content .alarm-controls h2 {
+  color: #0f1217;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 27px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.alarms-audio-confort {
+  margin-bottom: -4px;
+}
+
+.avital-products {
+  margin-bottom: -4px;
+}
+
+.alarms-specialists {
+  border-top: solid 8px #cb591e;
+  margin-bottom: -4px;
+}
+
+.viper-clifford-features {
+  padding: 15px 20px 30px;
+  background-color: #ffffff;
+}
+
+.viper-clifford-features .wrapper {
+  margin: 0 auto;
+  width: 60%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.viper-clifford-features .wrapper .clifford-features {
+  -webkit-flex: 0 0 49%;
+      -ms-flex: 0 0 49%;
+          flex: 0 0 49%;
+}
+
+.viper-clifford-features .wrapper .text {
+  -webkit-flex: 0 0 49%;
+      -ms-flex: 0 0 49%;
+          flex: 0 0 49%;
+}
+
+.viper-clifford-features .wrapper .text h2 {
+  color: #3f3f3f;
+  font-size: 28px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: .25em;
+}
+
+.viper-clifford-features .wrapper .text p {
+  font-size: 16px;
+  text-align: left;
+  color: #7d7d7d;
+  text-align: justify;
+  line-height: 20px;
 }
 
 /* ------------ 00 - FOOTER ------------ */
