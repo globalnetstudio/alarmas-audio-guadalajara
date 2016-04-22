@@ -5,5 +5,15 @@
 
 		<!-- jQuery -->
 		<script src="./js/jquery.min.js"></script>
+		<script src="./js/jquery.flexslider.min.js"></script>
+		<script>
+			$(function() {
+				$('.flexslider').flexslider({
+			    animation: "slide",
+			    controlsContainer: $(".custom-controls-container"),
+			    customDirectionNav: $(".custom-navigation a")
+			  });
+			});
+		</script>
 	</body>
 </html>

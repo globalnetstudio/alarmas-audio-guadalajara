@@ -12,6 +12,6 @@
 	<section class="content">
 		
 	</div>
-	<!-- /.viper-clifford-features -->
+	<!-- /.content -->
 
 <?php include_once('./_partials/footer.php'); ?>	
