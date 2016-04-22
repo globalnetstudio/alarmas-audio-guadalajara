@@ -246,9 +246,14 @@ body {
   z-index: 5;
 }
 
+.carousel .zig-zag-form img {
+  height: auto;
+  width: 100%;
+}
+
 .carousel .custom-controls-container {
   position: absolute;
-  bottom: 30%;
+  bottom: 25%;
   width: 100%;
   z-index: 10;
 }
