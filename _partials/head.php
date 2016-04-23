@@ -23,6 +23,13 @@
 
 		<!-- Google Fonts -->
 	  <link href='https://fonts.googleapis.com/css?family=Montserrat:700|Bowlby+One' rel='stylesheet' type='text/css'>
+
+		<!-- Picturefill -->
+		<script>
+    	// Picture element HTML5 shiv
+    	document.createElement( "picture" );
+  	</script>
+	  <script src="./js/picturefill.js" async></script>
 	</head>
 
 	<body id="<?php echo (isset($pageId)) ? $pageId : null ?>">

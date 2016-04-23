@@ -20,7 +20,10 @@
 
 	<!-- .zig-zag-form -->
 	<div class="zig-zag-form">
-		<img src="/images/header/zig-zag-form.png" alt="zig zag image">
+		<picture>
+		  <source srcset="/images/header/zig-zag-form-2600px.png" media="(min-width: 1361px)">
+		  <img srcset="/images/header/zig-zag-form.png" alt="zig zag image">
+		</picture>
 	</div>
 	<!-- /.zig-zag-form -->
 </div>
