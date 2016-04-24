@@ -45,7 +45,7 @@
 
 				img
 					width: 100%
-					max-width: 200px;
+					max-width: 200px
 					max-height: 200px
 					height: auto
 				img.moto-x
@@ -90,3 +90,50 @@
 							position: absolute
 							top: 4px
 							left: 3px
+	
+	.protect
+		margin: 0 auto
+		padding: 1em
+		width: $mainWidth
+		.protect-logo
+			text-align: center
+			margin-bottom: 1em
+		.banners
+			display: flex
+			justify-content: space-between
+			.banner-v2,
+			.banner-v4
+				width: 49%			
+			.banner-v2 img,
+			.banner-v4 img
+				max-width: 490px
+				width: 100%
+				box-shadow: 0 5px 10px rgba(0,0,0,.5)
+
+	.logos-wrapper,
+	.banners-wrapper
+		margin: 0 auto
+		width: $mainWidth
+		display: flex
+
+	.logos-wrapper
+		align-items: center
+		padding-bottom: 1em
+		.ontas-logo,
+		.directed-logo
+			text-align: center
+			width: 50%
+
+	.banners-wrapper
+		justify-content: space-between
+		padding: 0 1em 1em
+		padding-bottom: 1em
+		.ontas-banner,
+		.viper-banner
+			width: 49%
+		.ontas-banner,
+		.viper-banner
+			img
+				max-width: 470px
+				width: 100%
+				box-shadow: 0 5px 10px rgba(0,0,0,.5)

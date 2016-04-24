@@ -10,19 +10,26 @@
 
 	<!-- .content -->
 	<section class="content">
-		<!-- .security-comfort -->
-		<div class="security-comfort">
-			<h2>¡Obtener una nueva alarma de coche o sistema de encendido remoto nunca había sido tan fácil!</h2>
-			<p>Ahora puedes personalizar el sistema de seguridad perfecto para tu vehiculo,<br> solo dinos como lo quieres y nosotros te ayudamos.</p>
-		</div>
-		<!-- /.security-comfort -->
 
-		<!-- .alarm-controls -->
-		<div class="alarm-controls">
-			<h2>Asesoria y Satisfacción Garantizada</h2>
-			<img class="img-responsive" src="/images/controles-clifford.jpg" alt="Controles para alarmas Clifford">
-		</div>
-		<!-- /.alarm-controls -->
+		<!-- .security-alarms-group -->
+		<section class="security-alarms-group">
+
+			<!-- .security-comfort -->
+			<div class="security-comfort">
+				<h2>¡Obtener una nueva alarma de coche o sistema de encendido remoto nunca había sido tan fácil!</h2>
+				<p>Ahora puedes personalizar el sistema de seguridad perfecto para tu vehiculo,<br> solo dinos como lo quieres y nosotros te ayudamos.</p>
+			</div>
+			<!-- /.security-comfort -->
+			
+			<!-- .alarm-controls -->
+			<div class="alarm-controls">
+				<h2>Asesoria y Satisfacción Garantizada</h2>
+				<img class="img-responsive" src="/images/controles-clifford.jpg" alt="Controles para alarmas Clifford">
+			</div>
+			<!-- /.alarm-controls -->
+
+		</section>
+		<!-- /.security-alarms-group -->
 
 	</section>
 	<!-- /.content -->

@@ -306,9 +306,71 @@
 				<!-- /.column -->
 			</div>
 			<!-- /.row -->
-
 		</div>
 		<!-- /.alarms -->
+
+		<!-- .protect -->
+		<div class="protect">
+			<!-- .protect-logo -->
+			<div class="protect-logo">
+				<img src="/images/protec-logo.jpg" alt="Protect Logo">
+			</div>
+			<!-- /.protect-logo -->
+
+			<!-- .banners -->
+			<div class="banners">
+				<!-- .banner-v2 -->
+				<div class="banner-v2">
+					<img src="/images/protect-banner-v2.jpg" alt="Protect V2">
+				</div>
+				<!-- /.banner-v2 -->
+				
+				<!-- .banner-v4 -->
+				<div class="banner-v4">
+					<img src="/images/protect-banner-v4.jpg" alt="Protect V4">
+				</div>
+				<!-- /.banner-v4 -->
+			</div>
+			<!-- /.banners -->
+		</div>
+		<!-- ./protect -->
+
+		<!-- .logos-wrapper -->
+		<div class="logos-wrapper">
+
+			<!-- .ontas-logo -->
+				<div class="ontas-logo">
+				<img src="/images/ontas-logo.jpg" alt="Ontas Logo">
+			</div>
+			<!-- /.ontas-logo -->
+
+			<!-- .directed-logo -->
+			<div class="directed-logo">
+				<img src="/images/directed-logo.jpg" alt="Directed Logo">
+			</div>
+			<!-- /.directed-logo -->
+
+		</div>
+		<!-- /.logos-wrapper -->
+
+		<!-- .banners-wrapper -->
+		<div class="banners-wrapper">
+
+			<!-- .ontas-banner -->
+			<div class="ontas-banner">
+				<img src="/images/ontas-banner.jpg" alt="Ontas Banner">
+			</div>
+			<!-- /.ontas-banner -->
+
+			<!-- .viper-banner -->
+			<div class="viper-banner">
+				<img src="/images/viper-banner.jpg" alt="Viper Banner">
+			</div>
+			<!-- /.viper-banner -->
+
+		</div>
+		<!-- ./banners-wrapper -->
+
 	</div>
 	<!-- /.content -->
 

@@ -20,10 +20,17 @@
 
 	<!-- .zig-zag-form -->
 	<div class="zig-zag-form">
-		<picture>
-		  <source srcset="/images/header/zig-zag-form-2600px.png" media="(min-width: 1361px)">
-		  <img srcset="/images/header/zig-zag-form.png" alt="zig zag image">
-		</picture>
+		<?php if($page == 'homepage') : ?>
+			<picture>
+			  <source srcset="/images/header/zig-zag-form-gray-2600px.png" media="(min-width: 1361px)">
+			  <img srcset="/images/header/zig-zag-form-gray.png" alt="zig zag image">
+			</picture>
+		<?php else: ?>
+			<picture>
+		  	<source srcset="/images/header/zig-zag-form-white-2600px.png" media="(min-width: 1361px)">
+		  	<img srcset="/images/header/zig-zag-form-white.png" alt="zig zag image">
+			</picture>
+		<?php endif; ?>
 	</div>
 	<!-- /.zig-zag-form -->
 </div>
