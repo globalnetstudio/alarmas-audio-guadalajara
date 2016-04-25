@@ -75,4 +75,4 @@
 	</div>
 	<!-- /.viper-clifford-features -->
 
-<?php include_once('./_partials/footer.php'); ?>	
+<?php include_once('./_partials/footer.php'); ?>

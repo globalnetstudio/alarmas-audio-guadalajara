@@ -371,6 +371,102 @@
 		</div>
 		<!-- ./banners-wrapper -->
 
+		<!-- .antiassault-film -->
+		<div class="antiassault-film">
+
+			<!-- .information -->
+			<div class="information">
+				<h2>¿PORQUÉ INSTALAR LA PELÍCULA ANTIASALTO MARCA VIPER?</h2>
+
+				<h3><span>&#8226;</span>Estilo</h3>
+				<p>La <b>película Antiasalto marca Viper</b> mejora en gran medida la estética de tu vehículo.</p>
+
+				<h3><span>&#8226;</span>Confort</h3>
+				<p>La aplicación de <b>película de seguridad Viper</b> reduce el calor, el brillo y reflejo además reduce los rayos UV e Infrarrojos del sol.</p>
+
+				<h3><span>&#8226;</span>Protección</h3>
+				<p>Las películas de seguridad Antiasalto Viper aumentan y fortalecen las ventanas de los vidrios hasta tres veces más que las películas de seguridad que se venden en las calles de la ciudad de México.</p>
+			</div>
+			<!-- /.information -->
+
+			<!-- .side -->
+			<div class="side">
+				<img src="/images/car-film-1.jpg" alt="Carro con Película Anti Asalto">
+				<p>Película de seguridad 35% (Humo Medio) Con protección UV e Infrarrojo, mantiene la temperatura ambiente. Película de seguridad 35 % Humo Medio</p>
+
+				<img src="/images/car-film-2.jpg" alt="Carro con Película Anti Asalto">
+
+				<p>Película de seguridad 20% (Humo Oscuro) con protección UV e Infrarrojo, mantiene la temperatura ambiente. Película de seguridad 20 % Humo Oscuro.</p>
+			</div>
+			<!-- /.side -->
+
+		</div>
+		<!-- /.antiassault-film -->
+
+		<!-- .max-limit -->
+		<div class="max-limit">
+
+			<!-- .information -->
+			<div class="information">
+				<img src="/images/max-limit.jpg" alt="Max Limit Logo">
+
+				<p>Controlador de Velocidad y/o RPM</p>
+
+				<p>El <b>MAX-LIMIT</b> es un controlador de velocidad básica que emite una alarma y controla la intección del combustible. Su estructura de diseño ayuda a educar y controlar el factor humano lo que maximiza los beneficios y los resultados esperados.</p>
+
+				<p>El <b>MAX-LIMIT</b> cuenta con varias funciones de seguridad con las que: Impide que lo desconecten Atestigua cuando haya sido desconectado Avisa cuando su instalación haya sido alterada Permite realizar un diagnóstico de operación adecuada del equipo</p>
+
+				<p><b>Recomendado para:</b></p>
+
+				<!-- .brands-lists -->
+				<div class="brands-lists">
+					<ul>
+						<li><span>Nisan</span></li>
+						<li><span>VW</span></li>
+						<li><span>Ford</span></li>
+					</ul>
+					
+					<ul>
+						<li><span>Chevrolet</span></li>
+						<li><span>Toyota</span></li>
+						<li><span>Dodge</span></li>
+					</ul>
+					
+					<ul>
+						<li><span>Hyundai</span></li>
+						<li><span>Peugeot</span></li>
+						<li><span>Renault</span></li>
+					</ul>
+				</div>
+				<!-- /.brands-lists -->
+
+				<p>*Todo tipo de unidades a gasolina.</p>
+
+			</div>
+			<!-- /.information -->
+
+			<!-- .side -->
+			<div class="side">
+				<img src="/images/coca-cola-truck.jpg" alt="Coca Cola Truck">
+
+				<p><b>Características:</b></p>
+
+				<ul>
+					<li><span>Controla la velocidad y/o RPM<span></li>
+					<li><span>Funciona en velocidad a gas, gasolina y diésel<span></li>
+					<li><span>Compatible con sensor de velocidad electrónica o sistema de chicote<span></li>
+					<li><span>Programación de alarma de aviso y programación de la máxima velocidad<span></li>
+					<li><span>Programador digital<span></li>
+					<li><span>Testigo de mala operación<span></li>
+					<li><span>Inmovilizador de vehículo al desconectar (+ o -)<span></li>
+					<li><span>Activación de avizo de zona de máxima velocidad<span></li>
+				</ul>
+			</div>
+			<!-- /.side -->
+
+		</div>
+		<!-- /.max-limit -->
+
 	</div>
 	<!-- /.content -->
 
