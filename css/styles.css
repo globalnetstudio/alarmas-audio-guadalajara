@@ -1415,14 +1415,15 @@ b {
       -ms-flex: 0 1 49%;
           flex: 0 1 49%;
   border: solid 1px #cb591e;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25);
 }
-/* line 62, ../sass/08-contacto.sass */
+/* line 63, ../sass/08-contacto.sass */
 .contact-content .address .address-1 img,
 .contact-content .address .address-2 img {
   width: 100%;
   max-width: 472px;
 }
-/* line 65, ../sass/08-contacto.sass */
+/* line 66, ../sass/08-contacto.sass */
 .contact-content .address .address-1 .information,
 .contact-content .address .address-2 .information {
   background-color: #cb591e;
@@ -1430,7 +1431,7 @@ b {
   padding: 1em;
   height: auto;
 }
-/* line 70, ../sass/08-contacto.sass */
+/* line 71, ../sass/08-contacto.sass */
 .contact-content .address .address-1 .information p,
 .contact-content .address .address-2 .information p {
   font-size: 0.8em;
