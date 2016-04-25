@@ -1,0 +1,267 @@
+/* ------------------ 07 - CONFORT ------------------ */
+
+// Mixins
+=border-orange
+	border: 1px solid $orange
+
+=curve-bottom-shadow
+	background-color: transparent
+	border-radius: 0 0 50% 50%
+	bottom: 0
+	box-shadow: 0 8px 15px rgba(#000, .5)
+	content: ""
+	height: 10%
+	left: 2%
+	width: 96%
+	position: absolute
+	z-index: -1
+
+h2,
+.locker-sensor,
+.photocel-sensor,
+.camera,
+.parrot,
+.parrot-mini,
+.pka,
+.tom-tom,
+.simple,
+.easy-go
+	margin: 0 auto
+	width: $mainWidth
+	color: $grayText
+
+.content > h2
+	text-align: center
+	background-color: $orange
+	box-shadow: 0 5px 5px rgba(#000, .5)
+	color: $white
+	font-size: 2em
+	padding: .25em 0
+	margin-bottom: 1em
+
+.locker-sensor
+	display: flex
+	justify-content: space-between
+	.locker,
+	.sensor
+		+border-orange
+		background-color: $white
+		margin-bottom: 1em
+		margin-bottom: 2em
+		padding: 1em 1em 0 1em
+		width: 49%
+		display: flex
+		position: relative
+		h3
+			font-size: 1.05em
+			margin-bottom: .5em
+			font-weight: bold
+		p
+			margin-bottom: 1em
+			text-align: justify
+			font-size: 15px
+		ul
+			margin-left: 1em
+			li
+				color: $orange
+				list-style-type: disc
+				margin-bottom: .2em
+				&:last-child
+					margin-bottom: 0
+				span
+					color: $grayText
+		&:before
+			+curve-bottom-shadow
+	.product-image
+		+border-orange
+		box-shadow: 0 5px 5px rgba(#000, .5)
+		flex: 0 0 160px
+		height: 160px
+		margin-right: 10px
+		img
+			width: 100%
+			max-width: 160px
+	.description
+		flex: auto
+
+.photocel-sensor
+	display: flex
+	justify-content: space-between
+	.photocel,
+	.retro-sensor
+		+border-orange
+		background-color: $white
+		margin-bottom: 1em
+		margin-bottom: 2em
+		padding: 1em 1em 0 1em
+		width: 49%
+		position: relative
+		h3
+			font-size: 1.05em
+			margin-bottom: .5em
+			font-weight: bold
+		h3 + p
+			margin-top: 0
+		p
+			margin-bottom: 1em
+			text-align: justify
+			font-size: 15px
+		&:before
+			+curve-bottom-shadow
+
+.photocel
+	.description
+		margin-bottom: 2em
+	.product-image-bottom
+		text-align: center
+		width: 100%
+		img
+			width: 100%
+			max-width: 330px
+
+.retro-sensor
+	.product-image
+		+border-orange
+		width: 160px
+		height: 140px
+		box-shadow: 0 5px 5px rgba(#000, .5)
+		margin-right: 1em
+		float: left
+		img
+			width: 100%
+			max-width: 160px
+			margin-bottom: 1.5em
+	.description
+		p
+			margin: 1em 0
+
+.camera,
+.parrot,
+.parrot-mini,
+.pka,
+.tom-tom,
+.simple,
+.easy-go
+	+border-orange
+	margin-bottom: 2em
+	position: relative
+	background-color: $white
+	padding: 1em
+	&:before
+		+curve-bottom-shadow
+	h3
+		font-size: 1.1em
+		font-weight: bold
+		margin-bottom: .5em
+	ul
+		margin-left: 2em
+		li
+			color: $orange
+			list-style-type: disc
+			span
+				color: $grayText
+
+.camera,
+.parrot,
+.parrot-mini,
+.pka,
+.tom-tom,
+.simple,
+.easy-go
+	display: flex
+	align-items: center
+	.description
+		flex: auto
+	.product-image
+		+border-orange		
+		box-shadow: 0 5px 5px rgba(#000, .3)
+		margin-right: 1em
+		img
+			width: 100%
+			max-width: 180px
+
+.camera
+	.product-image
+		flex: 0 0 180px
+		height: 102px
+
+
+.parrot
+	.product-image
+		border: 0
+		box-shadow: none
+		flex: 0 0 250px
+		margin-right: 1em
+		img
+			width: 100%
+			max-width: 250px
+	.description ul
+		margin-top: .5em
+
+.parrot-mini
+	.product-image
+		flex: 0 0 150px
+		height: 120px
+		text-align: center
+		img
+			max-width: 90px
+
+.pka
+	p
+		margin: .5em 0
+		text-align: justify
+	.product-image
+		flex: 0 0 200px
+		height: 250px
+		text-align: center
+		border: none
+		box-shadow: none
+		img
+			max-width: 140px
+
+.tom-tom
+	ul
+		margin-top: 1em
+	.product-image
+		flex: 0 0 180px
+		height: 190px
+		text-align: center
+		padding: 45px 0
+		img
+			max-width: 160px
+
+.simple
+	.product-image
+		flex: 0 0 180px
+		height: auto
+		text-align: center
+		img
+			max-width: 160px
+	.top-description
+		margin-bottom: 1em
+	.bottom-description
+		ul
+			display: inline-block
+			margin-top: .5em
+			width: 60%
+			vertical-align: middle
+			li
+				margin-bottom: .5em
+				font-size: .9em
+		.product-logo
+			display: inline-block
+			vertical-align: middle
+
+.easy-go
+	.product-image
+		flex: 0 0 430px
+		border: none
+		box-shadow: none
+		img
+			width: 100%
+			max-width: 430px
+	.description p
+		margin-bottom: 1em
+		&:last-child
+			margin-bottom: 0
+

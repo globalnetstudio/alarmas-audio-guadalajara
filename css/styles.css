@@ -4,7 +4,10 @@
  * 03 - CAROUSEL
  * 04 - INICIO
  * 05 - ALARMAS
- * 00 - FOOTER */
+ * 06 - AUDIO
+ * 07 - CONFORT
+ * 08 - CONTACTO
+ * 09 - FOOTER */
 /* -------------- 01 - GENERAL -------------- */
 body {
   font-size: 16px;
@@ -725,7 +728,468 @@ b {
   color: #7d7d7d;
 }
 
-/* ------------ 00 - FOOTER ------------ */
+/* ------------------ 06 - AUDIO ------------------ */
+/* ------------------ 07 - CONFORT ------------------ */
+h2,
+.locker-sensor,
+.photocel-sensor,
+.camera,
+.parrot,
+.parrot-mini,
+.pka,
+.tom-tom,
+.simple,
+.easy-go {
+  margin: 0 auto;
+  width: 900px;
+  color: #7d7d7d;
+}
+
+.content > h2 {
+  text-align: center;
+  background-color: #cb591e;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  font-size: 2em;
+  padding: .25em 0;
+  margin-bottom: 1em;
+}
+
+.locker-sensor {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.locker-sensor .locker,
+.locker-sensor .sensor {
+  border: 1px solid #cb591e;
+  background-color: #ffffff;
+  margin-bottom: 1em;
+  margin-bottom: 2em;
+  padding: 1em 1em 0 1em;
+  width: 49%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.locker-sensor .locker h3,
+.locker-sensor .sensor h3 {
+  font-size: 1.05em;
+  margin-bottom: .5em;
+  font-weight: bold;
+}
+
+.locker-sensor .locker p,
+.locker-sensor .sensor p {
+  margin-bottom: 1em;
+  text-align: justify;
+  font-size: 15px;
+}
+
+.locker-sensor .locker ul,
+.locker-sensor .sensor ul {
+  margin-left: 1em;
+}
+
+.locker-sensor .locker ul li,
+.locker-sensor .sensor ul li {
+  color: #cb591e;
+  list-style-type: disc;
+  margin-bottom: .2em;
+}
+
+.locker-sensor .locker ul li:last-child,
+.locker-sensor .sensor ul li:last-child {
+  margin-bottom: 0;
+}
+
+.locker-sensor .locker ul li span,
+.locker-sensor .sensor ul li span {
+  color: #7d7d7d;
+}
+
+.locker-sensor .locker:before,
+.locker-sensor .sensor:before {
+  background-color: transparent;
+  border-radius: 0 0 50% 50%;
+  bottom: 0;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
+  content: "";
+  height: 10%;
+  left: 2%;
+  width: 96%;
+  position: absolute;
+  z-index: -1;
+}
+
+.locker-sensor .product-image {
+  border: 1px solid #cb591e;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+  -webkit-flex: 0 0 160px;
+      -ms-flex: 0 0 160px;
+          flex: 0 0 160px;
+  height: 160px;
+  margin-right: 10px;
+}
+
+.locker-sensor .product-image img {
+  width: 100%;
+  max-width: 160px;
+}
+
+.locker-sensor .description {
+  -webkit-flex: auto;
+      -ms-flex: auto;
+          flex: auto;
+}
+
+.photocel-sensor {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.photocel-sensor .photocel,
+.photocel-sensor .retro-sensor {
+  border: 1px solid #cb591e;
+  background-color: #ffffff;
+  margin-bottom: 1em;
+  margin-bottom: 2em;
+  padding: 1em 1em 0 1em;
+  width: 49%;
+  position: relative;
+}
+
+.photocel-sensor .photocel h3,
+.photocel-sensor .retro-sensor h3 {
+  font-size: 1.05em;
+  margin-bottom: .5em;
+  font-weight: bold;
+}
+
+.photocel-sensor .photocel h3 + p,
+.photocel-sensor .retro-sensor h3 + p {
+  margin-top: 0;
+}
+
+.photocel-sensor .photocel p,
+.photocel-sensor .retro-sensor p {
+  margin-bottom: 1em;
+  text-align: justify;
+  font-size: 15px;
+}
+
+.photocel-sensor .photocel:before,
+.photocel-sensor .retro-sensor:before {
+  background-color: transparent;
+  border-radius: 0 0 50% 50%;
+  bottom: 0;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
+  content: "";
+  height: 10%;
+  left: 2%;
+  width: 96%;
+  position: absolute;
+  z-index: -1;
+}
+
+.photocel .description {
+  margin-bottom: 2em;
+}
+
+.photocel .product-image-bottom {
+  text-align: center;
+  width: 100%;
+}
+
+.photocel .product-image-bottom img {
+  width: 100%;
+  max-width: 330px;
+}
+
+.retro-sensor .product-image {
+  border: 1px solid #cb591e;
+  width: 160px;
+  height: 140px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+  margin-right: 1em;
+  float: left;
+}
+
+.retro-sensor .product-image img {
+  width: 100%;
+  max-width: 160px;
+  margin-bottom: 1.5em;
+}
+
+.retro-sensor .description p {
+  margin: 1em 0;
+}
+
+.camera,
+.parrot,
+.parrot-mini,
+.pka,
+.tom-tom,
+.simple,
+.easy-go {
+  border: 1px solid #cb591e;
+  margin-bottom: 2em;
+  position: relative;
+  background-color: #ffffff;
+  padding: 1em;
+}
+
+.camera:before,
+.parrot:before,
+.parrot-mini:before,
+.pka:before,
+.tom-tom:before,
+.simple:before,
+.easy-go:before {
+  background-color: transparent;
+  border-radius: 0 0 50% 50%;
+  bottom: 0;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
+  content: "";
+  height: 10%;
+  left: 2%;
+  width: 96%;
+  position: absolute;
+  z-index: -1;
+}
+
+.camera h3,
+.parrot h3,
+.parrot-mini h3,
+.pka h3,
+.tom-tom h3,
+.simple h3,
+.easy-go h3 {
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-bottom: .5em;
+}
+
+.camera ul,
+.parrot ul,
+.parrot-mini ul,
+.pka ul,
+.tom-tom ul,
+.simple ul,
+.easy-go ul {
+  margin-left: 2em;
+}
+
+.camera ul li,
+.parrot ul li,
+.parrot-mini ul li,
+.pka ul li,
+.tom-tom ul li,
+.simple ul li,
+.easy-go ul li {
+  color: #cb591e;
+  list-style-type: disc;
+}
+
+.camera ul li span,
+.parrot ul li span,
+.parrot-mini ul li span,
+.pka ul li span,
+.tom-tom ul li span,
+.simple ul li span,
+.easy-go ul li span {
+  color: #7d7d7d;
+}
+
+.camera,
+.parrot,
+.parrot-mini,
+.pka,
+.tom-tom,
+.simple,
+.easy-go {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.camera .description,
+.parrot .description,
+.parrot-mini .description,
+.pka .description,
+.tom-tom .description,
+.simple .description,
+.easy-go .description {
+  -webkit-flex: auto;
+      -ms-flex: auto;
+          flex: auto;
+}
+
+.camera .product-image,
+.parrot .product-image,
+.parrot-mini .product-image,
+.pka .product-image,
+.tom-tom .product-image,
+.simple .product-image,
+.easy-go .product-image {
+  border: 1px solid #cb591e;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+  margin-right: 1em;
+}
+
+.camera .product-image img,
+.parrot .product-image img,
+.parrot-mini .product-image img,
+.pka .product-image img,
+.tom-tom .product-image img,
+.simple .product-image img,
+.easy-go .product-image img {
+  width: 100%;
+  max-width: 180px;
+}
+
+.camera .product-image {
+  -webkit-flex: 0 0 180px;
+      -ms-flex: 0 0 180px;
+          flex: 0 0 180px;
+  height: 102px;
+}
+
+.parrot .product-image {
+  border: 0;
+  box-shadow: none;
+  -webkit-flex: 0 0 250px;
+      -ms-flex: 0 0 250px;
+          flex: 0 0 250px;
+  margin-right: 1em;
+}
+
+.parrot .product-image img {
+  width: 100%;
+  max-width: 250px;
+}
+
+.parrot .description ul {
+  margin-top: .5em;
+}
+
+.parrot-mini .product-image {
+  -webkit-flex: 0 0 150px;
+      -ms-flex: 0 0 150px;
+          flex: 0 0 150px;
+  height: 120px;
+  text-align: center;
+}
+
+.parrot-mini .product-image img {
+  max-width: 90px;
+}
+
+.pka p {
+  margin: .5em 0;
+  text-align: justify;
+}
+
+.pka .product-image {
+  -webkit-flex: 0 0 200px;
+      -ms-flex: 0 0 200px;
+          flex: 0 0 200px;
+  height: 250px;
+  text-align: center;
+  border: none;
+  box-shadow: none;
+}
+
+.pka .product-image img {
+  max-width: 140px;
+}
+
+.tom-tom ul {
+  margin-top: 1em;
+}
+
+.tom-tom .product-image {
+  -webkit-flex: 0 0 180px;
+      -ms-flex: 0 0 180px;
+          flex: 0 0 180px;
+  height: 190px;
+  text-align: center;
+  padding: 45px 0;
+}
+
+.tom-tom .product-image img {
+  max-width: 160px;
+}
+
+.simple .product-image {
+  -webkit-flex: 0 0 180px;
+      -ms-flex: 0 0 180px;
+          flex: 0 0 180px;
+  height: auto;
+  text-align: center;
+}
+
+.simple .product-image img {
+  max-width: 160px;
+}
+
+.simple .top-description {
+  margin-bottom: 1em;
+}
+
+.simple .bottom-description ul {
+  display: inline-block;
+  margin-top: .5em;
+  width: 60%;
+  vertical-align: middle;
+}
+
+.simple .bottom-description ul li {
+  margin-bottom: .5em;
+  font-size: .9em;
+}
+
+.simple .bottom-description .product-logo {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.easy-go .product-image {
+  -webkit-flex: 0 0 430px;
+      -ms-flex: 0 0 430px;
+          flex: 0 0 430px;
+  border: none;
+  box-shadow: none;
+}
+
+.easy-go .product-image img {
+  width: 100%;
+  max-width: 430px;
+}
+
+.easy-go .description p {
+  margin-bottom: 1em;
+}
+
+.easy-go .description p:last-child {
+  margin-bottom: 0;
+}
+
+/* ------------------ 08 - CONTACTO ------------------ */
+/* ------------ 09 - FOOTER ------------ */
 .footer {
   background-color: #04090F;
   color: #ffffff;
