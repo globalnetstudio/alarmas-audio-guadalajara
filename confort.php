@@ -11,7 +11,9 @@
 	<!-- .content -->
 	<section class="content">
 
-		<h2>Confort</h2>
+		<div class="page-title">
+			<h2>Confort</h2>
+		</div>
 
 		<!-- .locker-sensor -->
 		<div class="locker-sensor">

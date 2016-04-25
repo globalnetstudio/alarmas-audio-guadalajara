@@ -56,22 +56,18 @@
 
 	<!-- .viper-clifford-features -->
 	<div class="viper-clifford-features">
-		<!-- .wrapper -->
-		<div class="wrapper">			
-			<!-- .clifford-features -->
-			<div class="clifford-features">
-				<img class="img-responsive" src="/images/viper-clifford-features.jpg" alt="Viper Clifford Ventajas">
-			</div>
-			<!-- /.clifford-features -->
-
-			<!-- .text -->
-			<div class="text">
-				<h2>¡Alarmas Viper/Clifford!</h2>
-				<p>Son los sistemas de seguridad y arranque remoto para   vehículos más vendido del mundo. Utilizan tecnología de punta para estar seguros de que usted tiene el control,  proporcionando mayor alcance y las características con las que usted puede contar en todo momento.</p>
-			</div>
-			<!-- /.text -->
+		<!-- .clifford-features -->
+		<div class="clifford-features">
+			<img src="/images/viper-clifford-features.jpg" alt="Viper Clifford Ventajas">
 		</div>
-		<!-- /.wrapper -->
+		<!-- /.clifford-features -->
+
+		<!-- .description -->
+		<div class="description">
+			<h2>¡Alarmas Viper/Clifford!</h2>
+			<p>Son los sistemas de seguridad y arranque remoto para   vehículos más vendido del mundo. Utilizan tecnología de punta para estar seguros de que usted tiene el control,  proporcionando mayor alcance y las características con las que usted puede contar en todo momento.</p>
+		</div>
+		<!-- /.description -->
 	</div>
 	<!-- /.viper-clifford-features -->
 
