@@ -135,11 +135,12 @@ b {
   padding: 14px 0;
   letter-spacing: 2px;
   width: 100%;
+  -webkit-transition: all 0.5s;
+          transition: all 0.5s;
 }
-/* line 68, ../sass/02-header.sass */
+/* line 69, ../sass/02-header.sass */
 .header .main-menu ul li a:hover {
   background-color: rgba(181, 79, 27, 0.8);
-  font-weight: bold;
 }
 /* line 71, ../sass/02-header.sass */
 .header .main-menu ul li.active a {
@@ -1313,6 +1314,129 @@ b {
 }
 
 /* ------------------ 08 - CONTACTO ------------------ */
+/* line 2, ../sass/08-contacto.sass */
+.contact-content {
+  color: #7d7d7d;
+  margin: 0 auto;
+  width: 900px;
+}
+/* line 6, ../sass/08-contacto.sass */
+.contact-content h2 {
+  text-align: center;
+  color: #0f1217;
+  font-size: 2em;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  margin-bottom: 0.25em;
+}
+/* line 13, ../sass/08-contacto.sass */
+.contact-content .message {
+  text-align: center;
+  margin-bottom: 1em;
+}
+/* line 17, ../sass/08-contacto.sass */
+.contact-content .form {
+  margin-bottom: 2em;
+}
+/* line 19, ../sass/08-contacto.sass */
+.contact-content .form input,
+.contact-content .form textarea {
+  border: solid 1px #ccc;
+  padding: 1em;
+  margin-bottom: 0.5em;
+  color: #939393;
+}
+/* line 25, ../sass/08-contacto.sass */
+.contact-content .form .form-inputs {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/* line 28, ../sass/08-contacto.sass */
+.contact-content .form .form-inputs input {
+  font-size: 0.9em;
+  width: 24%;
+}
+/* line 31, ../sass/08-contacto.sass */
+.contact-content .form textarea {
+  font-size: 0.9em;
+  width: 100%;
+}
+/* line 34, ../sass/08-contacto.sass */
+.contact-content .form .checkbox {
+  text-align: center;
+  margin-bottom: 1em;
+}
+/* line 37, ../sass/08-contacto.sass */
+.contact-content .form .checkbox span {
+  color: #696969;
+  font-size: 0.9em;
+}
+/* line 40, ../sass/08-contacto.sass */
+.contact-content .buttons {
+  text-align: center;
+  margin-bottom: 1em;
+}
+/* line 43, ../sass/08-contacto.sass */
+.contact-content .buttons button {
+  padding: 1em;
+  background-color: #cb591e;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  display: inline-block;
+  width: 90px;
+  cursor: pointer;
+  font-size: 0.9em;
+  text-align: center;
+}
+/* line 54, ../sass/08-contacto.sass */
+.contact-content .address {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 2em;
+}
+/* line 58, ../sass/08-contacto.sass */
+.contact-content .address .address-1,
+.contact-content .address .address-2 {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 1 49%;
+      -ms-flex: 0 1 49%;
+          flex: 0 1 49%;
+  border: solid 1px #cb591e;
+}
+/* line 62, ../sass/08-contacto.sass */
+.contact-content .address .address-1 img,
+.contact-content .address .address-2 img {
+  width: 100%;
+  max-width: 472px;
+}
+/* line 65, ../sass/08-contacto.sass */
+.contact-content .address .address-1 .information,
+.contact-content .address .address-2 .information {
+  background-color: #cb591e;
+  color: #ffffff;
+  padding: 1em;
+  height: auto;
+}
+/* line 70, ../sass/08-contacto.sass */
+.contact-content .address .address-1 .information p,
+.contact-content .address .address-2 .information p {
+  font-size: 0.8em;
+  margin-bottom: 0.5em;
+}
+
 /* ------------ 09 - FOOTER ------------ */
 /* line 2, ../sass/09-footer.sass */
 .footer {
