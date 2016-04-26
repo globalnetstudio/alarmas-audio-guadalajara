@@ -8,46 +8,111 @@
  * 07 - CONFORT
  * 08 - CONTACTO
  * 09 - FOOTER */
+/* ------------ FLEXSLIDER ------------ */
+.flexslider .slides > li {
+  position: relative;
+  z-index: 0;
+}
+
+.flex-caption {
+  color: #fff;
+  text-align: center;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+  width: 100%;
+  position: absolute;
+  font-weight: bold;
+  z-index: 1;
+}
+
+@media (min-width: 2600px) {
+  .flex-caption {
+    font-size: 4em;
+    bottom: 40%;
+  }
+}
+
+@media (min-width: 1920px) and (max-width: 2599px) {
+  .flex-caption {
+    font-size: 3em;
+    bottom: 40%;
+  }
+}
+
+@media (min-width: 1680px) and (max-width: 1919px) {
+  .flex-caption {
+    font-size: 2.8em;
+    bottom: 40%;
+  }
+}
+
+@media (min-width: 1440px) and (max-width: 1679px) {
+  .flex-caption {
+    font-size: 2.4em;
+    bottom: 38%;
+  }
+}
+
+@media (min-width: 1360px) and (max-width: 1439px) {
+  .flex-caption {
+    font-size: 2.2em;
+    bottom: 36%;
+  }
+}
+
+@media (min-width: 1280px) and (max-width: 1359px) {
+  .flex-caption {
+    font-size: 2.2em;
+    bottom: 35%;
+  }
+}
+
+@media (min-width: 960px) and (max-width: 1279px) {
+  .flex-caption {
+    font-size: 1.5em;
+    bottom: 25%;
+  }
+}
+
+@media (max-width: 959px) {
+  .flex-caption {
+    display: none;
+  }
+}
+
 /* -------------- 01 - GENERAL -------------- */
-/* line 2, ../sass/01-general.sass */
 body {
   font-size: 16px;
   font-family: arial, geneva, sans-serif;
   min-height: 900px;
 }
 
-/* line 7, ../sass/01-general.sass */
 .hide {
   position: absolute;
   text-indent: -9999px;
   left: -9999px;
 }
 
-/* line 12, ../sass/01-general.sass */
 .center {
   text-align: center;
 }
 
-/* line 15, ../sass/01-general.sass */
 .img-responsive {
   height: auto;
   width: 100%;
 }
 
-/* line 19, ../sass/01-general.sass */
 b {
   font-weight: bold;
 }
 
 /* ------------------ 02 - HEADER ------------------ */
-/* line 2, ../sass/02-header.sass */
 .header {
   position: relative;
   width: 100%;
   height: 129px;
   z-index: 10;
 }
-/* line 7, ../sass/02-header.sass */
+
 .header .left-background {
   top: -1px;
   left: 0;
@@ -57,7 +122,7 @@ b {
   height: 129px;
   background: url(../images/header/left-background.jpg) repeat-x left center;
 }
-/* line 15, ../sass/02-header.sass */
+
 .header .middle-background {
   position: absolute;
   top: -1px;
@@ -67,7 +132,7 @@ b {
   background: url(../images/header/middle-background.png) no-repeat left center;
   z-index: 20;
 }
-/* line 23, ../sass/02-header.sass */
+
 .header .right-background {
   background-color: #feffff;
   height: 12px;
@@ -77,7 +142,7 @@ b {
   z-index: 0;
   box-shadow: 0 7px 0 #cb591e;
 }
-/* line 31, ../sass/02-header.sass */
+
 .header .logo {
   position: absolute;
   top: 10px;
@@ -86,21 +151,20 @@ b {
   width: 315px;
   z-index: 30;
 }
-/* line 38, ../sass/02-header.sass */
+
 .header .logo img {
   max-width: 100%;
   height: auto;
 }
-/* line 41, ../sass/02-header.sass */
+
 .header .main-menu {
   width: 100%;
   position: absolute;
   bottom: -56px;
   z-index: 40;
 }
-/* line 46, ../sass/02-header.sass */
+
 .header .main-menu ul {
-  display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -110,22 +174,21 @@ b {
   margin: 0 auto;
   width: 900px;
 }
-/* line 51, ../sass/02-header.sass */
+
 .header .main-menu ul li {
   position: relative;
   height: 50px;
-  -webkit-box-flex: 1;
   -webkit-flex: auto;
       -ms-flex: auto;
           flex: auto;
   text-align: center;
   display: block;
 }
-/* line 57, ../sass/02-header.sass */
+
 .header .main-menu ul li:last-child {
   border-right: none;
 }
-/* line 59, ../sass/02-header.sass */
+
 .header .main-menu ul li a {
   background-color: rgba(0, 0, 0, 0.7);
   color: #fff;
@@ -135,23 +198,22 @@ b {
   padding: 14px 0;
   letter-spacing: 2px;
   width: 100%;
-  -webkit-transition: all 0.5s;
-          transition: all 0.5s;
+  transition: all .5s;
 }
-/* line 69, ../sass/02-header.sass */
+
 .header .main-menu ul li a:hover {
   background-color: rgba(181, 79, 27, 0.8);
 }
-/* line 71, ../sass/02-header.sass */
+
 .header .main-menu ul li.active a {
   color: #cb591e;
   font-weight: bold;
 }
-/* line 74, ../sass/02-header.sass */
+
 .header .main-menu ul li.active a:hover {
   background-color: rgba(0, 0, 0, 0.7);
 }
-/* line 76, ../sass/02-header.sass */
+
 .header .main-menu ul li:before {
   background-color: #818385;
   content: "";
@@ -162,31 +224,29 @@ b {
   z-index: 1;
   right: 0;
 }
-/* line 85, ../sass/02-header.sass */
+
 .header .main-menu ul li:last-child:before {
   display: none;
 }
-/* line 87, ../sass/02-header.sass */
+
 .header .address {
   color: #ffffff;
   height: 116px;
   position: absolute;
   top: 0;
   left: 50%;
-  display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
 }
-/* line 95, ../sass/02-header.sass */
+
 .header .address .left-column {
   margin-right: 7px;
 }
-/* line 97, ../sass/02-header.sass */
+
 .header .address i.icon-mark:before,
 .header .address i.icon-mail:before,
 .header .address i.icon-phone:before {
@@ -195,61 +255,60 @@ b {
   padding-right: 5px;
   font-size: 18px;
 }
-/* line 104, ../sass/02-header.sass */
+
 .header .address p {
   margin-bottom: 10px;
-  font-size: 0.95em;
+  font-size: .95em;
 }
-/* line 107, ../sass/02-header.sass */
+
 .header .address .social-icons {
   margin-top: 10px;
 }
-/* line 109, ../sass/02-header.sass */
+
 .header .address .social-icons > div {
   display: inline-block;
   margin-right: 2px;
   height: 30px;
   width: 30px;
 }
-/* line 114, ../sass/02-header.sass */
+
 .header .address .social-icons > div a {
   text-decoration: none;
 }
-/* line 116, ../sass/02-header.sass */
+
 .header .address .social-icons > div i {
   color: #ffffff;
   position: relative;
   font-size: 22px;
 }
-/* line 120, ../sass/02-header.sass */
+
 .header .address .social-icons > div i:before {
   position: relative;
   top: 5px;
   left: 3px;
 }
-/* line 124, ../sass/02-header.sass */
+
 .header .address .social-icons .twitter {
   background-color: #62aee6;
 }
-/* line 126, ../sass/02-header.sass */
+
 .header .address .social-icons .facebook {
   background-color: #243f8b;
 }
-/* line 128, ../sass/02-header.sass */
+
 .header .address .social-icons .youtube {
   background-color: #db1f25;
 }
-/* line 130, ../sass/02-header.sass */
+
 .header .address .social-icons .youtube i:before {
   top: 5px;
 }
-/* line 132, ../sass/02-header.sass */
+
 .header .address .social-icons .google-plus {
   background-color: #da4835;
 }
 
 /* --------- 03 - CAROUSEL --------- */
-/* line 2, ../sass/03-carousel.sass */
 .carousel {
   width: 100%;
   position: relative;
@@ -257,22 +316,22 @@ b {
   margin-bottom: -129px;
   z-index: 0;
 }
-/* line 8, ../sass/03-carousel.sass */
+
 .carousel img {
   width: 100%;
 }
-/* line 10, ../sass/03-carousel.sass */
+
 .carousel .zig-zag-form {
   position: absolute;
   bottom: -6px;
   z-index: 5;
 }
-/* line 14, ../sass/03-carousel.sass */
+
 .carousel .zig-zag-form img {
   height: auto;
   width: 100%;
 }
-/* line 17, ../sass/03-carousel.sass */
+
 .carousel .custom-controls-container {
   position: absolute;
   bottom: 25%;
@@ -280,13 +339,11 @@ b {
   z-index: 10;
 }
 
-/* line 23, ../sass/03-carousel.sass */
 .flexslider {
   background-color: none;
   border: none;
 }
 
-/* line 27, ../sass/03-carousel.sass */
 .left-chevron,
 .right-chevron {
   position: absolute;
@@ -294,29 +351,27 @@ b {
 }
 
 /* ------------------ 04 - INICIO ------------------ */
-/* line 2, ../sass/04-inicio.sass */
 .security-alarms-group {
   background: #E9E9E9;
 }
-/* line 4, ../sass/04-inicio.sass */
+
 .security-alarms-group .security-comfort,
 .security-alarms-group .alarm-controls {
   width: 900px;
   margin: 0 auto;
 }
 
-/* line 9, ../sass/04-inicio.sass */
 .security-comfort {
   text-align: center;
 }
-/* line 11, ../sass/04-inicio.sass */
+
 .security-comfort h2 {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   margin-bottom: 0.5em;
   color: #3c3c3c;
 }
-/* line 16, ../sass/04-inicio.sass */
+
 .security-comfort p {
   font-family: Arial, Geneva, sans-serif;
   color: #7d7d7d;
@@ -324,78 +379,68 @@ b {
   margin-bottom: 1em;
 }
 
-/* line 22, ../sass/04-inicio.sass */
 .alarm-controls h2 {
   color: #0f1217;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 27px;
   text-align: center;
   margin-bottom: 0;
 }
 
-/* line 29, ../sass/04-inicio.sass */
 .alarms-audio-confort {
   margin-bottom: -5px;
 }
 
-/* line 32, ../sass/04-inicio.sass */
 .avital-products {
   margin-bottom: -5px;
 }
 
-/* line 35, ../sass/04-inicio.sass */
 .alarms-specialists {
   border-top: solid 8px #cb591e;
   margin-bottom: -5px;
 }
 
-/* line 39, ../sass/04-inicio.sass */
 .viper-clifford-features {
   padding: 15px 20px 30px;
   background-color: #ffffff;
   margin: 0 auto;
   width: 900px;
-  display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-align: center;
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
 }
-/* line 47, ../sass/04-inicio.sass */
+
 .viper-clifford-features .clifford-features {
-  -webkit-box-flex: 0;
   -webkit-flex: 0 1 49%;
       -ms-flex: 0 1 49%;
           flex: 0 1 49%;
 }
-/* line 49, ../sass/04-inicio.sass */
+
 .viper-clifford-features .clifford-features img {
   width: 100%;
   max-width: 520px;
 }
-/* line 52, ../sass/04-inicio.sass */
+
 .viper-clifford-features .description {
-  -webkit-box-flex: 0;
   -webkit-flex: 0 1 49%;
       -ms-flex: 0 1 49%;
           flex: 0 1 49%;
 }
-/* line 54, ../sass/04-inicio.sass */
+
 .viper-clifford-features .description h2 {
   color: #3f3f3f;
   font-size: 28px;
   text-align: center;
   font-weight: bold;
-  margin-bottom: 0.25em;
+  margin-bottom: .25em;
 }
-/* line 60, ../sass/04-inicio.sass */
+
 .viper-clifford-features .description p {
   font-size: 16px;
   text-align: left;
@@ -404,7 +449,6 @@ b {
   line-height: 20px;
 }
 
-/* line 1, ../sass/05-alarmas.sass */
 .alarms {
   margin: 0 auto;
   width: 900px;
@@ -412,39 +456,36 @@ b {
   padding-bottom: 1em;
   border-bottom: solid 1px #ccc;
 }
-/* line 7, ../sass/05-alarmas.sass */
+
 .alarms h2 {
   width: 100%;
   background-color: #cb591e;
   color: #ffffff;
   text-align: center;
   font-size: 2em;
-  padding: 0.25em 0;
+  padding: .25em 0;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.35);
   margin-bottom: 1em;
 }
-/* line 17, ../sass/05-alarmas.sass */
+
 .alarms .row {
   width: 100%;
-  display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-bottom: 1.5em;
 }
-/* line 22, ../sass/05-alarmas.sass */
+
 .alarms .row .column {
   position: relative;
-  -webkit-box-flex: 0;
   -webkit-flex: 0 1 24%;
       -ms-flex: 0 1 24%;
           flex: 0 1 24%;
 }
-/* line 25, ../sass/05-alarmas.sass */
+
 .alarms .row .column .box {
   background-color: #ffffff;
   border: 1px solid #cb591e;
@@ -455,33 +496,33 @@ b {
   position: relative;
   z-index: 0;
 }
-/* line 34, ../sass/05-alarmas.sass */
+
 .alarms .row .column .box:after {
   background-color: transparent;
   border-radius: 0 0 100px 100px;
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.4);
   content: "";
   height: 100px;
-  opacity: 0.6;
+  opacity: .6;
   width: 170px;
   position: absolute;
   left: 20px;
   bottom: 0;
   z-index: -1;
 }
-/* line 47, ../sass/05-alarmas.sass */
+
 .alarms .row .column img {
   width: 100%;
   max-width: 200px;
   max-height: 200px;
   height: auto;
 }
-/* line 52, ../sass/05-alarmas.sass */
+
 .alarms .row .column img.moto-x {
   width: 95px;
   height: auto;
 }
-/* line 55, ../sass/05-alarmas.sass */
+
 .alarms .row .column .title-botton {
   height: 50px;
   width: 100%;
@@ -489,28 +530,25 @@ b {
   position: absolute;
   bottom: 0;
   z-index: 1;
-  display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-align: center;
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
   padding: 0 5px;
 }
-/* line 66, ../sass/05-alarmas.sass */
+
 .alarms .row .column .title-botton h3 {
   color: #ffffff;
   font-size: 16px;
   text-align: center;
   width: 100%;
 }
-/* line 71, ../sass/05-alarmas.sass */
+
 .alarms .row .column .title-botton a.button {
   color: #424242;
   text-decoration: none;
@@ -521,15 +559,14 @@ b {
   position: relative;
   padding-left: 24px;
   margin-left: 5px;
-  -webkit-transition: all 0.5s;
-          transition: all 0.5s;
+  transition: all .5s;
 }
-/* line 82, ../sass/05-alarmas.sass */
+
 .alarms .row .column .title-botton a.button:hover {
   background-color: #424242;
   color: #ffffff;
 }
-/* line 85, ../sass/05-alarmas.sass */
+
 .alarms .row .column .title-botton a.button:before {
   background-color: #424242;
   border-radius: 25px;
@@ -542,7 +579,6 @@ b {
   left: 3px;
 }
 
-/* line 96, ../sass/05-alarmas.sass */
 .protect {
   margin: 0 auto 2em;
   padding: 1em;
@@ -550,28 +586,26 @@ b {
   border-bottom: solid 1px #ccc;
   width: 900px;
 }
-/* line 102, ../sass/05-alarmas.sass */
+
 .protect .protect-logo {
   text-align: center;
   margin-bottom: 1em;
 }
-/* line 105, ../sass/05-alarmas.sass */
+
 .protect .banners {
-  display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-/* line 108, ../sass/05-alarmas.sass */
+
 .protect .banners .banner-v2,
 .protect .banners .banner-v4 {
   width: 49%;
 }
-/* line 111, ../sass/05-alarmas.sass */
+
 .protect .banners .banner-v2 img,
 .protect .banners .banner-v4 img {
   max-width: 490px;
@@ -579,35 +613,29 @@ b {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
 }
 
-/* line 117, ../sass/05-alarmas.sass */
 .logos-wrapper,
 .banners-wrapper {
   margin: 0 auto;
   width: 900px;
-  display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
 }
 
-/* line 123, ../sass/05-alarmas.sass */
 .logos-wrapper {
-  -webkit-box-align: center;
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
   padding-bottom: 1em;
 }
-/* line 126, ../sass/05-alarmas.sass */
+
 .logos-wrapper .ontas-logo,
 .logos-wrapper .directed-logo {
   text-align: center;
   width: 50%;
 }
 
-/* line 131, ../sass/05-alarmas.sass */
 .banners-wrapper {
-  -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -615,12 +643,12 @@ b {
   padding-bottom: 2em;
   border-bottom: solid 1px #ccc;
 }
-/* line 136, ../sass/05-alarmas.sass */
+
 .banners-wrapper .ontas-banner,
 .banners-wrapper .viper-banner {
   width: 49%;
 }
-/* line 141, ../sass/05-alarmas.sass */
+
 .banners-wrapper .ontas-banner img,
 .banners-wrapper .viper-banner img {
   max-width: 470px;
@@ -628,9 +656,7 @@ b {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
 }
 
-/* line 146, ../sass/05-alarmas.sass */
 .antiassault-film {
-  -webkit-box-align: center;
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
@@ -639,183 +665,171 @@ b {
   margin: 2em auto 1.5em;
   padding-bottom: 1em;
   width: 900px;
-  display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-/* line 155, ../sass/05-alarmas.sass */
+
 .antiassault-film .information {
   width: 68%;
 }
-/* line 157, ../sass/05-alarmas.sass */
+
 .antiassault-film .information h2, .antiassault-film .information h3 {
   font-weight: bold;
 }
-/* line 159, ../sass/05-alarmas.sass */
+
 .antiassault-film .information h2 {
   font-size: 1.2em;
   margin-bottom: 2em;
 }
-/* line 162, ../sass/05-alarmas.sass */
+
 .antiassault-film .information h3 {
   font-size: 1.1em;
-  margin-bottom: 0.5em;
+  margin-bottom: .5em;
 }
-/* line 165, ../sass/05-alarmas.sass */
+
 .antiassault-film .information h3 span {
-  margin-right: 0.5em;
+  margin-right: .5em;
   color: #cb591e;
 }
-/* line 168, ../sass/05-alarmas.sass */
+
 .antiassault-film .information p {
   font-size: 17px;
-  margin: 0.5em 0 2em 1em;
+  margin: .5em 0 2em 1em;
 }
-/* line 171, ../sass/05-alarmas.sass */
+
 .antiassault-film .side {
   width: 30%;
 }
-/* line 173, ../sass/05-alarmas.sass */
+
 .antiassault-film .side img {
   display: block;
   max-width: 305px;
   margin-bottom: 1em;
   width: 100%;
 }
-/* line 178, ../sass/05-alarmas.sass */
+
 .antiassault-film .side p {
   color: #7d7d7d;
   margin-bottom: 1em;
   text-align: justify;
 }
 
-/* line 183, ../sass/05-alarmas.sass */
 .max-limit {
   margin: 0 auto;
   width: 900px;
   color: #7d7d7d;
   margin-bottom: 2em;
-  display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-/* line 190, ../sass/05-alarmas.sass */
+
 .max-limit p {
   margin-bottom: 1em;
 }
-/* line 192, ../sass/05-alarmas.sass */
+
 .max-limit .information {
   width: 53%;
 }
-/* line 194, ../sass/05-alarmas.sass */
+
 .max-limit .information p {
   text-align: justify;
 }
-/* line 196, ../sass/05-alarmas.sass */
+
 .max-limit .information .brands-lists {
-  display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
 }
-/* line 198, ../sass/05-alarmas.sass */
+
 .max-limit .information .brands-lists ul {
-  -webkit-box-flex: 1;
   -webkit-flex: 1 0 30%;
       -ms-flex: 1 0 30%;
           flex: 1 0 30%;
   margin: 1em 0 1.5em 1em;
-  -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-align: center;
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
 }
-/* line 203, ../sass/05-alarmas.sass */
+
 .max-limit .information .brands-lists li {
-  margin-bottom: 0.5em;
+  margin-bottom: .5em;
   list-style-type: disc;
   color: #cb591e;
 }
-/* line 207, ../sass/05-alarmas.sass */
+
 .max-limit .information .brands-lists li:last-child {
   margin: 0;
 }
-/* line 209, ../sass/05-alarmas.sass */
+
 .max-limit .information .brands-lists li span {
   color: #7d7d7d;
 }
-/* line 211, ../sass/05-alarmas.sass */
+
 .max-limit .side {
   width: 45%;
 }
-/* line 213, ../sass/05-alarmas.sass */
+
 .max-limit .side img {
   margin-bottom: 1em;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
 }
-/* line 216, ../sass/05-alarmas.sass */
+
 .max-limit .side ul {
-  margin: 0.5em 0 1em 1em;
+  margin: .5em 0 1em 1em;
 }
-/* line 218, ../sass/05-alarmas.sass */
+
 .max-limit .side ul li {
   list-style-type: disc;
   color: #cb591e;
-  margin: 0.5em 0;
+  margin: .5em 0;
 }
-/* line 222, ../sass/05-alarmas.sass */
+
 .max-limit .side ul li span {
   color: #7d7d7d;
 }
 
 /* ------------------ 06 - AUDIO ------------------ */
-/* line 3, ../sass/06-audio.sass */
 .audio-content .row,
 .audio-content .directed-logo,
 .audio-content .information {
   width: 900px;
   margin: 0 auto;
 }
-/* line 9, ../sass/06-audio.sass */
+
 .audio-content .row {
   margin-bottom: 1em;
-  display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-/* line 13, ../sass/06-audio.sass */
+
 .audio-content .row .column {
   width: 48%;
 }
-/* line 15, ../sass/06-audio.sass */
+
 .audio-content .row .column img {
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
   width: 100%;
 }
-/* line 19, ../sass/06-audio.sass */
+
 .audio-content .directed-logo {
   text-align: center;
 }
-/* line 22, ../sass/06-audio.sass */
+
 .audio-content .information {
   color: #7d7d7d;
   text-align: center;
@@ -823,7 +837,6 @@ b {
 }
 
 /* ------------------ 07 - CONFORT ------------------ */
-/* line 19, ../sass/07-confort.sass */
 .page-title,
 .locker-sensor,
 .photocel-sensor,
@@ -839,29 +852,25 @@ b {
   color: #7d7d7d;
 }
 
-/* line 33, ../sass/07-confort.sass */
 .page-title {
   text-align: center;
   background-color: #cb591e;
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
   color: #ffffff;
   font-size: 2em;
-  padding: 0.25em 0;
+  padding: .25em 0;
   margin-bottom: 1em;
 }
 
-/* line 42, ../sass/07-confort.sass */
 .locker-sensor {
-  display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-/* line 45, ../sass/07-confort.sass */
+
 .locker-sensor .locker,
 .locker-sensor .sensor {
   border: 1px solid #cb591e;
@@ -870,49 +879,48 @@ b {
   margin-bottom: 2em;
   padding: 1em 1em 0 1em;
   width: 49%;
-  display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   position: relative;
 }
-/* line 55, ../sass/07-confort.sass */
+
 .locker-sensor .locker h3,
 .locker-sensor .sensor h3 {
   font-size: 1.05em;
-  margin-bottom: 0.5em;
+  margin-bottom: .5em;
   font-weight: bold;
 }
-/* line 59, ../sass/07-confort.sass */
+
 .locker-sensor .locker p,
 .locker-sensor .sensor p {
   margin-bottom: 1em;
   text-align: justify;
   font-size: 15px;
 }
-/* line 63, ../sass/07-confort.sass */
+
 .locker-sensor .locker ul,
 .locker-sensor .sensor ul {
   margin-left: 1em;
 }
-/* line 65, ../sass/07-confort.sass */
+
 .locker-sensor .locker ul li,
 .locker-sensor .sensor ul li {
   color: #cb591e;
   list-style-type: disc;
-  margin-bottom: 0.2em;
+  margin-bottom: .2em;
 }
-/* line 69, ../sass/07-confort.sass */
+
 .locker-sensor .locker ul li:last-child,
 .locker-sensor .sensor ul li:last-child {
   margin-bottom: 0;
 }
-/* line 71, ../sass/07-confort.sass */
+
 .locker-sensor .locker ul li span,
 .locker-sensor .sensor ul li span {
   color: #7d7d7d;
 }
-/* line 73, ../sass/07-confort.sass */
+
 .locker-sensor .locker:before,
 .locker-sensor .sensor:before {
   background-color: transparent;
@@ -926,42 +934,37 @@ b {
   position: absolute;
   z-index: -1;
 }
-/* line 75, ../sass/07-confort.sass */
+
 .locker-sensor .product-image {
   border: 1px solid #cb591e;
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
-  -webkit-box-flex: 0;
   -webkit-flex: 0 0 160px;
       -ms-flex: 0 0 160px;
           flex: 0 0 160px;
   height: 160px;
   margin-right: 10px;
 }
-/* line 81, ../sass/07-confort.sass */
+
 .locker-sensor .product-image img {
   width: 100%;
   max-width: 160px;
 }
-/* line 84, ../sass/07-confort.sass */
+
 .locker-sensor .description {
-  -webkit-box-flex: 1;
   -webkit-flex: auto;
       -ms-flex: auto;
           flex: auto;
 }
 
-/* line 87, ../sass/07-confort.sass */
 .photocel-sensor {
-  display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-/* line 90, ../sass/07-confort.sass */
+
 .photocel-sensor .photocel,
 .photocel-sensor .retro-sensor {
   border: 1px solid #cb591e;
@@ -972,26 +975,26 @@ b {
   width: 49%;
   position: relative;
 }
-/* line 99, ../sass/07-confort.sass */
+
 .photocel-sensor .photocel h3,
 .photocel-sensor .retro-sensor h3 {
   font-size: 1.05em;
-  margin-bottom: 0.5em;
+  margin-bottom: .5em;
   font-weight: bold;
 }
-/* line 103, ../sass/07-confort.sass */
+
 .photocel-sensor .photocel h3 + p,
 .photocel-sensor .retro-sensor h3 + p {
   margin-top: 0;
 }
-/* line 105, ../sass/07-confort.sass */
+
 .photocel-sensor .photocel p,
 .photocel-sensor .retro-sensor p {
   margin-bottom: 1em;
   text-align: justify;
   font-size: 15px;
 }
-/* line 109, ../sass/07-confort.sass */
+
 .photocel-sensor .photocel:before,
 .photocel-sensor .retro-sensor:before {
   background-color: transparent;
@@ -1006,22 +1009,20 @@ b {
   z-index: -1;
 }
 
-/* line 113, ../sass/07-confort.sass */
 .photocel .description {
   margin-bottom: 2em;
 }
-/* line 115, ../sass/07-confort.sass */
+
 .photocel .product-image-bottom {
   text-align: center;
   width: 100%;
 }
-/* line 118, ../sass/07-confort.sass */
+
 .photocel .product-image-bottom img {
   width: 100%;
   max-width: 330px;
 }
 
-/* line 123, ../sass/07-confort.sass */
 .retro-sensor .product-image {
   border: 1px solid #cb591e;
   width: 160px;
@@ -1030,18 +1031,17 @@ b {
   margin-right: 1em;
   float: left;
 }
-/* line 130, ../sass/07-confort.sass */
+
 .retro-sensor .product-image img {
   width: 100%;
   max-width: 160px;
   margin-bottom: 1.5em;
 }
-/* line 135, ../sass/07-confort.sass */
+
 .retro-sensor .description p {
   margin: 1em 0;
 }
 
-/* line 138, ../sass/07-confort.sass */
 .camera,
 .parrot,
 .parrot-mini,
@@ -1055,7 +1055,7 @@ b {
   background-color: #ffffff;
   padding: 1em;
 }
-/* line 150, ../sass/07-confort.sass */
+
 .camera:before,
 .parrot:before,
 .parrot-mini:before,
@@ -1074,7 +1074,7 @@ b {
   position: absolute;
   z-index: -1;
 }
-/* line 152, ../sass/07-confort.sass */
+
 .camera h3,
 .parrot h3,
 .parrot-mini h3,
@@ -1084,9 +1084,9 @@ b {
 .easy-go h3 {
   font-size: 1.1em;
   font-weight: bold;
-  margin-bottom: 0.5em;
+  margin-bottom: .5em;
 }
-/* line 156, ../sass/07-confort.sass */
+
 .camera ul,
 .parrot ul,
 .parrot-mini ul,
@@ -1096,7 +1096,7 @@ b {
 .easy-go ul {
   margin-left: 2em;
 }
-/* line 158, ../sass/07-confort.sass */
+
 .camera ul li,
 .parrot ul li,
 .parrot-mini ul li,
@@ -1107,7 +1107,7 @@ b {
   color: #cb591e;
   list-style-type: disc;
 }
-/* line 161, ../sass/07-confort.sass */
+
 .camera ul li span,
 .parrot ul li span,
 .parrot-mini ul li span,
@@ -1118,7 +1118,6 @@ b {
   color: #7d7d7d;
 }
 
-/* line 164, ../sass/07-confort.sass */
 .camera,
 .parrot,
 .parrot-mini,
@@ -1126,16 +1125,14 @@ b {
 .tom-tom,
 .simple,
 .easy-go {
-  display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
 }
-/* line 173, ../sass/07-confort.sass */
+
 .camera .description,
 .parrot .description,
 .parrot-mini .description,
@@ -1143,12 +1140,11 @@ b {
 .tom-tom .description,
 .simple .description,
 .easy-go .description {
-  -webkit-box-flex: 1;
   -webkit-flex: auto;
       -ms-flex: auto;
           flex: auto;
 }
-/* line 175, ../sass/07-confort.sass */
+
 .camera .product-image,
 .parrot .product-image,
 .parrot-mini .product-image,
@@ -1160,7 +1156,7 @@ b {
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
   margin-right: 1em;
 }
-/* line 179, ../sass/07-confort.sass */
+
 .camera .product-image img,
 .parrot .product-image img,
 .parrot-mini .product-image img,
@@ -1172,57 +1168,49 @@ b {
   max-width: 180px;
 }
 
-/* line 184, ../sass/07-confort.sass */
 .camera .product-image {
-  -webkit-box-flex: 0;
   -webkit-flex: 0 0 180px;
       -ms-flex: 0 0 180px;
           flex: 0 0 180px;
   height: 102px;
 }
 
-/* line 190, ../sass/07-confort.sass */
 .parrot .product-image {
   border: 0;
   box-shadow: none;
-  -webkit-box-flex: 0;
   -webkit-flex: 0 0 250px;
       -ms-flex: 0 0 250px;
           flex: 0 0 250px;
   margin-right: 1em;
 }
-/* line 195, ../sass/07-confort.sass */
+
 .parrot .product-image img {
   width: 100%;
   max-width: 250px;
 }
-/* line 198, ../sass/07-confort.sass */
+
 .parrot .description ul {
-  margin-top: 0.5em;
+  margin-top: .5em;
 }
 
-/* line 202, ../sass/07-confort.sass */
 .parrot-mini .product-image {
-  -webkit-box-flex: 0;
   -webkit-flex: 0 0 150px;
       -ms-flex: 0 0 150px;
           flex: 0 0 150px;
   height: 120px;
   text-align: center;
 }
-/* line 206, ../sass/07-confort.sass */
+
 .parrot-mini .product-image img {
   max-width: 90px;
 }
 
-/* line 210, ../sass/07-confort.sass */
 .pka p {
-  margin: 0.5em 0;
+  margin: .5em 0;
   text-align: justify;
 }
-/* line 213, ../sass/07-confort.sass */
+
 .pka .product-image {
-  -webkit-box-flex: 0;
   -webkit-flex: 0 0 200px;
       -ms-flex: 0 0 200px;
           flex: 0 0 200px;
@@ -1231,18 +1219,16 @@ b {
   border: none;
   box-shadow: none;
 }
-/* line 219, ../sass/07-confort.sass */
+
 .pka .product-image img {
   max-width: 140px;
 }
 
-/* line 223, ../sass/07-confort.sass */
 .tom-tom ul {
   margin-top: 1em;
 }
-/* line 225, ../sass/07-confort.sass */
+
 .tom-tom .product-image {
-  -webkit-box-flex: 0;
   -webkit-flex: 0 0 180px;
       -ms-flex: 0 0 180px;
           flex: 0 0 180px;
@@ -1250,139 +1236,132 @@ b {
   text-align: center;
   padding: 45px 0;
 }
-/* line 230, ../sass/07-confort.sass */
+
 .tom-tom .product-image img {
   max-width: 160px;
 }
 
-/* line 234, ../sass/07-confort.sass */
 .simple .product-image {
-  -webkit-box-flex: 0;
   -webkit-flex: 0 0 180px;
       -ms-flex: 0 0 180px;
           flex: 0 0 180px;
   height: auto;
   text-align: center;
 }
-/* line 238, ../sass/07-confort.sass */
+
 .simple .product-image img {
   max-width: 160px;
 }
-/* line 240, ../sass/07-confort.sass */
+
 .simple .top-description {
   margin-bottom: 1em;
 }
-/* line 243, ../sass/07-confort.sass */
+
 .simple .bottom-description ul {
   display: inline-block;
-  margin-top: 0.5em;
+  margin-top: .5em;
   width: 60%;
   vertical-align: middle;
 }
-/* line 248, ../sass/07-confort.sass */
+
 .simple .bottom-description ul li {
-  margin-bottom: 0.5em;
-  font-size: 0.9em;
+  margin-bottom: .5em;
+  font-size: .9em;
 }
-/* line 251, ../sass/07-confort.sass */
+
 .simple .bottom-description .product-logo {
   display: inline-block;
   vertical-align: middle;
 }
 
-/* line 256, ../sass/07-confort.sass */
 .easy-go .product-image {
-  -webkit-box-flex: 0;
   -webkit-flex: 0 0 430px;
       -ms-flex: 0 0 430px;
           flex: 0 0 430px;
   border: none;
   box-shadow: none;
 }
-/* line 260, ../sass/07-confort.sass */
+
 .easy-go .product-image img {
   width: 100%;
   max-width: 430px;
 }
-/* line 263, ../sass/07-confort.sass */
+
 .easy-go .description p {
   margin-bottom: 1em;
 }
-/* line 265, ../sass/07-confort.sass */
+
 .easy-go .description p:last-child {
   margin-bottom: 0;
 }
 
 /* ------------------ 08 - CONTACTO ------------------ */
-/* line 2, ../sass/08-contacto.sass */
 .contact-content {
   color: #7d7d7d;
   margin: 0 auto;
   width: 900px;
 }
-/* line 6, ../sass/08-contacto.sass */
+
 .contact-content h2 {
   text-align: center;
   color: #0f1217;
   font-size: 2em;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
-  margin-bottom: 0.25em;
+  margin-bottom: .25em;
 }
-/* line 13, ../sass/08-contacto.sass */
+
 .contact-content .message {
   text-align: center;
   margin-bottom: 1em;
 }
-/* line 17, ../sass/08-contacto.sass */
+
 .contact-content .form {
   margin-bottom: 2em;
 }
-/* line 19, ../sass/08-contacto.sass */
+
 .contact-content .form input,
 .contact-content .form textarea {
   border: solid 1px #ccc;
   padding: 1em;
-  margin-bottom: 0.5em;
+  margin-bottom: .5em;
   color: #939393;
 }
-/* line 25, ../sass/08-contacto.sass */
+
 .contact-content .form .form-inputs {
-  display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-/* line 28, ../sass/08-contacto.sass */
+
 .contact-content .form .form-inputs input {
-  font-size: 0.9em;
+  font-size: .9em;
   width: 24%;
 }
-/* line 31, ../sass/08-contacto.sass */
+
 .contact-content .form textarea {
-  font-size: 0.9em;
+  font-size: .9em;
   width: 100%;
 }
-/* line 34, ../sass/08-contacto.sass */
+
 .contact-content .form .checkbox {
   text-align: center;
   margin-bottom: 1em;
 }
-/* line 37, ../sass/08-contacto.sass */
+
 .contact-content .form .checkbox span {
   color: #696969;
-  font-size: 0.9em;
+  font-size: .9em;
 }
-/* line 40, ../sass/08-contacto.sass */
+
 .contact-content .buttons {
   text-align: center;
   margin-bottom: 1em;
 }
-/* line 43, ../sass/08-contacto.sass */
+
 .contact-content .buttons button {
   padding: 1em;
   background-color: #cb591e;
@@ -1392,38 +1371,35 @@ b {
   display: inline-block;
   width: 90px;
   cursor: pointer;
-  font-size: 0.9em;
+  font-size: .9em;
   text-align: center;
 }
-/* line 54, ../sass/08-contacto.sass */
+
 .contact-content .address {
-  display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-bottom: 2em;
 }
-/* line 58, ../sass/08-contacto.sass */
+
 .contact-content .address .address-1,
 .contact-content .address .address-2 {
-  -webkit-box-flex: 0;
   -webkit-flex: 0 1 49%;
       -ms-flex: 0 1 49%;
           flex: 0 1 49%;
   border: solid 1px #cb591e;
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25);
 }
-/* line 63, ../sass/08-contacto.sass */
+
 .contact-content .address .address-1 img,
 .contact-content .address .address-2 img {
   width: 100%;
   max-width: 472px;
 }
-/* line 66, ../sass/08-contacto.sass */
+
 .contact-content .address .address-1 .information,
 .contact-content .address .address-2 .information {
   background-color: #cb591e;
@@ -1431,15 +1407,14 @@ b {
   padding: 1em;
   height: auto;
 }
-/* line 71, ../sass/08-contacto.sass */
+
 .contact-content .address .address-1 .information p,
 .contact-content .address .address-2 .information p {
-  font-size: 0.8em;
-  margin-bottom: 0.5em;
+  font-size: .8em;
+  margin-bottom: .5em;
 }
 
 /* ------------ 09 - FOOTER ------------ */
-/* line 2, ../sass/09-footer.sass */
 .footer {
   background-color: #04090F;
   color: #ffffff;
@@ -1447,11 +1422,11 @@ b {
   padding: 1em 0;
   letter-spacing: 1px;
 }
-/* line 8, ../sass/09-footer.sass */
+
 .footer .copyright {
-  margin-bottom: 0.5em;
+  margin-bottom: .5em;
 }
-/* line 11, ../sass/09-footer.sass */
+
 .footer .created-by .global-net-studio-logo {
   position: relative;
   top: 4px;

@@ -3,12 +3,15 @@
 	<ul class="slides">
 		<li>
 			<img src="/images/header/banner/slide-1.jpg" alt="Slider Banner 1">
+			<p class="flex-caption">¡CALIDAD Y EXPERIENCIA!<br>NOS DISTINGUEN</p>
 		</li>
 		<li>
 			<img src="/images/header/banner/slide-2.jpg" alt="Slider Banner 2">
+			<p class="flex-caption">¡CALIDAD Y EXPERIENCIA!<br>NOS DISTINGUEN</p>
 		</li>
 		<li>
 			<img src="/images/header/banner/slide-3.jpg" alt="Slider Banner 3">
+			<p class="flex-caption">¡CALIDAD Y EXPERIENCIA!<br>NOS DISTINGUEN</p>
 		</li>
 	</ul>
 
