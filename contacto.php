@@ -14,7 +14,7 @@
 		<p class="message">Nos interesa escucharte. Responderemos a tu comentario lo más pronto posible.</p>
 
 		<div class="form">
-			<form action="#" method="POST">
+			<form action="process-email.php" method="POST">
 				<div class="form-inputs">
 					<input type="text" name="first-name" placeholder="Nombre(s):">
 					<input type="text" name="last-name" placeholder="Apellidos:">
@@ -22,7 +22,7 @@
 					<input type="email" name="email" placeholder="Correo Electrónico:">
 				</div>
 
-				<textarea name="message" rows="4" placeholder="Preguntas y Comentarios:"></textarea>
+				<textarea name="questions-comments" rows="4" placeholder="Preguntas y Comentarios:"></textarea>
 
 				<!-- .checkbox -->
 				<div class="checkbox">
