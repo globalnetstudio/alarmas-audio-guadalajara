@@ -8,8 +8,8 @@
 
 	<?php include('./_partials/carousel.php'); ?>
 
-	<!-- .content -->
-	<section class="content">
+	<!-- .home-content -->
+	<section class="home-content">
 
 		<!-- .security-alarms-group -->
 		<section class="security-alarms-group">
@@ -32,7 +32,7 @@
 		<!-- /.security-alarms-group -->
 
 	</section>
-	<!-- /.content -->
+	<!-- /.home-content -->
 
 	<!-- .alarms-audio-confort -->
 	<div class="alarms-audio-confort">

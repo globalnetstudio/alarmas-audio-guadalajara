@@ -61,7 +61,7 @@
 		</div>
 
 		<p class="information">Con <b>ASTEROID</b> Smart entrará en una nueva dimensión del entretenimiento y de la ayuda a la conducción. Igual que con su tableta digital o Smartphone, personalice su <b>ASTEROID</b> Smart con aplicaciones, acceda a Internet y navegue por GPS.</p>
-	</div>
+	</section>
 	<!-- /.audio-content -->
 
 <?php include_once('./_partials/footer.php'); ?>	

@@ -8,8 +8,8 @@
 
 	<?php include('./_partials/carousel.php'); ?>
 
-	<!-- .content -->
-	<section class="content">
+	<!-- .alarms-content -->
+	<section class="alarms-content">
 		<!-- .alarms -->
 		<div class="alarms">
 			<h2>Alarmas</h2>
@@ -470,6 +470,6 @@
 		<!-- /.max-limit -->
 
 	</div>
-	<!-- /.content -->
+	<!-- /.alarms-content -->
 
 <?php include_once('./_partials/footer.php'); ?>	

@@ -313,7 +313,7 @@
 		</div>
 		<!-- /.easy-go -->
 
-	</div>
+	</section>
 	<!-- /.content -->
 
 <?php include_once('./_partials/footer.php'); ?>	
