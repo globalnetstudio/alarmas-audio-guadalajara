@@ -9,7 +9,7 @@
 	<?php include('./_partials/carousel.php'); ?>
 
 	<!-- .content -->
-	<section class="content">
+	<section class="confort-content">
 
 		<div class="page-title">
 			<h2>Confort</h2>
@@ -74,7 +74,7 @@
 				<div class="description">
 					<h3>Fotocelda (Autolamp) 545-T</h3>
 					
-					<p>Olvídate de volver a encender o apagar las luces exteriores!Al entrar a un estacionamiento Techado o túnel se encienden, al salir detecta la luz del día y se apagan. Al entrar la puesta del sol se encienden automáticamente. Ya nunca tendras  infracciones por no encender las luces. No más baterías bajas por olvidar apagar las luces.</p>
+					<p>Olvídate de volver a encender o apagar las luces exteriores!, al entrar a un estacionamiento Techado o túnel se encienden, al salir detecta la luz del día y se apagan. Al entrar la puesta del sol se encienden automáticamente. Ya nunca tendras  infracciones por no encender las luces. No más baterías bajas por olvidar apagar las luces.</p>
 					
 					<p>Al desactivar  la alarma encienden para ver si no hay alguien sospechoso alrededor del auto,  en 30  segundos se apagan automáticamente.</p>
 				</div>

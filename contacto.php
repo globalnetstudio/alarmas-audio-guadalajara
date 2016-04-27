@@ -11,18 +11,46 @@
 	<!-- .contact-content -->
 	<section class="contact-content">
 		<h2>¡Contáctanos!</h2>
-		<p class="message">Nos interesa escucharte. Responderemos a tu comentario lo más pronto posible.</p>
+		<p class="message">Nos interesa escucharte. <span>Responderemos a tu comentario lo más pronto posible.</span></p>
 
 		<div class="form">
 			<form action="process-email.php" method="POST">
-				<div class="form-inputs">
-					<input type="text" name="first-name" placeholder="Nombre(s):">
-					<input type="text" name="last-name" placeholder="Apellidos:">
-					<input type="text" name="phone" placeholder="Telefono (con lada):">
-					<input type="email" name="email" placeholder="Correo Electrónico:">
-				</div>
 
-				<textarea name="questions-comments" rows="4" placeholder="Preguntas y Comentarios:"></textarea>
+				<!-- .form-inputs -->
+				<div class="form-inputs">
+
+					<!-- .first-name -->
+					<div class="first-name">
+						<input type="text" name="first-name" placeholder="Nombre(s):">
+					</div>
+					<!-- /.first-name -->
+
+					<!-- .last-name -->
+					<div class="last-name">
+						<input type="text" name="last-name" placeholder="Apellidos:">
+					</div>
+					<!-- /.last-name -->
+
+					<!-- .phone -->
+					<div class="phone">
+						<input type="text" name="phone" placeholder="Telefono (con lada):">
+					</div>
+					<!-- /.phone -->
+
+					<!-- .email -->
+					<div class="email">
+						<input type="email" name="email" placeholder="Correo Electrónico:">
+					</div>
+					<!-- /.email -->
+
+				</div>
+				<!-- .form-inputs -->
+
+				<!-- .question-comments -->
+				<div class="question-comments">
+					<textarea name="questions-comments" rows="4" placeholder="Preguntas y Comentarios:"></textarea>
+				</div>
+				<!-- /.question-comments -->
 
 				<!-- .checkbox -->
 				<div class="checkbox">

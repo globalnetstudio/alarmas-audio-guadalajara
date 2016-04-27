@@ -339,7 +339,7 @@
 		<div class="logos-wrapper">
 
 			<!-- .ontas-logo -->
-				<div class="ontas-logo">
+			<div class="ontas-logo">
 				<img src="/images/ontas-logo.jpg" alt="Ontas Logo">
 			</div>
 			<!-- /.ontas-logo -->
@@ -358,12 +358,14 @@
 
 			<!-- .ontas-banner -->
 			<div class="ontas-banner">
+				<img class="ontas-logo-mobile" src="/images/ontas-logo.jpg" alt="Ontas Logo">
 				<img src="/images/ontas-banner.jpg" alt="Ontas Banner">
 			</div>
 			<!-- /.ontas-banner -->
 
 			<!-- .viper-banner -->
 			<div class="viper-banner">
+				<img class="directed-logo-mobile" src="/images/directed-logo.jpg" alt="Directed Logo">
 				<img src="/images/viper-banner.jpg" alt="Viper Banner">
 			</div>
 			<!-- /.viper-banner -->

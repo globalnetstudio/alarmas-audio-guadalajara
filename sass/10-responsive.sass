@@ -89,6 +89,9 @@
     top: 0
     margin-bottom: 0
 
+  .audio-content
+    margin-top: 1em
+
 @media (max-width: 767px)
   .header
     height: 390px
@@ -118,8 +121,8 @@
         text-align: center
       .social-icons
         display: block
-        margin: 15px auto 0;
-        width: 150px;
+        margin: 15px auto 0
+        width: 150px
     .main-menu
       top: -40px
       bottom: initial
@@ -135,10 +138,12 @@
       ul
         display: none
         width: $tabletWidth
+        li:first-child
+          margin-top: 0
         li.active a:hover
           background-color: #000
         li
-          margin-bottom: -1px
+          margin-top: -1px
           a
             padding-left: 1em
             background-color: #222
@@ -166,7 +171,7 @@
       font-size: 18px
 
   .alarm-controls h2
-      font-size: 25px
+    font-size: 25px
 
   .viper-clifford-features
     display: block
@@ -183,6 +188,17 @@
       display: block
       .column
         margin-bottom: 1em
+        .title-botton
+          padding: 10px 15px
+          .moto-x
+            margin-bottom: 0
+          h3
+            font-size: 18px
+          a.button
+            padding: 5px 10px
+            font-size: 18px
+            &:before
+              display: none
         img
           margin-bottom: 28px
         .box
@@ -199,17 +215,32 @@
     display: block
     .banners-wrapper
       display: block
+      padding: 0
+      text-align: center
       .banner-v2,
       .banner-v4
         width: 100%
         margin-bottom: 1em
 
+  .logos-wrapper
+    display: none
+
   .banners-wrapper
-      display: block
-      .ontas-banner,
-      .viper-banner
-        width: 100%
-        margin-bottom: 1em
+    display: block
+    .ontas-banner,
+    .viper-banner
+      margin-bottom: 1em
+      width: 100%
+      text-align: center
+      .ontas-logo-mobile,
+      .directed-logo-mobile
+        display: block
+        margin: 1em auto
+        box-shadow: none
+      .ontas-logo-mobile
+        max-width: 167px
+      .directed-logo-mobile
+        max-width: 209px
 
   .antiassault-film
     display: block
@@ -218,14 +249,12 @@
     .information,
     .side
       width: 100%
+      img
+        margin: 0 auto 1em
 
     .information h2,
     .information p
       margin-bottom: 1em
-
-    .side
-      img
-        margin: 0 auto 1em
 
   .max-limit
     display: block
@@ -233,6 +262,9 @@
     .information,
     .side
       width: 100%
+      img
+        display: inline-block
+        margin: 0 auto 1em
 
   .audio-content,
     & .row,
@@ -251,6 +283,124 @@
       line-height: 1.4em
       letter-spacing: 2px
       font-size: 18px
+
+  .confort-content
+    margin: 1em auto
+    width: 90%
+    .page-title
+      width: 100%
+    .locker-sensor
+      display: block
+      width: 100%
+      .locker, .sensor
+        display: block
+        width: 100%
+        .product-image
+          box-shadow: none
+          border: none
+          text-align: center
+          height: auto
+          margin-right: 0
+        .description
+          margin: 0 0 1em
+          h3
+            text-align: center
+          li
+            margin-bottom: .5em
+
+    .photocel-sensor
+      display: block
+      width: 100%
+      .photocel, .retro-sensor
+        width: 100%
+        .description
+          margin-bottom: 0 0 1em
+          h3
+            text-align: center
+          p
+            text-align: justify
+            font-size: 17px
+            line-height: 22px
+      .retro-sensor
+        .product-image
+          border: none
+          box-shadow: none
+          width: 100%
+          text-align: center
+          margin: 0 0 1em
+
+    .camera,
+    .parrot,
+    .parrot-mini,
+    .pka,
+    .tom-tom,
+    .simple,
+    .easy-go
+      display: block
+      width: 100%
+      .product-image
+        border: none
+        box-shadow: none
+        width: 100%
+        text-align: center
+      .description
+        h3
+          text-align: center
+        p
+          text-align: justify
+          font-size: 17px
+          line-height: 22px
+        li
+          margin: 1em 0
+          font-size: 16px
+      .product-logo
+        width: 100%
+        text-align: center
+    .simple .bottom-description ul
+      width: 100%
+      margin-left: 1em
+    .easy-go .product-image
+      margin-bottom: 1em
+
+  .contact-content
+    width: 90%
+    h2
+      margin-top: .5em
+    .message
+      font-size: 18px
+      span
+        display: block
+    .form
+      .form-inputs
+        display: block
+        div
+          display: block
+          margin-bottom: .5em
+          width: 100%
+          input, textarea
+            font-size: 16px
+      .checkbox
+        font-size: 20px
+        span
+          display: block
+          margin-bottom: .5em
+      .buttons
+        text-align: left
+        button
+          display: block
+          width: 100%
+          margin-bottom: 1em
+    .address
+      display: block
+      .address-1, .address-2
+        margin: 0 auto 1.5em
+        width: 100%
+        img
+          max-width: 767px
+        .information
+          margin-top: -5px
+          p
+            font-size: 18px
 
   .footer
     padding: 1em .5em
