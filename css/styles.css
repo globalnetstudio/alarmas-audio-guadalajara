@@ -1769,101 +1769,102 @@ b {
   /* line 179, ../sass/10-responsive.sass */
   .viper-clifford-features .clifford-features {
     margin-bottom: 1em;
+    text-align: center;
   }
 
-  /* line 181, ../sass/10-responsive.sass */
+  /* line 182, ../sass/10-responsive.sass */
   .alarms {
     width: 90%;
   }
-  /* line 183, ../sass/10-responsive.sass */
+  /* line 184, ../sass/10-responsive.sass */
   .alarms h2 {
     margin-top: 0.5em;
     padding: 0.25em 0;
     font-size: 1.5em;
   }
-  /* line 187, ../sass/10-responsive.sass */
+  /* line 188, ../sass/10-responsive.sass */
   .alarms .row {
     display: block;
   }
-  /* line 189, ../sass/10-responsive.sass */
+  /* line 190, ../sass/10-responsive.sass */
   .alarms .row .column {
     margin-bottom: 1em;
   }
-  /* line 191, ../sass/10-responsive.sass */
+  /* line 192, ../sass/10-responsive.sass */
   .alarms .row .column .title-botton {
     padding: 10px 15px;
   }
-  /* line 193, ../sass/10-responsive.sass */
+  /* line 194, ../sass/10-responsive.sass */
   .alarms .row .column .title-botton .moto-x {
     margin-bottom: 0;
   }
-  /* line 195, ../sass/10-responsive.sass */
+  /* line 196, ../sass/10-responsive.sass */
   .alarms .row .column .title-botton h3 {
     font-size: 18px;
   }
-  /* line 197, ../sass/10-responsive.sass */
+  /* line 198, ../sass/10-responsive.sass */
   .alarms .row .column .title-botton a.button {
     padding: 5px 10px;
     font-size: 18px;
   }
-  /* line 200, ../sass/10-responsive.sass */
+  /* line 201, ../sass/10-responsive.sass */
   .alarms .row .column .title-botton a.button:before {
     display: none;
   }
-  /* line 202, ../sass/10-responsive.sass */
+  /* line 203, ../sass/10-responsive.sass */
   .alarms .row .column img {
     margin-bottom: 28px;
   }
-  /* line 204, ../sass/10-responsive.sass */
+  /* line 205, ../sass/10-responsive.sass */
   .alarms .row .column .box {
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
   }
-  /* line 206, ../sass/10-responsive.sass */
+  /* line 207, ../sass/10-responsive.sass */
   .alarms .row .column .box:after {
     display: none;
   }
 
-  /* line 209, ../sass/10-responsive.sass */
+  /* line 210, ../sass/10-responsive.sass */
   .protect,
   .logos-wrapper,
   .banners-wrapper {
     width: 100%;
   }
 
-  /* line 214, ../sass/10-responsive.sass */
+  /* line 215, ../sass/10-responsive.sass */
   .protect {
     display: block;
   }
-  /* line 216, ../sass/10-responsive.sass */
+  /* line 217, ../sass/10-responsive.sass */
   .protect .banners-wrapper {
     display: block;
     padding: 0;
     text-align: center;
   }
-  /* line 220, ../sass/10-responsive.sass */
+  /* line 221, ../sass/10-responsive.sass */
   .protect .banners-wrapper .banner-v2,
   .protect .banners-wrapper .banner-v4 {
     width: 100%;
     margin-bottom: 1em;
   }
 
-  /* line 225, ../sass/10-responsive.sass */
+  /* line 226, ../sass/10-responsive.sass */
   .logos-wrapper {
     display: none;
   }
 
-  /* line 228, ../sass/10-responsive.sass */
+  /* line 229, ../sass/10-responsive.sass */
   .banners-wrapper {
     display: block;
   }
-  /* line 230, ../sass/10-responsive.sass */
+  /* line 231, ../sass/10-responsive.sass */
   .banners-wrapper .ontas-banner,
   .banners-wrapper .viper-banner {
     margin-bottom: 1em;
     width: 100%;
     text-align: center;
   }
-  /* line 235, ../sass/10-responsive.sass */
+  /* line 236, ../sass/10-responsive.sass */
   .banners-wrapper .ontas-banner .ontas-logo-mobile,
   .banners-wrapper .ontas-banner .directed-logo-mobile,
   .banners-wrapper .viper-banner .ontas-logo-mobile,
@@ -1872,70 +1873,70 @@ b {
     margin: 1em auto;
     box-shadow: none;
   }
-  /* line 240, ../sass/10-responsive.sass */
+  /* line 241, ../sass/10-responsive.sass */
   .banners-wrapper .ontas-banner .ontas-logo-mobile,
   .banners-wrapper .viper-banner .ontas-logo-mobile {
     max-width: 167px;
   }
-  /* line 242, ../sass/10-responsive.sass */
+  /* line 243, ../sass/10-responsive.sass */
   .banners-wrapper .ontas-banner .directed-logo-mobile,
   .banners-wrapper .viper-banner .directed-logo-mobile {
     max-width: 209px;
   }
 
-  /* line 245, ../sass/10-responsive.sass */
+  /* line 246, ../sass/10-responsive.sass */
   .antiassault-film {
     display: block;
     width: 90%;
   }
-  /* line 249, ../sass/10-responsive.sass */
+  /* line 250, ../sass/10-responsive.sass */
   .antiassault-film .information,
   .antiassault-film .side {
     width: 100%;
   }
-  /* line 252, ../sass/10-responsive.sass */
+  /* line 253, ../sass/10-responsive.sass */
   .antiassault-film .information img,
   .antiassault-film .side img {
     margin: 0 auto 1em;
   }
-  /* line 255, ../sass/10-responsive.sass */
+  /* line 256, ../sass/10-responsive.sass */
   .antiassault-film .information h2,
   .antiassault-film .information p {
     margin-bottom: 1em;
   }
 
-  /* line 259, ../sass/10-responsive.sass */
+  /* line 260, ../sass/10-responsive.sass */
   .max-limit {
     display: block;
     width: 90%;
   }
-  /* line 262, ../sass/10-responsive.sass */
+  /* line 263, ../sass/10-responsive.sass */
   .max-limit .information,
   .max-limit .side {
     width: 100%;
   }
-  /* line 265, ../sass/10-responsive.sass */
+  /* line 266, ../sass/10-responsive.sass */
   .max-limit .information img,
   .max-limit .side img {
     display: inline-block;
     margin: 0 auto 1em;
   }
 
-  /* line 270, ../sass/10-responsive.sass */
+  /* line 271, ../sass/10-responsive.sass */
   .audio-content .row, .audio-content .directed-logo, .audio-content .information {
     margin-top: 1em;
     width: 90%;
   }
-  /* line 275, ../sass/10-responsive.sass */
+  /* line 276, ../sass/10-responsive.sass */
   .audio-content .row {
     display: block;
   }
-  /* line 277, ../sass/10-responsive.sass */
+  /* line 278, ../sass/10-responsive.sass */
   .audio-content .row .column {
     width: 100%;
     margin-bottom: 1em;
   }
-  /* line 280, ../sass/10-responsive.sass */
+  /* line 281, ../sass/10-responsive.sass */
   .audio-content .information {
     margin-bottom: 1em;
     text-align: center;
@@ -1944,26 +1945,26 @@ b {
     font-size: 18px;
   }
 
-  /* line 287, ../sass/10-responsive.sass */
+  /* line 288, ../sass/10-responsive.sass */
   .confort-content {
     margin: 1em auto;
     width: 90%;
   }
-  /* line 290, ../sass/10-responsive.sass */
+  /* line 291, ../sass/10-responsive.sass */
   .confort-content .page-title {
     width: 100%;
   }
-  /* line 292, ../sass/10-responsive.sass */
+  /* line 293, ../sass/10-responsive.sass */
   .confort-content .locker-sensor {
     display: block;
     width: 100%;
   }
-  /* line 295, ../sass/10-responsive.sass */
+  /* line 296, ../sass/10-responsive.sass */
   .confort-content .locker-sensor .locker, .confort-content .locker-sensor .sensor {
     display: block;
     width: 100%;
   }
-  /* line 298, ../sass/10-responsive.sass */
+  /* line 299, ../sass/10-responsive.sass */
   .confort-content .locker-sensor .locker .product-image, .confort-content .locker-sensor .sensor .product-image {
     box-shadow: none;
     border: none;
@@ -1971,42 +1972,42 @@ b {
     height: auto;
     margin-right: 0;
   }
-  /* line 304, ../sass/10-responsive.sass */
+  /* line 305, ../sass/10-responsive.sass */
   .confort-content .locker-sensor .locker .description, .confort-content .locker-sensor .sensor .description {
     margin: 0 0 1em;
   }
-  /* line 306, ../sass/10-responsive.sass */
+  /* line 307, ../sass/10-responsive.sass */
   .confort-content .locker-sensor .locker .description h3, .confort-content .locker-sensor .sensor .description h3 {
     text-align: center;
   }
-  /* line 308, ../sass/10-responsive.sass */
+  /* line 309, ../sass/10-responsive.sass */
   .confort-content .locker-sensor .locker .description li, .confort-content .locker-sensor .sensor .description li {
     margin-bottom: 0.5em;
   }
-  /* line 311, ../sass/10-responsive.sass */
+  /* line 312, ../sass/10-responsive.sass */
   .confort-content .photocel-sensor {
     display: block;
     width: 100%;
   }
-  /* line 314, ../sass/10-responsive.sass */
+  /* line 315, ../sass/10-responsive.sass */
   .confort-content .photocel-sensor .photocel, .confort-content .photocel-sensor .retro-sensor {
     width: 100%;
   }
-  /* line 316, ../sass/10-responsive.sass */
+  /* line 317, ../sass/10-responsive.sass */
   .confort-content .photocel-sensor .photocel .description, .confort-content .photocel-sensor .retro-sensor .description {
     margin-bottom: 0 0 1em;
   }
-  /* line 318, ../sass/10-responsive.sass */
+  /* line 319, ../sass/10-responsive.sass */
   .confort-content .photocel-sensor .photocel .description h3, .confort-content .photocel-sensor .retro-sensor .description h3 {
     text-align: center;
   }
-  /* line 320, ../sass/10-responsive.sass */
+  /* line 321, ../sass/10-responsive.sass */
   .confort-content .photocel-sensor .photocel .description p, .confort-content .photocel-sensor .retro-sensor .description p {
     text-align: justify;
     font-size: 17px;
     line-height: 22px;
   }
-  /* line 325, ../sass/10-responsive.sass */
+  /* line 326, ../sass/10-responsive.sass */
   .confort-content .photocel-sensor .retro-sensor .product-image {
     border: none;
     box-shadow: none;
@@ -2014,7 +2015,7 @@ b {
     text-align: center;
     margin: 0 0 1em;
   }
-  /* line 332, ../sass/10-responsive.sass */
+  /* line 333, ../sass/10-responsive.sass */
   .confort-content .camera,
   .confort-content .parrot,
   .confort-content .parrot-mini,
@@ -2025,7 +2026,7 @@ b {
     display: block;
     width: 100%;
   }
-  /* line 341, ../sass/10-responsive.sass */
+  /* line 342, ../sass/10-responsive.sass */
   .confort-content .camera .product-image,
   .confort-content .parrot .product-image,
   .confort-content .parrot-mini .product-image,
@@ -2038,7 +2039,7 @@ b {
     width: 100%;
     text-align: center;
   }
-  /* line 347, ../sass/10-responsive.sass */
+  /* line 348, ../sass/10-responsive.sass */
   .confort-content .camera .description h3,
   .confort-content .parrot .description h3,
   .confort-content .parrot-mini .description h3,
@@ -2048,7 +2049,7 @@ b {
   .confort-content .easy-go .description h3 {
     text-align: center;
   }
-  /* line 349, ../sass/10-responsive.sass */
+  /* line 350, ../sass/10-responsive.sass */
   .confort-content .camera .description p,
   .confort-content .parrot .description p,
   .confort-content .parrot-mini .description p,
@@ -2060,7 +2061,7 @@ b {
     font-size: 17px;
     line-height: 22px;
   }
-  /* line 353, ../sass/10-responsive.sass */
+  /* line 354, ../sass/10-responsive.sass */
   .confort-content .camera .description li,
   .confort-content .parrot .description li,
   .confort-content .parrot-mini .description li,
@@ -2071,7 +2072,7 @@ b {
     margin: 1em 0;
     font-size: 16px;
   }
-  /* line 356, ../sass/10-responsive.sass */
+  /* line 357, ../sass/10-responsive.sass */
   .confort-content .camera .product-logo,
   .confort-content .parrot .product-logo,
   .confort-content .parrot-mini .product-logo,
@@ -2082,92 +2083,92 @@ b {
     width: 100%;
     text-align: center;
   }
-  /* line 359, ../sass/10-responsive.sass */
+  /* line 360, ../sass/10-responsive.sass */
   .confort-content .simple .bottom-description ul {
     width: 100%;
     margin-left: 1em;
   }
-  /* line 362, ../sass/10-responsive.sass */
+  /* line 363, ../sass/10-responsive.sass */
   .confort-content .easy-go .product-image {
     margin-bottom: 1em;
   }
 
-  /* line 365, ../sass/10-responsive.sass */
+  /* line 366, ../sass/10-responsive.sass */
   .contact-content {
     width: 90%;
   }
-  /* line 367, ../sass/10-responsive.sass */
+  /* line 368, ../sass/10-responsive.sass */
   .contact-content h2 {
     margin-top: 0.5em;
   }
-  /* line 369, ../sass/10-responsive.sass */
+  /* line 370, ../sass/10-responsive.sass */
   .contact-content .message {
     font-size: 18px;
   }
-  /* line 371, ../sass/10-responsive.sass */
+  /* line 372, ../sass/10-responsive.sass */
   .contact-content .message span {
     display: block;
   }
-  /* line 374, ../sass/10-responsive.sass */
+  /* line 375, ../sass/10-responsive.sass */
   .contact-content .form .form-inputs {
     display: block;
   }
-  /* line 376, ../sass/10-responsive.sass */
+  /* line 377, ../sass/10-responsive.sass */
   .contact-content .form .form-inputs div {
     display: block;
     margin-bottom: 0.5em;
     width: 100%;
   }
-  /* line 380, ../sass/10-responsive.sass */
+  /* line 381, ../sass/10-responsive.sass */
   .contact-content .form .form-inputs div input, .contact-content .form .form-inputs div textarea {
     font-size: 16px;
   }
-  /* line 382, ../sass/10-responsive.sass */
+  /* line 383, ../sass/10-responsive.sass */
   .contact-content .form .checkbox {
     font-size: 20px;
   }
-  /* line 384, ../sass/10-responsive.sass */
+  /* line 385, ../sass/10-responsive.sass */
   .contact-content .form .checkbox span {
     display: block;
     margin-bottom: 0.5em;
   }
-  /* line 387, ../sass/10-responsive.sass */
+  /* line 388, ../sass/10-responsive.sass */
   .contact-content .form .buttons {
     text-align: left;
   }
-  /* line 389, ../sass/10-responsive.sass */
+  /* line 390, ../sass/10-responsive.sass */
   .contact-content .form .buttons button {
     display: block;
     width: 100%;
     margin-bottom: 1em;
   }
-  /* line 393, ../sass/10-responsive.sass */
+  /* line 394, ../sass/10-responsive.sass */
   .contact-content .address {
     display: block;
   }
-  /* line 395, ../sass/10-responsive.sass */
+  /* line 396, ../sass/10-responsive.sass */
   .contact-content .address .address-1, .contact-content .address .address-2 {
     margin: 0 auto 1.5em;
     width: 100%;
   }
-  /* line 398, ../sass/10-responsive.sass */
+  /* line 399, ../sass/10-responsive.sass */
   .contact-content .address .address-1 img, .contact-content .address .address-2 img {
     max-width: 767px;
   }
-  /* line 400, ../sass/10-responsive.sass */
+  /* line 401, ../sass/10-responsive.sass */
   .contact-content .address .address-1 .information, .contact-content .address .address-2 .information {
     margin-top: -5px;
   }
-  /* line 402, ../sass/10-responsive.sass */
+  /* line 403, ../sass/10-responsive.sass */
   .contact-content .address .address-1 .information p, .contact-content .address .address-2 .information p {
     font-size: 18px;
   }
 
-  /* line 405, ../sass/10-responsive.sass */
+  /* line 406, ../sass/10-responsive.sass */
   .footer {
     padding: 1em 0.5em;
   }
-  /* line 407, ../sass/10-responsive.sass */
+  /* line 408, ../sass/10-responsive.sass */
   .footer .copyright span {
     margin-top: 0.5em;
     display: block;
