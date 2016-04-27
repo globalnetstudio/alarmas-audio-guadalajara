@@ -7,6 +7,7 @@
 	<nav>
 		<!-- .main-menu -->
 		<div class="main-menu">
+			<div id="menu-button">MENU</div>
 			<ul>
 				<li class="<?php echo (isset($page) && $page == 'homepage') ? 'active' : ''; ?>">
 					<a href="/">Inicio</a>

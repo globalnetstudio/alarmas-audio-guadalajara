@@ -318,7 +318,7 @@
 			<!-- /.protect-logo -->
 
 			<!-- .banners -->
-			<div class="banners">
+			<div class="banners-wrapper">
 				<!-- .banner-v2 -->
 				<div class="banner-v2">
 					<img src="/images/protect-banner-v2.jpg" alt="Protect V2">
@@ -392,7 +392,7 @@
 			<!-- .side -->
 			<div class="side">
 				<img src="/images/car-film-1.jpg" alt="Carro con Película Anti Asalto">
-				<p>Película de seguridad 35% (Humo Medio) Con protección UV e Infrarrojo, mantiene la temperatura ambiente. Película de seguridad 35 % Humo Medio</p>
+				<p>Película de seguridad 35% (Humo Medio) con protección UV e Infrarrojo, mantiene la temperatura ambiente. Película de seguridad 35 % Humo Medio</p>
 
 				<img src="/images/car-film-2.jpg" alt="Carro con Película Anti Asalto">
 
