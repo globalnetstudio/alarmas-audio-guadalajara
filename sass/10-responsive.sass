@@ -89,8 +89,151 @@
     top: 0
     margin-bottom: 0
 
+  .home-content
+    .security-alarms-group
+      padding-top: 1.5em
+      .security-comfort,
+      .alarm-controls
+        margin: 0 auto
+        width: 90%
+
+  .viper-clifford-features
+    display: block
+    width: 100%
+    .clifford-features
+    .description,
+      width: 100%
+    .clifford-features
+      text-align: center
+      margin-bottom: 1em
+    .description p
+      font-size: 18px
+
+  .alarms-content
+    width: 95%
+    margin: 0 auto
+
+    .alarms
+      margin-top: 1em
+      width: 100%
+      .row
+        flex-wrap: wrap
+        .column
+          flex: 0 1 48%
+          margin-bottom: 1em
+          .box
+            padding-bottom: 40px
+            box-shadow: 0 5px 5px rgba(0,0,0,.3)
+            &:after
+              display: none
+          .title-botton
+            padding: 10px
+            height: auto
+            h3
+              font-size: 20px
+            a.button
+              padding: .5em 1em
+              font-size: 18px
+              &:before
+                display: none
+    .protect
+      padding: 0
+      margin-bottom: 1em
+      width: 100%
+      .protect-logo
+        width: 100%
+      .banners-wrapper
+        padding: 0
+        display: block
+        width: 100%
+        .banner-v2, .banner-v4
+          margin-bottom: 2em
+          text-align: center
+          width: 100%
+          img
+            max-width: 472px
+    .logos-wrapper
+      display: none
+
+    .banners-wrapper
+      display: block
+      padding: 0
+      text-align: center
+      width: 100%
+      .ontas-logo-mobile,
+      .directed-logo-mobile
+        display: block
+        margin: 1em auto
+        box-shadow: none
+      .ontas-banner,
+      .viper-banner
+        width: 100%
+        margin-bottom: 1em
+      .ontas-banner .ontas-logo-mobile
+        width: 167px
+      .viper-banner .directed-logo-mobile
+        width: 209px
+
+    .antiassault-film
+      width: 100%
+      .information
+        width: 55%
+        h2
+          margin-bottom: 1em
+      .side
+        width: 40%
+        img
+          margin: 1em auto
+
+    .max-limit
+      width: 100%
+      .information
+        width: 50%
+
   .audio-content
-    margin-top: 1em
+    margin: 1em auto
+    width: 95%
+    .row,
+    .directed-logo,
+    .information
+      width: 100%
+
+  .audio-content
+    p
+      margin-top: 1em
+    .row .column
+      width: 49%
+
+  .confort-content
+    margin: 1em auto
+    width: 95%
+    .locker-sensor
+      display: block
+      & > div
+        padding-bottom: 1em
+        height: auto
+        width: 100%
+    .photocel-sensor
+      display: block
+      .photocel,
+      .retro-sensor
+        width: 100%
+    .pka .product-image
+      flex: 0 0 150px
+      margin-right: 1em
+    .simple .product-image
+      margin-right: 2em
+    .easy-go
+      .product-image
+        flex: 0 0 45%
+        margin-right: 20px
+      .description
+        text-align: justify
+
+  .contact-content
+    width: 90%
+    h2
+      margin-top: 1rem
 
 @media (max-width: 767px)
   .header
@@ -152,6 +295,7 @@
           &:before,
           &:after
             display: none
+
   .flex-caption
     font-size: 1.4em
     bottom: 38%
@@ -179,6 +323,7 @@
     .clifford-features
       margin-bottom: 1em
       text-align: center
+
   .alarms
     width: 90%
     h2
@@ -288,11 +433,8 @@
   .confort-content
     margin: 1em auto
     width: 90%
-    .page-title
-      width: 100%
     .locker-sensor
       display: block
-      width: 100%
       .locker, .sensor
         display: block
         width: 100%
@@ -311,7 +453,6 @@
 
     .photocel-sensor
       display: block
-      width: 100%
       .photocel, .retro-sensor
         width: 100%
         .description
@@ -338,7 +479,6 @@
     .simple,
     .easy-go
       display: block
-      width: 100%
       .product-image
         border: none
         box-shadow: none

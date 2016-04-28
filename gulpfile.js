@@ -20,8 +20,9 @@ gulp.task('sass', function () {
 
 gulp.task('serve', function() {
 	browserSync.init({
-		proxy: "alarmas-audio-guadalajara.app"
-	});
+		proxy: "alarmas-audio-guadalajara.app",
+        open: false
+	});    
 
 	gulp.watch('./**/*.php').on('change', browserSync.reload);
 });

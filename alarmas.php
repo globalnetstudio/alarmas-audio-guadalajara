@@ -469,7 +469,7 @@
 		</div>
 		<!-- /.max-limit -->
 
-	</div>
+	</section>
 	<!-- /.alarms-content -->
 
 <?php include_once('./_partials/footer.php'); ?>	
