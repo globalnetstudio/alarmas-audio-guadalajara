@@ -12,9 +12,7 @@ $questionsComments = (isset($_POST['questions-comments'])) ?
 $byEmail   = (isset($_POST['byEmail']))    ? trim($_POST['byEmail'])    : '';
 $byPhone   = (isset($_POST['byPhone']))    ? trim($_POST['byPhone'])    : '';
 
-
-$to = 'Alarmas y Audio Guadalajara <sonusbeat@hotmail.com>';
-// $to = 'Alarmas y Audio Guadalajara <contacto@alarmasyaudioguadalajara.com>';
+$to = 'Alarmas y Audio Guadalajara <contacto@alarmasyaudioguadalajara.com>';
 
 $subject = 'Mensaje enviado desde Alarmas y Audio Guadalajara';
 $message = wordwrap($questionsComments, 70);
