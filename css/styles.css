@@ -1373,7 +1373,11 @@ b {
   margin-bottom: .5em;
 }
 
-.contact-content .address #map1, .contact-content .address #map2 {
+.contact-content #maps {
+  width: 100%;
+}
+
+.contact-content #maps #map1, .contact-content #maps #map2 {
   display: inline-block;
   height: 250px;
   width: 100%;
