@@ -86,7 +86,7 @@
 
 					<!-- .information -->
 					<div class="information">
-						<p><i class="icon-mark"></i>&nbsp;Sucursal Agustín Yáñez</p>
+						<p><i class="icon-mark"></i>&nbsp;<b>Sucursal Agustín Yáñez</b></p>
 						<p>Agustín Yáñez #2256-A, Col. Arcos Sur, CP. 44150, Guadalajara, Jal.</p>
 						<p>Tel: (33) 3616-9088</p>
 					</div>
@@ -100,7 +100,7 @@
 
 					<!-- .information -->
 					<div class="information">
-						<p><i class="icon-mark"></i>&nbsp;Sucursal Patria</p>
+						<p><i class="icon-mark"></i>&nbsp;<b>Sucursal Patria</b></p>
 						<p>Av Patria #440-D, Col. La Estancia, CP. 45030, Zapopan, Jal.</p>
 						<p>Tel: (33) 3070-0576</p>
 					</div>

@@ -301,7 +301,8 @@
     bottom: 38%
 
   .carousel
-    display: none
+    top: 0
+    margin-bottom: 0
 
   .security-alarms-group
     .security-comfort,
@@ -518,30 +519,22 @@
           display: block
           margin-bottom: .5em
           width: 100%
-          input, textarea
-            font-size: 16px
       .checkbox
-        font-size: 20px
         span
           display: block
           margin-bottom: .5em
-      .buttons
-        text-align: left
-        button
-          display: block
-          width: 100%
+      .buttons button
+          width: 48%
           margin-bottom: 1em
+          &:first-child
+            margin-right: 2%
     .address
       display: block
       .address-1, .address-2
-        margin: 0 auto 1.5em
+        margin: 0 auto 1.5em        
         width: 100%
-        img
-          max-width: 767px
         .information
           margin-top: -5px
-          p
-            font-size: 18px
 
   .footer
     padding: 1em .5em

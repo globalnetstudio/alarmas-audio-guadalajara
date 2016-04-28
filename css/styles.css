@@ -1257,15 +1257,16 @@ b {
 .contact-content h2 {
   text-align: center;
   color: #0f1217;
-  font-size: 2em;
+  font-size: 30px;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   margin-bottom: .25em;
 }
 
 .contact-content .message {
-  text-align: center;
+  font-size: 13px;
   margin-bottom: 1em;
+  text-align: center;
 }
 
 .contact-content .form {
@@ -1275,9 +1276,11 @@ b {
 .contact-content .form input,
 .contact-content .form textarea {
   border: solid 1px #ccc;
-  padding: 1em;
-  margin-bottom: .5em;
   color: #939393;
+  font-size: 13px;
+  font-family: Arial, Verdana, sans-serif;
+  margin-bottom: .5em;
+  padding: 1em;
 }
 
 .contact-content .form .form-inputs {
@@ -1305,13 +1308,14 @@ b {
 }
 
 .contact-content .form .checkbox {
+  font-size: 13px;
   text-align: center;
   margin-bottom: 1em;
 }
 
 .contact-content .form .checkbox span {
   color: #696969;
-  font-size: .9em;
+  margin-right: 1em;
 }
 
 .contact-content .buttons {
@@ -1320,16 +1324,16 @@ b {
 }
 
 .contact-content .buttons button {
-  padding: 1em;
   background-color: #cb591e;
-  border: none;
   border-radius: 5px;
+  border: none;
   color: #ffffff;
-  display: inline-block;
-  width: 90px;
   cursor: pointer;
-  font-size: .9em;
+  display: inline-block;
+  font-size: 12px;
+  padding: 1.5em 1em;
   text-align: center;
+  width: 90px;
 }
 
 .contact-content .address {
@@ -1347,20 +1351,11 @@ b {
   -webkit-flex: 0 1 49%;
       -ms-flex: 0 1 49%;
           flex: 0 1 49%;
+  min-height: 250px;
   border: solid 1px #cb591e;
+  box-sizing: border-box;
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25);
-}
-
-.contact-content .address .address-1 img,
-.contact-content .address .address-2 img {
-  width: 100%;
-  max-width: 472px;
-}
-
-.contact-content .address .address-1 .imgMap1, .contact-content .address .address-1 .imgMap2,
-.contact-content .address .address-2 .imgMap1,
-.contact-content .address .address-2 .imgMap2 {
-  display: none;
+  position: relative;
 }
 
 .contact-content .address .address-1 .information,
@@ -1369,22 +1364,26 @@ b {
   color: #ffffff;
   padding: 1em;
   height: auto;
+  position: relative;
 }
 
 .contact-content .address .address-1 .information p,
 .contact-content .address .address-2 .information p {
-  font-size: .8em;
+  font-size: 13px;
   margin-bottom: .5em;
 }
 
-.contact-content #map1, .contact-content #map2 {
+.contact-content .address #map1, .contact-content .address #map2 {
+  display: inline-block;
   height: 250px;
-  max-width: 470px;
   width: 100%;
+  position: relative;
+  z-index: -1;
 }
 
 /* ------------ 09 - FOOTER ------------ */
 .footer {
+  font-size: 12px;
   background-color: #04090F;
   color: #ffffff;
   text-align: center;
@@ -1785,7 +1784,8 @@ b {
     bottom: 38%;
   }
   .carousel {
-    display: none;
+    top: 0;
+    margin-bottom: 0;
   }
   .security-alarms-group .security-comfort,
   .security-alarms-group .alarm-controls {
@@ -2082,23 +2082,16 @@ b {
     margin-bottom: .5em;
     width: 100%;
   }
-  .contact-content .form .form-inputs div input, .contact-content .form .form-inputs div textarea {
-    font-size: 16px;
-  }
-  .contact-content .form .checkbox {
-    font-size: 20px;
-  }
   .contact-content .form .checkbox span {
     display: block;
     margin-bottom: .5em;
   }
-  .contact-content .form .buttons {
-    text-align: left;
-  }
   .contact-content .form .buttons button {
-    display: block;
-    width: 100%;
+    width: 48%;
     margin-bottom: 1em;
+  }
+  .contact-content .form .buttons button:first-child {
+    margin-right: 2%;
   }
   .contact-content .address {
     display: block;
@@ -2107,14 +2100,8 @@ b {
     margin: 0 auto 1.5em;
     width: 100%;
   }
-  .contact-content .address .address-1 img, .contact-content .address .address-2 img {
-    max-width: 767px;
-  }
   .contact-content .address .address-1 .information, .contact-content .address .address-2 .information {
     margin-top: -5px;
-  }
-  .contact-content .address .address-1 .information p, .contact-content .address .address-2 .information p {
-    font-size: 18px;
   }
   .footer {
     padding: 1em .5em;

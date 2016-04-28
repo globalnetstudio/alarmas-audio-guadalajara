@@ -8,9 +8,9 @@ $(function() {
 		});
 		
 		$(window).bind('resizeEnd', function() {
-			$('#map1').attr('src','https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3733.118654024492!2d-103.37192962232187!3d20.66475116105026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428ae07c4a049e3%3A0xbb8ecd99b3e1202e!2sAgust%C3%ADn+Y%C3%A1%C3%B1ez%2C+Arcos+Sur%2C+Arcos%2C+44130+Guadalajara%2C+Jal.!5e0!3m2!1ses-419!2smx!4v1461860535513');
+			$('#map1').attr('src','https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d466.6341174333861!2d-103.37438530417224!3d20.666611339304254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428ae09a6bdb1bf%3A0x67cf219efcce854f!2sALARMAS+VIPER-CLIFFORD!5e0!3m2!1ses-419!2smx!4v1461864473325');
 
-			$('#map2').attr('src','https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3733.032984910109!2d-103.42669878555115!3d20.66823700536485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428ae99a81412ff%3A0x47468a9f8aa05ce0!2sAv.+Patria+440%2C+La+Estancia%2C+45030+Zapopan%2C+Jal.!5e0!3m2!1ses-419!2smx!4v1461860627613');
+			$('#map2').attr('src','https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1109.8332956156764!2d-103.42540391680933!3d20.668791376585375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428ae99a81412ff%3A0x47468a9f8aa05ce0!2sAv.+Patria+440%2C+La+Estancia%2C+45030+Zapopan%2C+Jal.!5e0!3m2!1ses-419!2smx!4v1461866025001');
 		});
 	}
 });

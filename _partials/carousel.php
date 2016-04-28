@@ -3,27 +3,27 @@
 	<ul class="slides">
 		<li>
 			<picture>
-				<!-- Imagen Transparente de 1px cuadrado en mobiles -->
-				<source srcset="/images/header/banner/transparent.png" media="(max-width: 767px)">
-				<!-- Imagen para slider arriba de 768px de viewport -->
+				<!-- Imagen para slider menos 650px de viewport -->
+				<source srcset="/images/header/banner/slide-1-768-b.jpg" media="(max-width: 649px)">
+				<!-- Imagen para slider arriba 650px de viewport -->
 				<img src="/images/header/banner/slide-1.jpg" alt="Slider Banner 1">
 			</picture>
 			<p class="flex-caption">¡CALIDAD Y EXPERIENCIA!<br>NOS DISTINGUEN</p>
 		</li>
 		<li>
 			<picture>
-				<!-- Imagen Transparente de 1px cuadrado en mobiles -->
-				<source srcset="/images/header/banner/transparent.png" media="(max-width: 767px)">
-				<!-- Imagen para slider arriba de 768px de viewport -->
+				<!-- Imagen para slider menos 650px de viewport -->
+				<source srcset="/images/header/banner/slide-2-768.jpg" media="(max-width: 649px)">
+				<!-- Imagen para slider arriba 650px de viewport -->
 				<img src="/images/header/banner/slide-2.jpg" alt="Slider Banner 2">
 			</picture>
 			<p class="flex-caption">¡CALIDAD Y EXPERIENCIA!<br>NOS DISTINGUEN</p>
 		</li>
 		<li>
 			<picture>
-				<!-- Imagen Transparente de 1px cuadrado en mobiles -->
-				<source srcset="/images/header/banner/transparent.png" media="(max-width: 767px)">
-				<!-- Imagen para slider arriba de 768px de viewport -->
+				<!-- Imagen para slider menos 650px de viewport -->
+				<source srcset="/images/header/banner/slide-3-768.jpg" media="(max-width: 649px)">
+				<!-- Imagen para slider arriba 650px de viewport -->
 				<img src="/images/header/banner/slide-3.jpg" alt="Slider Banner 3">
 			</picture>
 			<p class="flex-caption">¡CALIDAD Y EXPERIENCIA!<br>NOS DISTINGUEN</p>
