@@ -7,6 +7,7 @@
 		<script src="./js/jquery.min.js"></script>
 		<script src="./js/jquery.flexslider.min.js"></script>
 		<script src="./js/menu.js"></script>
+		<script src="./js/maps.js"></script>
 		<script>
 			$(function() {
 				$('.flexslider').flexslider({

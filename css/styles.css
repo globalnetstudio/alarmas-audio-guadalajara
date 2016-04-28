@@ -579,7 +579,6 @@ b {
 .logos-wrapper {
   -webkit-align-items: center;
       -ms-flex-align: center;
-              -ms-grid-row-align: center;
           align-items: center;
   padding-bottom: 1em;
 }
@@ -719,7 +718,6 @@ b {
           justify-content: space-between;
   -webkit-align-items: center;
       -ms-flex-align: center;
-              -ms-grid-row-align: center;
           align-items: center;
 }
 
@@ -1359,6 +1357,12 @@ b {
   max-width: 472px;
 }
 
+.contact-content .address .address-1 .imgMap1, .contact-content .address .address-1 .imgMap2,
+.contact-content .address .address-2 .imgMap1,
+.contact-content .address .address-2 .imgMap2 {
+  display: none;
+}
+
 .contact-content .address .address-1 .information,
 .contact-content .address .address-2 .information {
   background-color: #cb591e;
@@ -1371,6 +1375,12 @@ b {
 .contact-content .address .address-2 .information p {
   font-size: .8em;
   margin-bottom: .5em;
+}
+
+.contact-content #map1, .contact-content #map2 {
+  height: 250px;
+  max-width: 470px;
+  width: 100%;
 }
 
 /* ------------ 09 - FOOTER ------------ */
