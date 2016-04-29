@@ -13,16 +13,16 @@
 					<a href="/">Inicio</a>
 				</li>
 				<li class="<?php echo (isset($page) && $page == 'alarms') ? 'active' : ''; ?>">
-					<a href="alarmas.php">Alarmas</a>
+					<a href="/alarmas">Alarmas</a>
 				</li>
 				<li class="<?php echo (isset($page) && $page == 'audio') ? 'active' : ''; ?>">
-					<a href="audio.php">Audio</a>
+					<a href="/audio">Audio</a>
 				</li>
 				<li class="<?php echo (isset($page) && $page == 'confort') ? 'active' : ''; ?>">
-					<a href="confort.php">Confort</a>
+					<a href="/confort">Confort</a>
 				</li>
 				<li class="<?php echo (isset($page) && $page == 'contact') ? 'active' : ''; ?>">
-					<a href="contacto.php">Contacto</a>
+					<a href="/contacto">Contacto</a>
 				</li>
 			</ul>
 		</div>
