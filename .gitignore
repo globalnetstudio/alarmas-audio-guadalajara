@@ -2,3 +2,6 @@ prepros.cfg
 node_modules
 composer.lock
 vendor/
+sass/
+gulpfile.js
+package.json
