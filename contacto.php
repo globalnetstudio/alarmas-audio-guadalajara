@@ -1,3 +1,4 @@
+<?php session_start() ?>
 <?php $pageTitle= 'Homepage'; $page = 'contact'; ?>
 
 <?php include('./_partials/head.php'); ?>
@@ -11,6 +12,20 @@
 	<!-- .contact-content -->
 	<section class="contact-content">
 		<h2>¡Contáctanos!</h2>
+		
+		<?php if(isset($_SESSION['error']) && $_SESSION['error'] !== '') : ?>
+			<div class="form-errors">
+				<p><b><?php echo $_SESSION['error']; ?></b></p>
+			
+				<ul>
+					<?php foreach($_SESSION['form-errors'] as $key => $error) : ?>
+					<li>¡ Esciba su <b><?php echo $error ?></b> por favor !</li>
+					<?php endforeach; ?>
+				</ul>
+			</div>
+
+		<?php endif; ?>
+
 		<p class="message">Nos interesa escucharte. <span>Responderemos a tu comentario lo más pronto posible.</span></p>
 
 		<div class="form">
@@ -21,25 +36,45 @@
 
 					<!-- .first-name -->
 					<div class="first-name">
-						<input type="text" name="first-name" placeholder="Nombre(s):">
+						<input <?php echo ($_SESSION['form-errors']['first-name']) ? "class='error'" : null; ?>
+							type="text"
+							name="first-name"
+							placeholder="Nombre(s):"
+							value="<?php echo (isset($_SESSION['old-first-name'])) ? $_SESSION['old-first-name'] : null; ?>"
+						>
 					</div>
 					<!-- /.first-name -->
 
 					<!-- .last-name -->
 					<div class="last-name">
-						<input type="text" name="last-name" placeholder="Apellidos:">
+						<input <?php echo ($_SESSION['form-errors']['last-name']) ? "class='error'" : null; ?>
+							type="text"
+							name="last-name"
+							placeholder="Apellidos:"
+							value="<?php echo (isset($_SESSION['old-last-name'])) ? $_SESSION['old-last-name'] : null; ?>"
+						>
 					</div>
 					<!-- /.last-name -->
 
 					<!-- .phone -->
 					<div class="phone">
-						<input type="text" name="phone" placeholder="Telefono (con lada):">
+						<input <?php echo ($_SESSION['form-errors']['phone']) ? "class='error'" : null; ?>
+							type="text"
+							name="phone"
+							placeholder="Telefono (con lada):"
+							value="<?php echo (isset($_SESSION['old-phone-name'])) ? $_SESSION['old-phone-name'] : null; ?>"
+						>
 					</div>
 					<!-- /.phone -->
 
 					<!-- .email -->
 					<div class="email">
-						<input type="email" name="email" placeholder="Correo Electrónico:">
+						<input <?php echo ($_SESSION['form-errors']['email']) ? "class='error'" : null; ?>
+							type="email"
+							name="email"
+							placeholder="Correo Electrónico:"
+							value="<?php echo (isset($_SESSION['old-email-name'])) ? $_SESSION['old-email-name'] : null; ?>"
+						>
 					</div>
 					<!-- /.email -->
 
@@ -48,7 +83,7 @@
 
 				<!-- .question-comments -->
 				<div class="question-comments">
-					<textarea name="questions-comments" rows="4" placeholder="Preguntas y Comentarios:"></textarea>
+					<textarea <?php echo ($_SESSION['form-errors']['message']) ? "class='error'" : null; ?> name="questions-comments" rows="4" placeholder="Preguntas y Comentarios:"><?php echo (isset($_SESSION['old-message'])) ? $_SESSION['old-message'] : null; ?></textarea>
 				</div>
 				<!-- /.question-comments -->
 
@@ -57,18 +92,32 @@
 					<span>¿ Como prefieres que te contactemos ?</span>
 
 					<label for="email">
-						<input type="checkbox" name="byEmail" value="1" id="email">&nbsp;Email
+						<input
+							type="checkbox"
+							name="byEmail"
+							value="1"
+							id="email"
+							<?php echo ($_SESSION['old-email-check']) ? 'checked' : null; ?>
+						>
+						&nbsp;Email
 					</label>
 
 					<label for="phone">
-						<input type="checkbox" name="byPhone" value="1" id="phone">&nbsp;Teléfono
+						<input
+							type="checkbox"
+							name="byPhone"
+							value="1"
+							id="phone"
+							<?php echo ($_SESSION['old-phone-check']) ? 'checked' : null; ?>
+						>
+						&nbsp;Teléfono
 					</label>
 				</div>
 				<!-- /.checkbox -->
 
 				<!-- .buttons -->
 				<div class="buttons">
-					<button type="cancel">BORRAR</button>
+					<button type="reset">BORRAR</button>
 					<button type="submit">ENVIAR</button>
 				</div>
 				<!-- /.buttons -->
@@ -82,7 +131,7 @@
 
 				<!-- .address-1 -->
 				<div class="address-1">
-					<iframe id="map1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d466.6341174333861!2d-103.37438530417224!3d20.666611339304254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428ae09a6bdb1bf%3A0x67cf219efcce854f!2sALARMAS+VIPER-CLIFFORD!5e0!3m2!1ses-419!2smx!4v1461864473325" frameborder="0" style="border:0" allowfullscreen></iframe>
+					<!--<iframe id="map1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d466.6341174333861!2d-103.37438530417224!3d20.666611339304254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428ae09a6bdb1bf%3A0x67cf219efcce854f!2sALARMAS+VIPER-CLIFFORD!5e0!3m2!1ses-419!2smx!4v1461864473325" frameborder="0" style="border:0" allowfullscreen></iframe>-->
 
 					<!-- .information -->
 					<div class="information">
@@ -96,7 +145,7 @@
 			
 				<!-- .address-1 -->
 				<div class="address-2">
-					<iframe id="map2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1109.8332956156764!2d-103.42540391680933!3d20.668791376585375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428ae99a81412ff%3A0x47468a9f8aa05ce0!2sAv.+Patria+440%2C+La+Estancia%2C+45030+Zapopan%2C+Jal.!5e0!3m2!1ses-419!2smx!4v1461866025001" frameborder="0" style="border:0" allowfullscreen></iframe>
+					<!--<iframe id="map2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1109.8332956156764!2d-103.42540391680933!3d20.668791376585375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428ae99a81412ff%3A0x47468a9f8aa05ce0!2sAv.+Patria+440%2C+La+Estancia%2C+45030+Zapopan%2C+Jal.!5e0!3m2!1ses-419!2smx!4v1461866025001" frameborder="0" style="border:0" allowfullscreen></iframe>-->
 
 					<!-- .information -->
 					<div class="information">
@@ -112,5 +161,5 @@
 
 	</section>
 	<!-- /.contact-content -->
-
-<?php include_once('./_partials/footer.php'); ?>	
+<?php include_once('./_partials/footer.php'); ?>
+<?php $_SESSION = array(); session_destroy(); ?>

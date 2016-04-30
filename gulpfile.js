@@ -29,7 +29,7 @@ gulp.task('serve', function() {
 
 gulp.task('default', function() {
     gulp.run('sass');
-    gulp.run('serve');
+    // gulp.run('serve');
 
     gulp.watch('sass/*.sass', function() {
         gulp.run('sass');

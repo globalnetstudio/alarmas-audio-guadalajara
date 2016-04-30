@@ -24,6 +24,45 @@
   z-index: 1;
 }
 
+.form-errors {
+  font-size: 14px;
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+  padding: 15px;
+  margin: 1em auto 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.form-errors p {
+  margin-bottom: 1em;
+}
+
+.form-errors ul {
+  margin-left: 2em;
+  list-style-type: disc;
+}
+
+.error {
+  border: solid 1px #a94442 !important;
+  background-color: #f2dede;
+}
+
+@media (max-width: 599px) {
+  .form-errors {
+    font-size: 13px;
+    width: 95%;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 768px) {
+  .form-errors {
+    font-size: 13px;
+    width: 80%;
+  }
+}
+
 /* -------------- 01 - GENERAL -------------- */
 body {
   font-size: 16px;
@@ -502,11 +541,11 @@ b {
   color: #424242;
   text-decoration: none;
   background-color: #ffffff;
-  display: block;
+  display: none;
   padding: 5px;
   font-size: 14px;
   position: relative;
-  padding-left: 24px;
+  padding-left: 5px;
   margin-left: 5px;
   transition: all .5s;
 }
@@ -516,16 +555,10 @@ b {
   color: #ffffff;
 }
 
-.alarms .row .column .title-botton a.button:before {
-  background-color: #424242;
-  border-radius: 25px;
-  color: #ffffff;
-  content: "+";
-  height: 18px;
-  width: 18px;
-  position: absolute;
-  top: 4px;
-  left: 3px;
+.alarms .row .column .title-botton a.button i.icon-plus-circle {
+  display: none;
+  display-position: relative;
+  display-top: 2px;
 }
 
 .protect {
@@ -579,6 +612,7 @@ b {
 .logos-wrapper {
   -webkit-align-items: center;
       -ms-flex-align: center;
+              -ms-grid-row-align: center;
           align-items: center;
   padding-bottom: 1em;
 }
@@ -718,6 +752,7 @@ b {
           justify-content: space-between;
   -webkit-align-items: center;
       -ms-flex-align: center;
+              -ms-grid-row-align: center;
           align-items: center;
 }
 
@@ -1483,7 +1518,7 @@ b {
   }
 }
 
-@media (min-width: 768px) and (max-width: 959px) {
+@media (min-width: 600px) and (max-width: 959px) {
   .header .left-background {
     width: 100%;
   }
@@ -1707,7 +1742,7 @@ b {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 599px) {
   .header {
     height: 390px;
     border-bottom: 8px solid #cb591e;
