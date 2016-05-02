@@ -19,7 +19,11 @@
 			
 				<ul>
 					<?php foreach($_SESSION['form-errors'] as $key => $error) : ?>
-					<li>¡ Esciba su <b><?php echo $error ?></b> por favor !</li>
+						<?php if($key == 'questionComment') : ?>
+							<li>Esciba sus <b><?php echo $error ?></b></li>	
+						<?php else: ?>
+							<li>Esciba su <b><?php echo $error ?></b></li>
+						<?php endif; ?>
 					<?php endforeach; ?>
 				</ul>
 			</div>
@@ -29,16 +33,17 @@
 		<p class="message">Nos interesa escucharte. <span>Responderemos a tu comentario lo más pronto posible.</span></p>
 
 		<div class="form">
-			<form action="process-email.php" method="POST">
+			<form id="contactForm" action="process-email.php"  method="POST">
 
 				<!-- .form-inputs -->
 				<div class="form-inputs">
 
 					<!-- .first-name -->
 					<div class="first-name">
-						<input <?php echo ($_SESSION['form-errors']['first-name']) ? "class='error'" : null; ?>
+						<input <?php echo ($_SESSION['form-errors']['firstName']) ? "class='inputError'" : null; ?>
+							id="firstName"
 							type="text"
-							name="first-name"
+							name="firstName"
 							placeholder="Nombre(s):"
 							value="<?php echo (isset($_SESSION['old-first-name'])) ? $_SESSION['old-first-name'] : null; ?>"
 						>
@@ -47,9 +52,10 @@
 
 					<!-- .last-name -->
 					<div class="last-name">
-						<input <?php echo ($_SESSION['form-errors']['last-name']) ? "class='error'" : null; ?>
+						<input <?php echo ($_SESSION['form-errors']['lastName']) ? "class='inputError'" : null; ?>
+							id="lastName"
 							type="text"
-							name="last-name"
+							name="lastName"
 							placeholder="Apellidos:"
 							value="<?php echo (isset($_SESSION['old-last-name'])) ? $_SESSION['old-last-name'] : null; ?>"
 						>
@@ -58,7 +64,8 @@
 
 					<!-- .phone -->
 					<div class="phone">
-						<input <?php echo ($_SESSION['form-errors']['phone']) ? "class='error'" : null; ?>
+						<input <?php echo ($_SESSION['form-errors']['phone']) ? "class='inputError'" : null; ?>
+							id="phone"
 							type="text"
 							name="phone"
 							placeholder="Telefono (con lada):"
@@ -69,7 +76,8 @@
 
 					<!-- .email -->
 					<div class="email">
-						<input <?php echo ($_SESSION['form-errors']['email']) ? "class='error'" : null; ?>
+						<input <?php echo ($_SESSION['form-errors']['email']) ? "class='inputError'" : null; ?>
+							id="email"
 							type="email"
 							name="email"
 							placeholder="Correo Electrónico:"
@@ -83,7 +91,7 @@
 
 				<!-- .question-comments -->
 				<div class="question-comments">
-					<textarea <?php echo ($_SESSION['form-errors']['message']) ? "class='error'" : null; ?> name="questions-comments" rows="4" placeholder="Preguntas y Comentarios:"><?php echo (isset($_SESSION['old-message'])) ? $_SESSION['old-message'] : null; ?></textarea>
+					<textarea id="questionComment" <?php echo ($_SESSION['form-errors']['questionComment']) ? "class='inputError'" : null; ?> name="questionComment" rows="4" placeholder="Preguntas y Comentarios:"><?php echo (isset($_SESSION['old-message'])) ? $_SESSION['old-message'] : null; ?></textarea>
 				</div>
 				<!-- /.question-comments -->
 
@@ -91,8 +99,9 @@
 				<div class="checkbox">
 					<span>¿ Como prefieres que te contactemos ?</span>
 
-					<label for="email">
+					<label for="byEmail">
 						<input
+							id="byEmail"
 							type="checkbox"
 							name="byEmail"
 							value="1"
@@ -102,12 +111,12 @@
 						&nbsp;Email
 					</label>
 
-					<label for="phone">
+					<label for="byPhone">
 						<input
+							id="byPhone"
 							type="checkbox"
 							name="byPhone"
 							value="1"
-							id="phone"
 							<?php echo ($_SESSION['old-phone-check']) ? 'checked' : null; ?>
 						>
 						&nbsp;Teléfono
@@ -131,7 +140,7 @@
 
 				<!-- .address-1 -->
 				<div class="address-1">
-					<iframe id="map1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d466.6341174333861!2d-103.37438530417224!3d20.666611339304254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428ae09a6bdb1bf%3A0x67cf219efcce854f!2sALARMAS+VIPER-CLIFFORD!5e0!3m2!1ses-419!2smx!4v1461864473325" frameborder="0" style="border:0" allowfullscreen></iframe>
+					<!--<iframe id="map1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d466.6341174333861!2d-103.37438530417224!3d20.666611339304254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428ae09a6bdb1bf%3A0x67cf219efcce854f!2sALARMAS+VIPER-CLIFFORD!5e0!3m2!1ses-419!2smx!4v1461864473325" frameborder="0" style="border:0" allowfullscreen></iframe>-->
 
 					<!-- .information -->
 					<div class="information">
@@ -145,7 +154,7 @@
 			
 				<!-- .address-1 -->
 				<div class="address-2">
-					<iframe id="map2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1109.8332956156764!2d-103.42540391680933!3d20.668791376585375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428ae99a81412ff%3A0x47468a9f8aa05ce0!2sAv.+Patria+440%2C+La+Estancia%2C+45030+Zapopan%2C+Jal.!5e0!3m2!1ses-419!2smx!4v1461866025001" frameborder="0" style="border:0" allowfullscreen></iframe>
+					<!--<iframe id="map2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1109.8332956156764!2d-103.42540391680933!3d20.668791376585375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428ae99a81412ff%3A0x47468a9f8aa05ce0!2sAv.+Patria+440%2C+La+Estancia%2C+45030+Zapopan%2C+Jal.!5e0!3m2!1ses-419!2smx!4v1461866025001" frameborder="0" style="border:0" allowfullscreen></iframe>-->
 
 					<!-- .information -->
 					<div class="information">

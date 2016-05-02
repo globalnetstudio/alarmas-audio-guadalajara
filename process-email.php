@@ -4,33 +4,33 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 	// Inicializa la sesión
 	session_start();
 	$_SESSION['form-errors'] = [];
-
+	
 	// Inicializar contador de errores	
 
 	$fn = false; $ln = false; $ph = false; $em = false; $be = false; $bp = false; $qc = false;
 
 	// Asignar variables del formulario y limpiar espacios del inicio
-	$firstName = (isset($_POST['first-name'])) ? trim($_POST['first-name']) : '';
-	$lastName  = (isset($_POST['last-name']))  ? trim($_POST['last-name'])  : '';
+	$firstName = (isset($_POST['firstName'])) ? trim($_POST['firstName']) : '';
+	$lastName  = (isset($_POST['lastName']))  ? trim($_POST['lastName'])  : '';
 	$phone     = (isset($_POST['phone']))      ? trim($_POST['phone'])      : '';
 	$email     = (isset($_POST['email']))      ? trim($_POST['email'])      : '';
 	$byEmail   = (isset($_POST['byEmail']))    ? trim($_POST['byEmail'])    : '';
 	$byPhone   = (isset($_POST['byPhone']))    ? trim($_POST['byPhone'])    : '';
-	$questionsComments = (isset($_POST['questions-comments'])) ? trim($_POST['questions-comments']) : '';
+	$questionsComments = (isset($_POST['questionComment'])) ? trim($_POST['questionComment']) : '';
 
 	// Validación campos vacios
 	if($firstName !== '') :
 		$fn = true;
 		$_SESSION['old-first-name'] = $firstName;
 	else:
-		$_SESSION['form-errors']['first-name'] = "nombre";
+		$_SESSION['form-errors']['firstName'] = "nombre";
 	endif;
 	
 	if($lastName !== '') :
 		$ln = true;
 		$_SESSION['old-last-name'] = $lastName;
 	else:
-		$_SESSION['form-errors']['last-name'] = "apellido";
+		$_SESSION['form-errors']['lastName'] = "apellido";
 	endif;
 
 	if($phone !== '') :
@@ -51,7 +51,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 		$qc = true;
 		$_SESSION['old-message'] = $questionsComments;
 	else:
-		$_SESSION['form-errors']['message'] = "mensaje";
+		$_SESSION['form-errors']['questionComment'] = "Preguntas y comentarios";
 	endif;
 	
 	if($byEmail == 1) :
