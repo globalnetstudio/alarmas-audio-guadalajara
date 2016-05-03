@@ -8,7 +8,11 @@
 	
 		<?php include('./_partials/header.php'); ?>
 
-		<?php include('./_partials/carousel.php'); ?>
+		<!-- .thanks-carousel -->
+		<div class="thanks-carousel">
+			<?php include('./_partials/carousel.php'); ?>
+		</div>
+		<!-- /.thanks-carousel -->
 	
 		<!-- .thanks-content -->
 		<section class="thanks-content">
