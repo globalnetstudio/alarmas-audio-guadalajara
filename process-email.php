@@ -10,8 +10,8 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 	$fn = false; $ln = false; $ph = false; $em = false; $be = false; $bp = false; $qc = false;
 
 	// Asignar variables del formulario y limpiar espacios del inicio
-	$firstName = (isset($_POST['firstName'])) ? trim($_POST['firstName']) : '';
-	$lastName  = (isset($_POST['lastName']))  ? trim($_POST['lastName'])  : '';
+	$firstName = (isset($_POST['firstName']))  ? trim($_POST['firstName']) : '';
+	$lastName  = (isset($_POST['lastName']))   ? trim($_POST['lastName'])  : '';
 	$phone     = (isset($_POST['phone']))      ? trim($_POST['phone'])      : '';
 	$email     = (isset($_POST['email']))      ? trim($_POST['email'])      : '';
 	$byEmail   = (isset($_POST['byEmail']))    ? trim($_POST['byEmail'])    : '';
@@ -65,13 +65,20 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 	endif;
 
 	if(!$fn || !$ln || !$ph || !$em || !$qc) :
-		$_SESSION['error'] = 'No se pudo enviar el correo reviza el fomulario';
+		$_SESSION['error'] = '¡ No se pudo enviar el correo !';
 		header("Location: /contacto");
 		exit();	
 	endif;
 
 	// Pasa La validación y se procede a enviar el correo electrónico
 
+	// Se crea el variable de sesión de mail-sended
+	// como verdadero para poder mostrar la página
+	$_SESSION['mail-sended'] = true;
+
+	// Se redirecciona a la página de gracias
+	header("Location: /gracias");
+	exit();
 } else {
 	header("Location: /contacto");
 	exit();

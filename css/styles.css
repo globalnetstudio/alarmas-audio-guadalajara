@@ -45,6 +45,7 @@
 }
 
 input.inputError,
+textarea.inputError,
 input.error,
 textarea.error {
   border: solid 1px #a94442 !important;
@@ -73,7 +74,95 @@ label.error {
   }
 }
 
+.thanks-content {
+  display: table;
+  min-height: 400px;
+  width: 100%;
+}
+
+.thanks-content .wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.thanks-content .message {
+  background-color: #dff0d8;
+  border: 1px solid transparent;
+  border-color: #d6e9c6;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: #3c763d;
+  min-height: 100px;
+  padding: 15px;
+  width: 50%;
+  margin: -150px auto 0;
+  text-align: center;
+}
+
+.thanks-content h2 {
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+
+.thanks-content p {
+  line-height: 20px;
+  padding: 0 20px;
+}
+
+@media (min-width: 2600px) {
+  .thanks-content .message {
+    margin-top: 0;
+  }
+  .thanks-content h2 {
+    font-size: 3em;
+    padding: 10px 15px;
+  }
+  .thanks-content p {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 35px;
+  }
+}
+
+@media (min-width: 1440px) and (max-width: 2599px) {
+  .thanks-content .message {
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 1360px) and (max-width: 1439px) {
+  .thanks-content .message {
+    margin-top: -150px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1359px) {
+  .thanks-content .message {
+    margin-top: 0;
+    width: 90%;
+  }
+  .thanks-content h2 {
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 767px) {
+  .thanks-content .message {
+    margin-top: 0;
+    width: 90%;
+  }
+  .thanks-content h2 {
+    font-size: 1.2em;
+  }
+}
+
 /* -------------- 01 - GENERAL -------------- */
+html, body {
+  height: 100%;
+}
+
 body {
   font-size: 16px;
   font-family: arial, geneva, sans-serif;
@@ -1752,7 +1841,7 @@ b {
   }
 }
 
-@media (max-width: 599px) {
+@media (max-width: 768px) {
   .header {
     height: 390px;
     border-bottom: 8px solid #cb591e;

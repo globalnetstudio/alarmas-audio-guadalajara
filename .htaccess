@@ -6,4 +6,5 @@ RewriteRule ^alarmas/?$ alarmas.php
 RewriteRule ^audio/?$ audio.php
 RewriteRule ^confort/?$ confort.php
 RewriteRule ^contacto/?$ contacto.php
+RewriteRule ^gracias/?$ gracias.php
 </IfModule>
