@@ -79,6 +79,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 	// Se redirecciona a la página de gracias
 	header("Location: /gracias");
 	exit();
+
 } else {
 	header("Location: /contacto");
 	exit();

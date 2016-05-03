@@ -75,14 +75,8 @@ label.error {
 }
 
 .thanks-content {
-  display: table;
-  min-height: 400px;
+  min-height: 100vh;
   width: 100%;
-}
-
-.thanks-content .wrapper {
-  display: table-cell;
-  vertical-align: middle;
 }
 
 .thanks-content .message {
@@ -92,10 +86,7 @@ label.error {
   border-radius: 5px;
   box-sizing: border-box;
   color: #3c763d;
-  min-height: 100px;
   padding: 15px;
-  width: 50%;
-  margin: -150px auto 0;
   text-align: center;
 }
 
@@ -112,7 +103,8 @@ label.error {
 
 @media (min-width: 2600px) {
   .thanks-content .message {
-    margin-top: 0;
+    margin-top: 100px;
+    border-radius: 0;
   }
   .thanks-content h2 {
     font-size: 3em;
@@ -126,32 +118,77 @@ label.error {
   }
 }
 
-@media (min-width: 1440px) and (max-width: 2599px) {
+@media (min-width: 1920px) and (max-width: 2599px) {
   .thanks-content .message {
-    margin-top: 0;
-  }
-}
-
-@media (min-width: 1360px) and (max-width: 1439px) {
-  .thanks-content .message {
-    margin-top: -150px;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 1359px) {
-  .thanks-content .message {
-    margin-top: 0;
-    width: 90%;
+    margin-top: 50px;
+    border-radius: 0;
   }
   .thanks-content h2 {
+    font-size: 2.5em;
+    padding: 10px 15px;
+  }
+  .thanks-content p {
     font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 35px;
   }
 }
 
-@media (max-width: 767px) {
+@media (min-width: 1280px) and (max-width: 1919px) {
   .thanks-content .message {
-    margin-top: 0;
+    margin: 30px auto;
     width: 90%;
+  }
+}
+
+@media (min-width: 960px) and (max-width: 1279px) {
+  .thanks-content {
+    min-height: 100%;
+    width: 100%;
+  }
+  .thanks-content .wrapper {
+    display: block;
+  }
+  .thanks-content .message {
+    width: 80%;
+    display: block;
+    margin: 30px auto 0;
+  }
+}
+
+@media (max-width: 959px) {
+  .thanks-content {
+    min-height: 100vh;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-align-items: flex-start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .thanks-content .wrapper {
+    display: block;
+    vertical-align: inherit;
+    margin-top: 5%;
+    width: 90%;
+  }
+  .thanks-content .message {
+    height: 200px;
+    margin: inherit;
+    width: 100%;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .thanks-content h2 {
     font-size: 1.2em;
