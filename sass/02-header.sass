@@ -1,0 +1,135 @@
+/* ------------------ 02 - HEADER ------------------ */
+.header
+	position: relative
+	width: 100%
+	height: 129px
+	z-index: 10
+	.left-background
+		top: -1px
+		left: 0
+		position: absolute
+		z-index: 10
+		width: 40%
+		height: 129px
+		background: url(../images/header/left-background.jpg) repeat-x left center
+	.middle-background
+		position: absolute
+		top: -1px
+		left: 40%
+		height: 129px
+		width: 126px
+		background: url(../images/header/middle-background.png) no-repeat left center
+		z-index: 20
+	.right-background
+		background-color: $lineColor
+		height: 12px
+		width: 100%
+		position: relative
+		top: 116px
+		z-index: 0
+		box-shadow: 0 7px 0 $orange
+	.logo
+		position: absolute
+		top: 10px
+		left: 40%
+		margin-left: -255px
+		width: 315px
+		z-index: 30
+		img
+			max-width: 100%
+			height: auto
+	.main-menu
+		width: 100%
+		position: absolute
+		bottom: -56px
+		z-index: 40
+		#menu-button
+			display: none
+		ul			
+			display: flex
+			justify-content: space-around
+			margin: 0 auto
+			width: $mainWidth
+			li
+				position: relative
+				height: 50px
+				flex: auto
+				text-align: center
+				display: block
+				&:last-child
+					border-right: none					
+				a
+					background-color: rgba(0,0,0,0.70)
+					color: #fff
+					text-decoration: none
+					display: inline-block
+					font-size: 18px
+					padding: 14px 0
+					letter-spacing: 2px
+					width: 100%
+					transition: all .5s
+				a:hover
+					background-color: rgba(darken($orange, 5%), .8)
+			li.active a
+				color: $orange
+				font-weight: bold
+				&:hover
+					background-color: rgba(0,0,0,0.70)
+			li:before,
+				background-color: #818385
+				content: ""
+				height: 10px		    
+				position: absolute
+				width: 2px
+				box-shadow: 0 40px 0 0 #818385
+				z-index: 1
+				right: 0
+			li:last-child:before
+				display: none
+	.address
+		color: $white
+		height: 116px
+		position: absolute
+		top: 0
+		left: 50%
+		display: flex
+		align-items: center
+		.left-column
+			margin-right: 7px
+		i.icon-mark:before,
+		i.icon-mail:before,
+		i.icon-phone:before
+			position: relative
+			top: 2px
+			padding-right: 5px 
+			font-size: 18px
+		p
+			margin-bottom: 10px
+			font-size: .95em
+		.social-icons
+			margin-top: 10px
+			& > div
+				display: inline-block
+				margin-right: 2px
+				height: 30px
+				width: 30px
+				a
+					text-decoration: none					
+				i
+					color: $white
+					position: relative
+					font-size: 22px
+					&:before
+						position: relative
+						top: 5px
+						left: 3px
+			.twitter
+				background-color: #62aee6
+			.facebook
+				background-color: #243f8b
+			.youtube
+				background-color: #db1f25
+				i:before
+					top: 5px
+			.google-plus
+				background-color: #da4835
