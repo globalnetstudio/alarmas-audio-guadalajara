@@ -5,3 +5,4 @@ vendor/
 sass/
 gulpfile.js
 package.json
+css/styles.css.map
