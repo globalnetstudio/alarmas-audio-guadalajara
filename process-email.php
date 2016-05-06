@@ -4,6 +4,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 	// Inicializa la sesión
 	session_start();
 	$_SESSION['form-errors'] = [];
+	$_SESSION['mail-sended'] = false;
 	
 	// Inicializar contador de errores	
 
@@ -80,7 +81,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 	header("Location: /gracias");
 	exit();
 
-} else {
+} else {	
 	header("Location: /contacto");
 	exit();
 }

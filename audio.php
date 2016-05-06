@@ -1,4 +1,5 @@
-<?php $pageTitle= 'Homepage'; $page = 'audio'; ?>
+<?php include('./_partials/api.php'); ?>
+<?php $pageTitle= 'Audio'; $page = 'audio'; ?>
 
 <?php include('./_partials/head.php'); ?>
 

@@ -1,4 +1,5 @@
-<?php $pageTitle= 'Homepage'; $page = 'confort'; ?>
+<?php include('./_partials/api.php'); ?>
+<?php $pageTitle= 'Confort'; $page = 'confort'; ?>
 
 <?php include('./_partials/head.php'); ?>
 

@@ -1,5 +1,6 @@
-<?php session_start() ?>
-<?php $pageTitle= 'Homepage'; $page = 'contact'; ?>
+<?php include('./_partials/api.php'); ?>
+<?php session_start(); ?>
+<?php $pageTitle= 'Contacto'; $page = 'contact'; ?>
 
 <?php include('./_partials/head.php'); ?>
 
@@ -40,7 +41,7 @@
 
 					<!-- .first-name -->
 					<div class="first-name">
-						<input <?php echo ($_SESSION['form-errors']['firstName']) ? "class='inputError'" : null; ?>
+						<input <?php echo (isset($_SESSION['form-errors']['firstName'])) ? "class='inputError'" : null; ?>
 							id="firstName"
 							type="text"
 							name="firstName"
@@ -52,7 +53,7 @@
 
 					<!-- .last-name -->
 					<div class="last-name">
-						<input <?php echo ($_SESSION['form-errors']['lastName']) ? "class='inputError'" : null; ?>
+						<input <?php echo (isset($_SESSION['form-errors']['lastName'])) ? "class='inputError'" : null; ?>
 							id="lastName"
 							type="text"
 							name="lastName"
@@ -64,7 +65,7 @@
 
 					<!-- .phone -->
 					<div class="phone">
-						<input <?php echo ($_SESSION['form-errors']['phone']) ? "class='inputError'" : null; ?>
+						<input <?php echo (isset($_SESSION['form-errors']['phone'])) ? "class='inputError'" : null; ?>
 							id="phone"
 							type="text"
 							name="phone"
@@ -76,7 +77,7 @@
 
 					<!-- .email -->
 					<div class="email">
-						<input <?php echo ($_SESSION['form-errors']['email']) ? "class='inputError'" : null; ?>
+						<input <?php echo (isset($_SESSION['form-errors']['email'])) ? "class='inputError'" : null; ?>
 							id="email"
 							type="email"
 							name="email"
@@ -91,7 +92,7 @@
 
 				<!-- .question-comments -->
 				<div class="question-comments">
-					<textarea id="questionComment" <?php echo ($_SESSION['form-errors']['questionComment']) ? "class='inputError'" : null; ?> name="questionComment" rows="4" placeholder="Preguntas y Comentarios:"><?php echo (isset($_SESSION['old-message'])) ? $_SESSION['old-message'] : null; ?></textarea>
+					<textarea id="questionComment" <?php echo (isset($_SESSION['form-errors']['questionComment'])) ? "class='inputError'" : null; ?> name="questionComment" rows="4" placeholder="Preguntas y Comentarios:"><?php echo (isset($_SESSION['old-message'])) ? $_SESSION['old-message'] : null; ?></textarea>
 				</div>
 				<!-- /.question-comments -->
 
@@ -106,7 +107,7 @@
 							name="byEmail"
 							value="1"
 							id="email"
-							<?php echo ($_SESSION['old-email-check']) ? 'checked' : null; ?>
+							<?php echo (isset($_SESSION['old-email-check'])) ? 'checked' : null; ?>
 						>
 						&nbsp;Email
 					</label>
@@ -117,7 +118,7 @@
 							type="checkbox"
 							name="byPhone"
 							value="1"
-							<?php echo ($_SESSION['old-phone-check']) ? 'checked' : null; ?>
+							<?php echo (isset($_SESSION['old-phone-check'])) ? 'checked' : null; ?>
 						>
 						&nbsp;Teléfono
 					</label>

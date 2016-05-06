@@ -10,10 +10,10 @@
 	  <meta name="robots" content="index, follow">
 
 		<!-- Styles  -->
-		<link rel="stylesheet" href="./css/reset.css">
-		<link rel="stylesheet" href="./css/fontastic.css">
-		<link rel="stylesheet" href="./css/flexslider.css">
-		<link rel="stylesheet" href="./css/styles.css">
+		<link rel="stylesheet" href="/css/reset.css">
+		<link rel="stylesheet" href="/css/fontastic.css">
+		<link rel="stylesheet" href="/css/flexslider.css">
+		<link rel="stylesheet" href="/css/styles.css">
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 	  <!--[if lt IE 9]>
@@ -29,7 +29,7 @@
     	// Picture element HTML5 shiv
     	document.createElement( "picture" );
   	</script>
-	  <script src="./js/picturefill.js" async></script>
+	  <script src="/js/picturefill.js" async></script>
 	</head>
 
 	<body id="<?php echo (isset($pageId)) ? $pageId : null ?>">

@@ -1,4 +1,5 @@
-<?php $pageTitle= 'Homepage'; $page = 'alarms'; ?>
+<?php include('./_partials/api.php'); ?>
+<?php $pageTitle= 'Alarmas'; $page = 'alarms'; ?>
 
 <?php include('./_partials/head.php'); ?>
 
@@ -24,7 +25,6 @@
 						<!-- title-botton -->
 						<div class="title-botton">
 							<h3>Viper 5706V</h3>
-							<a class="button" href="#"><i class="icon-plus-circle"></i>&nbsp;Detalles</a>
 						</div>
 						<!-- ./title-botton -->
 					</div>
@@ -40,7 +40,6 @@
 						<!-- title-botton -->
 						<div class="title-botton">
 							<h3>Viper 5305V</h3>
-							<a class="button" href="#"><i class="icon-plus-circle"></i>&nbsp;Detalles</a>
 						</div>
 						<!-- ./title-botton -->
 					</div>
@@ -56,7 +55,6 @@
 						<!-- title-botton -->
 						<div class="title-botton">
 							<h3>Viper 3606V</h3>
-							<a class="button" href="#"><i class="icon-plus-circle"></i>&nbsp;Detalles</a>
 						</div>
 						<!-- ./title-botton -->
 					</div>
@@ -72,7 +70,6 @@
 						<!-- title-botton -->
 						<div class="title-botton">
 							<h3>Viper3106V</h3>
-							<a class="button" href="#"><i class="icon-plus-circle"></i>&nbsp;Detalles</a>
 						</div>
 						<!-- ./title-botton -->
 					</div>
@@ -92,7 +89,6 @@
 						<!-- title-botton -->
 						<div class="title-botton">
 							<h3>Viper 3100V</h3>
-							<a class="button" href="#"><i class="icon-plus-circle"></i>&nbsp;Detalles</a>
 						</div>
 						<!-- ./title-botton -->
 					</div>
@@ -108,7 +104,7 @@
 						<!-- title-botton -->
 						<div class="title-botton">
 							<h3>Clifford 5706X</h3>
-							<a class="button" href="#"><i class="icon-plus-circle"></i>&nbsp;Detalles</a>
+							<a class="button" href="/alarmas/clifford-5706x"><i class="icon-plus-circle"></i>&nbsp;Detalles</a>
 						</div>
 						<!-- ./title-botton -->
 					</div>
@@ -124,7 +120,7 @@
 						<!-- title-botton -->
 						<div class="title-botton">
 							<h3>Clifford 3305X</h3>
-							<a class="button" href="#"><i class="icon-plus-circle"></i>&nbsp;Detalles</a>
+							<a class="button" href="/alarmas/clifford-3305x"><i class="icon-plus-circle"></i>&nbsp;Detalles</a>
 						</div>
 						<!-- ./title-botton -->
 					</div>
@@ -140,7 +136,7 @@
 						<!-- title-botton -->
 						<div class="title-botton">
 							<h3>Clifford 3105X</h3>
-							<a class="button" href="#"><i class="icon-plus-circle"></i>&nbsp;Detalles</a>
+							<a class="button" href="/alarmas/clifford-3105x"><i class="icon-plus-circle"></i>&nbsp;Detalles</a>
 						</div>
 						<!-- ./title-botton -->
 					</div>
@@ -160,7 +156,7 @@
 						<!-- title-botton -->
 						<div class="title-botton">
 							<h3>Clifford Blackjax</h3>
-							<a class="button" href="#"><i class="icon-plus-circle"></i>&nbsp;Detalles</a>
+							<a class="button" href="/alarmas/clifford-blackjax"><i class="icon-plus-circle"></i>&nbsp;Detalles</a>
 						</div>
 						<!-- ./title-botton -->
 					</div>
@@ -176,7 +172,7 @@
 						<!-- title-botton -->
 						<div class="title-botton">
 							<h3>Automate AM 1.5</h3>
-							<a class="button" href="#"><i class="icon-plus-circle"></i>&nbsp;Detalles</a>
+							<a class="button" href="/alarmas/automate-am-1.5"><i class="icon-plus-circle"></i>&nbsp;Detalles</a>
 						</div>
 						<!-- ./title-botton -->
 					</div>
@@ -192,7 +188,6 @@
 						<!-- title-botton -->
 						<div class="title-botton">
 							<h3>Clifford Smartstart</h3>
-							<a class="button" href="#"><i class="icon-plus-circle"></i>&nbsp;Detalles</a>
 						</div>
 						<!-- ./title-botton -->
 					</div>
@@ -208,7 +203,7 @@
 						<!-- title-botton -->
 						<div class="title-botton">
 							<h3>Clifford 3606X</h3>
-							<a class="button" href="#"><i class="icon-plus-circle"></i>&nbsp;Detalles</a>
+							<a class="button" href="/alarmas/clifford-3606x"><i class="icon-plus-circle"></i>&nbsp;Detalles</a>
 						</div>
 						<!-- ./title-botton -->
 					</div>
@@ -229,7 +224,6 @@
 						<div class="title-botton">
 							<h3 class="hide">Padlock Moto X</h3>
 							<img class="moto-x" src="/images/icons/moto-x.png" alt="">
-							<a class="button" href="#"><i class="icon-plus-circle"></i>&nbsp;Detalles</a>
 						</div>
 						<!-- ./title-botton -->
 					</div>
@@ -245,7 +239,7 @@
 						<!-- title-botton -->
 						<div class="title-botton">
 							<h3>Arrow 5.1</h3>
-							<a class="button" href="#"><i class="icon-plus-circle"></i>&nbsp;Detalles</a>
+							<a class="button" href="/alarmas/arrow-5.1"><i class="icon-plus-circle"></i>&nbsp;Detalles</a>
 						</div>
 						<!-- ./title-botton -->
 					</div>
@@ -261,7 +255,7 @@
 						<!-- title-botton -->
 						<div class="title-botton">
 							<h3>3100L</h3>
-							<a class="button" href="#"><i class="icon-plus-circle"></i>&nbsp;Detalles</a>
+							<a class="button" href="/alarmas/avital-3100l"><i class="icon-plus-circle"></i>&nbsp;Detalles</a>
 						</div>
 						<!-- ./title-botton -->
 					</div>
@@ -277,7 +271,7 @@
 						<!-- title-botton -->
 						<div class="title-botton">
 							<h3>5303L</h3>
-							<a class="button" href="#"><i class="icon-plus-circle"></i>&nbsp;Detalles</a>
+							<a class="button" href="/alarmas/avital-5303l"><i class="icon-plus-circle"></i>&nbsp;Detalles</a>
 						</div>
 						<!-- ./title-botton -->
 					</div>
@@ -297,7 +291,7 @@
 						<!-- title-botton -->
 						<div class="title-botton">
 							<h3>Módulo de Arranque</h3>
-							<a class="button" href="#"><i class="icon-plus-circle"></i>&nbsp;Detalles</a>
+							<a class="button" href="/alarmas/modulo-de-arranque"><i class="icon-plus-circle"></i>&nbsp;Detalles</a>
 						</div>
 						<!-- ./title-botton -->
 					</div>
