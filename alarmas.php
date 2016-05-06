@@ -172,7 +172,7 @@
 						<!-- title-botton -->
 						<div class="title-botton">
 							<h3>Automate AM 1.5</h3>
-							<a class="button" href="/alarmas/automate-am-1.5"><i class="icon-plus-circle"></i>&nbsp;Detalles</a>
+							<a class="button" href="/alarmas/automate-am-1-5"><i class="icon-plus-circle"></i>&nbsp;Detalles</a>
 						</div>
 						<!-- ./title-botton -->
 					</div>

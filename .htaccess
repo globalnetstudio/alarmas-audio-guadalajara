@@ -12,5 +12,5 @@ RewriteRule ^contacto/?$ contacto.php
 RewriteRule ^gracias/?$ gracias.php
 
 # URL Productos
-RewriteRule ^alarmas/([a-z0-9-]+)$ product.php?producto=$1
+RewriteRule ^alarmas/([a-z0-9-.]+)$ product.php?producto=$1
 </IfModule>

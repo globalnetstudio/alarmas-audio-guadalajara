@@ -37,7 +37,7 @@ $products = [
 		'description' => '<p>Blackjax es el sistema de respuesta de Clifford único anti-robo de auto que pone primero la seguridad personal durante el uso con los avances innovadores para asegurar que los usuarios puedan recuperar el vehículo.</p> <p>Si un ladrón de choches armados se acerca ya sea en un semáforo o en un estacionamiento (<i>donde se producen la mayoría de los robos de vehículos</i>) gire inmediatamente las llaves y la tecnología Clifford se hará cargo</p>.',
 		'features' 		=> '<p><b>Totalmente automático:</b> No hay botones o transmisores cuando un arma esta involucrada. Sólo debe alejarse del vehículo.</p><p><b>Respuesta Rapida:</b> BlackJax permite al criminal huir a una distancia segura. Luego unos segundos más tarde BlackJax hace sonar la sirena y destella las luces para alertar a otros conductores y testigos.</p><p>A continuación, interrumpe el sistema de encendido para forzar de manera segura el vehículo, disminuya la velocidad hasta detenerse por completo.</p><p>Sirena a todo volumen y luces intermitentes, incapaces de arrancar el motor, el asaltante no tiene más remedio que abandonar el vehículo.</p>',
 	],
-	'automate-am-1.5' => [
+	'automate-am-1-5' => [
 		'name' 				=> 'Automate AM 1.5',
 		'image'       => 'automate-am-1.5-big.jpg',
 		'description' => '<p><b>Los controles de Fábrica todos son iguales por que se instalan en serie</b></p><p><b>Automate:</b> Amplía la seguridad de los controles remoto originales de fábrica, por su corte de encendido ya que su instalación es diferente en cada auto, no en serie.</p>.',
