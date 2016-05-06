@@ -56,6 +56,10 @@ label.error {
   margin: .5em 0 1em .5em;
 }
 
+.clear {
+  clear: both;
+}
+
 @media (max-width: 599px) {
   .form-errors {
     font-size: 13px;
@@ -414,12 +418,13 @@ b {
 }
 
 /* --------- 03 - CAROUSEL --------- */
-.carousel {
+.carousel {  
   width: 100%;
   position: relative;
   top: -129px;
   margin-bottom: -129px;
   z-index: 0;
+  background-color: #222;
 }
 
 .carousel img {
@@ -493,7 +498,70 @@ b {
 }
 
 .alarms-audio-confort {
+  background: #fff url(/images/home/home-back-pattern.jpg) repeat;
+  background-size: 1127px 528px;
   margin-bottom: -5px;
+  padding-bottom: 30px;
+  width: 100%
+}
+
+.alarms-audio-confort .wrapper {
+  width: 1080px;
+  margin: 0 auto
+}
+
+.alarms-audio-confort .title {
+  display: block;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.alarms-audio-confort .title img {
+  max-width: 590px;
+  width: 100%
+}
+
+.alarms-audio-confort .brands {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.alarms-audio-confort .brands .brand {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  flex: 0 1 33%;
+  display: flex;
+  justify-content: center;
+}
+
+.alarms-audio-confort .brands .brand img {
+  height: auto;
+  max-width: 350px;
+  width: 100%;
+}
+
+.alarms-audio-confort .brands .brand a {
+  color: #cb591e;
+  font-size: 30px;
+  display: block;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+}
+
+.alarms-audio-confort .brands .brand a:hover {
+  color: #FF592C;
+}
+
+.alarms-audio-confort .brands .brand span {
+  display: block;  
 }
 
 .avital-products {
@@ -1554,48 +1622,72 @@ b {
   top: 4px;
 }
 
+/* Large 2600 */
 @media (min-width: 2600px) {
   .flex-caption {
     font-size: 4em;
     bottom: 40%;
   }
+  .carousel, .flexslider {
+    min-height: 400px;
+  }
 }
-
+/* Large 1920 */
 @media (min-width: 1920px) and (max-width: 2599px) {
   .flex-caption {
     font-size: 3em;
     bottom: 40%;
   }
+  .carousel, .flexslider {
+    min-height: 350px;
+  }
 }
 
+/* Large 1680px */
 @media (min-width: 1680px) and (max-width: 1919px) {
   .flex-caption {
     font-size: 2.8em;
     bottom: 40%;
   }
+  .carousel, .flexslider {
+    min-height: 300px;
+  }
 }
 
+/* Large 1440px */
 @media (min-width: 1440px) and (max-width: 1679px) {
   .flex-caption {
     font-size: 2.4em;
     bottom: 38%;
   }
+  .carousel, .flexslider {
+    min-height: 350px;
+  }
 }
 
+/* Large 1360px */
 @media (min-width: 1360px) and (max-width: 1439px) {
   .flex-caption {
     font-size: 2.2em;
     bottom: 36%;
   }
+  .carousel, .flexslider {
+    min-height: 325px;
+  }
 }
 
+/* Large 1280px */
 @media (min-width: 1280px) and (max-width: 1359px) {
   .flex-caption {
     font-size: 2.2em;
     bottom: 35%;
   }
+  .carousel, .flexslider {
+    min-height: 350px;
+  }
 }
 
+/* Medium 960px */
 @media (min-width: 960px) and (max-width: 1279px) {
   .header .left-background {
     width: 100%;
@@ -1626,16 +1718,24 @@ b {
     font-size: 1.6em;
     bottom: 40%;
   }
+  .carousel, .flexslider {
+    min-height: 200px;
+  }
   .carousel {
     top: 0;
     margin-bottom: 0;
     width: 100%;
   }
+  .alarms-audio-confort .wrapper {
+    width: 95%;
+    margin: 0 auto
+  }  
   .product-content {
     width: 95%;
   }
 }
 
+/* Medium 600px */
 @media (min-width: 600px) and (max-width: 959px) {
   .header .left-background {
     width: 100%;
@@ -1666,9 +1766,16 @@ b {
     font-size: 1.4em;
     bottom: 38%;
   }
+  .carousel, .flexslider {
+    min-height: 150px;
+  }
   .carousel {
     top: 0;
     margin-bottom: 0;
+  }
+  .alarms-audio-confort .wrapper {
+    width: 95%;
+    margin: 0 auto
   }
   .home-content .security-alarms-group {
     padding-top: 1.5em;
@@ -1677,7 +1784,7 @@ b {
   .home-content .security-alarms-group .alarm-controls {
     margin: 0 auto;
     width: 90%;
-  }
+  }  
   .viper-clifford-features {
     display: block;
     width: 100%;
@@ -1863,7 +1970,7 @@ b {
     margin-top: 1rem;
   }
 }
-
+/* MOBILE */
 @media (max-width: 599px) {
   .header {
     height: 390px;
@@ -1944,9 +2051,19 @@ b {
     font-size: 1.4em;
     bottom: 38%;
   }
+  .carousel, .flexslider {
+    min-height: 0;
+  }
   .carousel {
     top: 0;
     margin-bottom: 0;
+  }
+  .alarms-audio-confort .wrapper {
+    padding: 0 5%;
+    width: 100%;
+  }
+  .alarms-audio-confort .brands {
+    flex-direction: column;
   }
   .security-alarms-group .security-comfort,
   .security-alarms-group .alarm-controls {

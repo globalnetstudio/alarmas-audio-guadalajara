@@ -37,7 +37,52 @@
 
 	<!-- .alarms-audio-confort -->
 	<div class="alarms-audio-confort">
-		<img class="img-responsive" src="/images/alarms-audio-confort.jpg" alt="Alarmas Audio y Confort">
+
+		<!-- .wrapper -->
+		<div class="wrapper">
+
+			<!-- .title -->
+			<div class="title">
+				<img src="/images/home/seguridad-y-confort.png" alt="Seguridad y Confort">
+			</div>
+			<!-- /.title -->
+
+			<!-- .brands -->
+			<div class="brands">
+
+				<!-- .alarms-circle -->
+				<div class="brand alarms-circle">
+					<a href="/alarmas">
+						<img class="alarms-circle" src="/images/home/alarms-circle.png" alt="Alarmas">
+						<span>Alarmas</span>
+					</a>
+				</div>
+				<!-- /.alarms-circle -->
+				
+				<!-- .audio-circle -->
+				<div class="brand audio-circle">
+					<a href="/audio">
+						<img class="audio-circle" src="/images/home/audio-circle.png" alt="Audio">
+						<span>Audio</span>
+					</a>
+				</div>
+				<!-- /.audio-circle -->
+				
+				<!-- .confort-circle -->
+				<div class="brand confort-circle">
+					<a href="/confort">
+						<img class="confort-circle" src="/images/home/confort-circle.png" alt="Confort">
+						<span>Confort</span>
+					</a>
+				</div>
+				<!-- /.confort-circle -->
+
+			</div>
+			<!-- /.brands -->
+
+		</div>
+		<!-- /.wrapper -->
+
 	</div>
 	<!-- /.alarms-audio-confort -->
 
