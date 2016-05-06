@@ -1,22 +1,16 @@
 <IfModule mod_rewrite.c>
 # Activar RewriteEngine
 RewriteEngine on
+
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-f
  
 RewriteRule ^alarmas/?$ alarmas.php
-# Productos
-RewriteRule ^alarmas/clifford-5706x?$ product.php?producto=clifford-5706x
-RewriteRule ^alarmas/clifford-3305x?$ product.php?producto=clifford-3305x
-RewriteRule ^alarmas/clifford-3105x?$ product.php?producto=clifford-3105x
-RewriteRule ^alarmas/clifford-3606x?$ product.php?producto=clifford-3606x
-RewriteRule ^alarmas/arrow-5.1?$ product.php?producto=arrow-5.1
-RewriteRule ^alarmas/clifford-blackjax?$ product.php?producto=clifford-blackjax
-RewriteRule ^alarmas/automate-am-1.5?$ product.php?producto=automate-am-1.5
-RewriteRule ^alarmas/avital-3100l?$ product.php?producto=avital-3100l
-RewriteRule ^alarmas/avital-5303l?$ product.php?producto=avital-5303l
-RewriteRule ^alarmas/modulo-de-arranque?$ product.php?producto=modulo-de-arranque
-
 RewriteRule ^audio/?$ audio.php
 RewriteRule ^confort/?$ confort.php
 RewriteRule ^contacto/?$ contacto.php
 RewriteRule ^gracias/?$ gracias.php
+
+# URL Productos
+RewriteRule ^alarmas/([a-z0-9-]+)$ product.php?producto=$1
 </IfModule>

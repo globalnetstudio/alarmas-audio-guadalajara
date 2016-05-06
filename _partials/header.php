@@ -2,7 +2,12 @@
 	<div class="left-background"></div>
 	<div class="middle-background"></div>
 	<div class="right-background"></div>
-	<div class="logo"><img src="/images/alarmas-audio-guadalajara-logo.png" alt=""></div>
+
+	<div class="logo">
+		<a href="/">
+			<img src="/images/alarmas-audio-guadalajara-logo.png" alt="Alarmas y Audio Guadalajara">
+		</a>
+	</div>
 
 	<nav>
 		<!-- .main-menu -->
@@ -43,7 +48,7 @@
 			</p>
 			<p class="email">
 				<i class="icon-mail"></i>
-				contacto@alarmasyaudioguadalajara.com
+				contacto@alarmasyaudio.com
 			</p>
 		</div>
 		<!-- /.left-column -->

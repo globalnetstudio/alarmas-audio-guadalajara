@@ -104,7 +104,7 @@
 						<!-- title-botton -->
 						<div class="title-botton">
 							<h3>Clifford 5706X</h3>
-							<a class="button" href="/alarmas/clifford-5706x"><i class="icon-plus-circle"></i>&nbsp;Detalles</a>
+							<a class="button" href="alarmas/clifford-5706x"><i class="icon-plus-circle"></i>&nbsp;Detalles</a>
 						</div>
 						<!-- ./title-botton -->
 					</div>
