@@ -44,7 +44,9 @@
   list-style-type: disc;
 }
 
-input.error, textarea.error {
+.inputError,
+input.error,
+textarea.error {
   border: solid 1px #a94442 !important;
   background-color: #f2dede;
 }

@@ -1,5 +1,4 @@
 <?php include('./_partials/api.php'); ?>
-<?php session_start(); ?>
 <?php $pageTitle= 'Contacto'; $page = 'contact'; ?>
 
 <?php include('./_partials/head.php'); ?>
@@ -21,7 +20,9 @@
 				<ul>
 					<?php foreach($_SESSION['form-errors'] as $key => $error) : ?>
 						<?php if($key == 'questionComment') : ?>
-							<li>Esciba sus <b><?php echo $error ?></b></li>	
+							<li>Esciba sus <b><?php echo $error ?></b></li>
+						<?php elseif($key == 'email-format'): ?>
+							<li>Formato incorrecto de <b><?php echo $error ?></b></li>	
 						<?php else: ?>
 							<li>Esciba su <b><?php echo $error ?></b></li>
 						<?php endif; ?>
@@ -77,7 +78,7 @@
 
 					<!-- .email -->
 					<div class="email">
-						<input <?php echo (isset($_SESSION['form-errors']['email'])) ? "class='inputError'" : null; ?>
+						<input <?php echo (isset($_SESSION['form-errors']['email']) || isset($_SESSION['form-errors']['email-format'])) ? "class='inputError'" : null; ?>
 							id="email"
 							type="email"
 							name="email"

@@ -1,8 +1,8 @@
-<?php
-
-if($_SERVER['REQUEST_METHOD'] == 'POST') {
-	// Inicializa la sesión
+<?php if($_SERVER['REQUEST_METHOD'] == 'POST') {
+	
 	session_start();
+	require('./_partials/validationFunctions.php');
+	
 	$_SESSION['form-errors'] = [];
 	$_SESSION['mail-sended'] = false;
 	
@@ -44,6 +44,12 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 	if($email !== '') :
 		$em = true;
 		$_SESSION['old-email-name'] = $email;
+		
+		if(emailValidation($email)) :
+		$em = true;
+		else:
+			$_SESSION['form-errors']['email-format'] = "Correo Electrónico";
+		endif;
 	else:
 		$_SESSION['form-errors']['email'] = "correo electrónico";
 	endif;
