@@ -55,7 +55,7 @@
 
 		<!-- .right-column -->
 		<div class="right-column">
-			<p class="phone-1"><i class="icon-phone"></i>(33) 3616 - 9088</p>
+			<p class="phone-1"><i class="icon-phone"></i>(33) 3630 - 4029</p>
 			<p class="phone-2"><i class="icon-phone"></i>(33) 3070 - 0576</p>
 			<div class="social-icons">
 				<!-- .twitter -->
