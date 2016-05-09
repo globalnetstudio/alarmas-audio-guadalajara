@@ -148,7 +148,7 @@
 					<div class="information">
 						<p><i class="icon-mark"></i>&nbsp;<b>Sucursal Agustín Yáñez</b></p>
 						<p>Agustín Yáñez #2256-A, Col. Arcos Sur, CP. 44150, Guadalajara, Jal.</p>
-						<p>Tel: (33) 3616-9088</p>
+						<p>Tel: (33) 3630 - 4029</p>
 					</div>
 					<!-- /.information -->
 				</div>
