@@ -1,0 +1,75 @@
+.alarm-controls h2 {
+  color: #0f1217;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 27px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.alarms-audio-confort {
+  background: #fff url(/images/home/home-back-pattern.jpg) repeat;
+  background-size: 1127px 528px;
+  margin-bottom: -5px;
+  padding-bottom: 30px;
+  width: 100%
+}
+
+.alarms-audio-confort .wrapper {
+  width: 1080px;
+  margin: 0 auto
+}
+
+.alarms-audio-confort .title {
+  display: block;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.alarms-audio-confort .title img {
+  max-width: 590px;
+  width: 100%
+}
+
+.alarms-audio-confort .brands {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.alarms-audio-confort .brands .brand {
+  flex: 0 1 33%;
+  display: flex;
+  justify-content: center;
+}
+
+.alarms-audio-confort .brands .brand img {
+  height: auto;
+  max-width: 350px;
+  width: 100%;
+}
+
+.alarms-audio-confort .brands .brand a {
+  color: #cb591e;
+  font-size: 30px;
+  display: block;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+}
+
+.alarms-audio-confort .brands .brand a:hover {
+  color: #FF592C;
+}
+
+.alarms-audio-confort .brands .brand span {
+  display: block;  
+}
+
+.avital-products {
+  margin-bottom: -5px;
+}
+
+.alarms-specialists {
+  border-top: solid 8px #cb591e;
+  margin-bottom: -5px;
+}

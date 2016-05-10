@@ -1,0 +1,434 @@
+/* MOBILE */
+@media (max-width: 599px) {
+  .header {
+    height: 390px;
+    border-bottom: 8px solid #cb591e;
+  }
+  .header .left-background {
+    width: 100%;
+  }
+  .header .middle-background {
+    background: none;
+  }
+  .header .right-background {
+    display: none;
+  }
+  .header .logo {
+    margin-left: 0;
+    margin: 40px auto 0;
+    width: 100%;
+    max-width: 350px;
+    position: relative;
+    left: 0;
+    top: 10px;
+  }
+  .header .address {
+    color: #3A3A3A;
+    position: relative;
+    margin: 1em .5em;
+    left: 0;
+    display: block;
+  }
+  .header .address p {
+    font-size: 16px;
+    text-align: center;
+  }
+  .header .address .social-icons {
+    display: block;
+    margin: 15px auto 0;
+    width: 150px;
+  }
+  .header .main-menu {
+    top: -40px;
+    bottom: initial;
+  }
+  .header .main-menu #menu-button {
+    background-color: #222;
+    color: #ffffff;
+    cursor: pointer;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 2px;
+    padding: .75em 1em;
+    text-align: center;
+  }
+  .header .main-menu ul {
+    display: none;
+    width: 100%;
+  }
+  .header .main-menu ul li:first-child {
+    margin-top: 0;
+  }
+  .header .main-menu ul li.active a:hover {
+    background-color: #000;
+  }
+  .header .main-menu ul li {
+    margin-top: -1px;
+  }
+  .header .main-menu ul li a {
+    padding-left: 1em;
+    background-color: #222;
+  }
+  .header .main-menu ul li a:hover {
+    background-color: #cb591e;
+  }
+  .header .main-menu ul li:before, .header .main-menu ul li:after {
+    display: none;
+  }
+  .flex-caption {
+    font-size: 1.4em;
+    bottom: 38%;
+  }
+  .carousel, .flexslider {
+    min-height: 0;
+  }
+  .carousel {
+    top: 0;
+    margin-bottom: 0;
+  }
+  .alarms-audio-confort .wrapper {
+    padding: 0 5%;
+    width: 100%;
+  }
+  .alarms-audio-confort .brands {
+    flex-direction: column;
+  }
+  .security-alarms-group .security-comfort,
+  .security-alarms-group .alarm-controls {
+    margin: 0 auto;
+    width: 90%;
+  }
+  .security-comfort {
+    padding-top: 1em;
+  }
+  .security-comfort h2 {
+    font-size: 18px;
+  }
+  .alarm-controls h2 {
+    font-size: 25px;
+  }
+  .viper-clifford-features {
+    display: block;
+    width: 100%;
+  }
+  .viper-clifford-features .clifford-features {
+    margin-bottom: 1em;
+    text-align: center;
+  }
+  .alarms {
+    width: 90%;
+  }
+  .alarms h2 {
+    margin-top: .5em;
+    padding: .25em 0;
+    font-size: 1.5em;
+  }
+  .alarms .row {
+    display: block;
+  }
+  .alarms .row .column {
+    margin-bottom: 1em;
+  }
+  .alarms .row .column .title-botton {
+    padding: 10px 15px;
+  }
+  .alarms .row .column .title-botton .moto-x {
+    margin-bottom: 0;
+  }
+  .alarms .row .column .title-botton h3 {
+    font-size: 18px;
+  }
+  .alarms .row .column .title-botton a.button {
+    padding: 5px 10px;
+    font-size: 18px;
+  }
+  .alarms .row .column .title-botton a.button:before {
+    display: none;
+  }
+  .alarms .row .column img {
+    margin-bottom: 28px;
+  }
+  .alarms .row .column .box {
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
+  }
+  .alarms .row .column .box:after {
+    display: none;
+  }
+  .product-content {
+    margin-top: 20px;
+    width: 90%;
+  }
+  .product-content .wrapper {
+    display: block;
+  }
+  .product-content .back-btn {
+    position: static !important;
+    text-align: center;
+    background-color: #cb591e;
+  }
+  .product-content p {
+    margin-left: 0;
+  }
+  .protect,
+  .logos-wrapper,
+  .banners-wrapper {
+    width: 100%;
+  }
+  .protect {
+    display: block;
+  }
+  .protect .banners-wrapper {
+    display: block;
+    padding: 0;
+    text-align: center;
+  }
+  .protect .banners-wrapper .banner-v2,
+  .protect .banners-wrapper .banner-v4 {
+    width: 100%;
+    margin-bottom: 1em;
+  }
+  .logos-wrapper {
+    display: none;
+  }
+  .banners-wrapper {
+    display: block;
+  }
+  .banners-wrapper .ontas-banner,
+  .banners-wrapper .viper-banner {
+    margin-bottom: 1em;
+    width: 100%;
+    text-align: center;
+  }
+  .banners-wrapper .ontas-banner .ontas-logo-mobile,
+  .banners-wrapper .ontas-banner .directed-logo-mobile,
+  .banners-wrapper .viper-banner .ontas-logo-mobile,
+  .banners-wrapper .viper-banner .directed-logo-mobile {
+    display: block;
+    margin: 1em auto;
+    box-shadow: none;
+  }
+  .banners-wrapper .ontas-banner .ontas-logo-mobile,
+  .banners-wrapper .viper-banner .ontas-logo-mobile {
+    max-width: 167px;
+  }
+  .banners-wrapper .ontas-banner .directed-logo-mobile,
+  .banners-wrapper .viper-banner .directed-logo-mobile {
+    max-width: 209px;
+  }
+  .antiassault-film {
+    display: block;
+    width: 90%;
+  }
+  .antiassault-film .information,
+  .antiassault-film .side {
+    width: 100%;
+  }
+  .antiassault-film .information img,
+  .antiassault-film .side img {
+    margin: 0 auto 1em;
+  }
+  .antiassault-film .information h2,
+  .antiassault-film .information p {
+    margin-bottom: 1em;
+  }
+  .max-limit {
+    display: block;
+    width: 90%;
+  }
+  .max-limit .information,
+  .max-limit .side {
+    width: 100%;
+  }
+  .max-limit .information img,
+  .max-limit .side img {
+    display: inline-block;
+    margin: 0 auto 1em;
+  }
+  .audio-content .row,
+  .audio-content .directed-logo,
+  .audio-content .information {
+    margin-top: 1em;
+    width: 90%;
+  }
+  .audio-content .row {
+    display: block;
+  }
+  .audio-content .row .column {
+    width: 100%;
+    margin-bottom: 1em;
+  }
+  .audio-content .information {
+    margin-bottom: 1em;
+    text-align: center;
+    line-height: 1.4em;
+    letter-spacing: 2px;
+    font-size: 18px;
+  }
+  .confort-content {
+    margin: 1em auto;
+    width: 90%;
+  }
+  .confort-content .locker-sensor {
+    display: block;
+  }
+  .confort-content .locker-sensor .locker, .confort-content .locker-sensor .sensor {
+    display: block;
+    width: 100%;
+  }
+  .confort-content .locker-sensor .locker .product-image, .confort-content .locker-sensor .sensor .product-image {
+    box-shadow: none;
+    border: none;
+    text-align: center;
+    height: auto;
+    margin-right: 0;
+  }
+  .confort-content .locker-sensor .locker .description, .confort-content .locker-sensor .sensor .description {
+    margin: 0 0 1em;
+  }
+  .confort-content .locker-sensor .locker .description h3, .confort-content .locker-sensor .sensor .description h3 {
+    text-align: center;
+  }
+  .confort-content .locker-sensor .locker .description li, .confort-content .locker-sensor .sensor .description li {
+    margin-bottom: .5em;
+  }
+  .confort-content .photocel-sensor {
+    display: block;
+  }
+  .confort-content .photocel-sensor .photocel, .confort-content .photocel-sensor .retro-sensor {
+    width: 100%;
+  }
+  .confort-content .photocel-sensor .photocel .description, .confort-content .photocel-sensor .retro-sensor .description {
+    margin-bottom: 0 0 1em;
+  }
+  .confort-content .photocel-sensor .photocel .description h3, .confort-content .photocel-sensor .retro-sensor .description h3 {
+    text-align: center;
+  }
+  .confort-content .photocel-sensor .photocel .description p, .confort-content .photocel-sensor .retro-sensor .description p {
+    text-align: justify;
+    font-size: 17px;
+    line-height: 22px;
+  }
+  .confort-content .photocel-sensor .retro-sensor .product-image {
+    border: none;
+    box-shadow: none;
+    width: 100%;
+    text-align: center;
+    margin: 0 0 1em;
+  }
+  .confort-content .camera,
+  .confort-content .parrot,
+  .confort-content .parrot-mini,
+  .confort-content .pka,
+  .confort-content .tom-tom,
+  .confort-content .simple,
+  .confort-content .easy-go {
+    display: block;
+  }
+  .confort-content .camera .product-image,
+  .confort-content .parrot .product-image,
+  .confort-content .parrot-mini .product-image,
+  .confort-content .pka .product-image,
+  .confort-content .tom-tom .product-image,
+  .confort-content .simple .product-image,
+  .confort-content .easy-go .product-image {
+    border: none;
+    box-shadow: none;
+    width: 100%;
+    text-align: center;
+  }
+  .confort-content .camera .description h3,
+  .confort-content .parrot .description h3,
+  .confort-content .parrot-mini .description h3,
+  .confort-content .pka .description h3,
+  .confort-content .tom-tom .description h3,
+  .confort-content .simple .description h3,
+  .confort-content .easy-go .description h3 {
+    text-align: center;
+  }
+  .confort-content .camera .description p,
+  .confort-content .parrot .description p,
+  .confort-content .parrot-mini .description p,
+  .confort-content .pka .description p,
+  .confort-content .tom-tom .description p,
+  .confort-content .simple .description p,
+  .confort-content .easy-go .description p {
+    text-align: justify;
+    font-size: 17px;
+    line-height: 22px;
+  }
+  .confort-content .camera .description li,
+  .confort-content .parrot .description li,
+  .confort-content .parrot-mini .description li,
+  .confort-content .pka .description li,
+  .confort-content .tom-tom .description li,
+  .confort-content .simple .description li,
+  .confort-content .easy-go .description li {
+    margin: 1em 0;
+    font-size: 16px;
+  }
+  .confort-content .camera .product-logo,
+  .confort-content .parrot .product-logo,
+  .confort-content .parrot-mini .product-logo,
+  .confort-content .pka .product-logo,
+  .confort-content .tom-tom .product-logo,
+  .confort-content .simple .product-logo,
+  .confort-content .easy-go .product-logo {
+    width: 100%;
+    text-align: center;
+  }
+  .confort-content .simple .bottom-description ul {
+    width: 100%;
+    margin-left: 1em;
+  }
+  .confort-content .easy-go .product-image {
+    margin-bottom: 1em;
+  }
+  .contact-content {
+    width: 90%;
+  }
+  .contact-content h2 {
+    margin-top: .5em;
+  }
+  .contact-content .message {
+    font-size: 18px;
+  }
+  .contact-content .message span {
+    display: block;
+  }
+  .contact-content .form .form-inputs {
+    display: block;
+  }
+  .contact-content .form .form-inputs div {
+    display: block;
+    margin-bottom: .5em;
+    width: 100%;
+  }
+  .contact-content .form .checkbox span {
+    display: block;
+    margin-bottom: .5em;
+  }
+  .contact-content .form .buttons button {
+    width: 48%;
+    margin-bottom: 1em;
+  }
+  .contact-content .form .buttons button:first-child {
+    margin-right: 2%;
+  }
+  .contact-content .address {
+    display: block;
+  }
+  .contact-content .address .address-1, .contact-content .address .address-2 {
+    margin: 0 auto 1.5em;
+    width: 100%;
+  }
+  .contact-content .address .address-1 .information, .contact-content .address .address-2 .information {
+    margin-top: -5px;
+  }
+  .footer {
+    padding: 1em .5em;
+  }
+  .footer .copyright span {
+    margin-top: .5em;
+    display: block;
+  }
+}

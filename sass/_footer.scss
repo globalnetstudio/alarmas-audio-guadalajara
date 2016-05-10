@@ -1,0 +1,27 @@
+/* ------------ 09 - FOOTER ------------ */
+.footer {
+  font-size: 12px;
+  background-color: #04090F;
+  color: #ffffff;
+  text-align: center;
+  padding: 1em 0;
+  letter-spacing: 1px;
+}
+
+.footer .copyright {
+  margin-bottom: .5em;
+}
+
+.footer .created-by a {
+  color: #fff; 
+  text-decoration: none;
+}
+
+.footer .created-by a:hover {
+  text-decoration: underline;
+}
+
+.footer .created-by .global-net-studio-logo {
+  position: relative;
+  top: 4px;
+}

@@ -1,0 +1,459 @@
+/* ------------------ 04 - INICIO ------------------ */
+.security-alarms-group {
+  background: #E9E9E9;
+}
+
+.security-alarms-group .security-comfort,
+.security-alarms-group .alarm-controls {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.security-comfort {
+  text-align: center;
+}
+
+.security-comfort h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  margin-bottom: 0.5em;
+  color: #3c3c3c;
+}
+
+.security-comfort p {
+  font-family: Arial, Geneva, sans-serif;
+  color: #7d7d7d;
+  font-size: 17px;
+  margin-bottom: 1em;
+}
+
+.alarm-controls h2 {
+  color: #0f1217;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 27px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.alarms-audio-confort {
+  background: #fff url(/images/home/home-back-pattern.jpg) repeat;
+  background-size: 1127px 528px;
+  margin-bottom: -5px;
+  padding-bottom: 30px;
+  width: 100%
+}
+
+.alarms-audio-confort .wrapper {
+  width: 1080px;
+  margin: 0 auto
+}
+
+.alarms-audio-confort .title {
+  display: block;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.alarms-audio-confort .title img {
+  max-width: 590px;
+  width: 100%
+}
+
+.alarms-audio-confort .brands {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.alarms-audio-confort .brands .brand {
+  flex: 0 1 33%;
+  display: flex;
+  justify-content: center;
+}
+
+.alarms-audio-confort .brands .brand img {
+  height: auto;
+  max-width: 350px;
+  width: 100%;
+}
+
+.alarms-audio-confort .brands .brand a {
+  color: #cb591e;
+  font-size: 30px;
+  display: block;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+}
+
+.alarms-audio-confort .brands .brand a:hover {
+  color: #FF592C;
+}
+
+.alarms-audio-confort .brands .brand span {
+  display: block;  
+}
+
+.avital-products {
+  margin-bottom: -5px;
+}
+
+.alarms-specialists {
+  border-top: solid 8px #cb591e;
+  margin-bottom: -5px;
+}
+
+.viper-clifford-features {
+  padding: 15px 20px 30px;
+  background-color: #ffffff;
+  margin: 0 auto;
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.viper-clifford-features .clifford-features {
+  flex: 0 1 49%;
+}
+
+.viper-clifford-features .clifford-features img {
+  width: 100%;
+  max-width: 520px;
+}
+
+.viper-clifford-features .description {
+  flex: 0 1 49%;
+}
+
+.viper-clifford-features .description h2 {
+  color: #3f3f3f;
+  font-size: 28px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: .25em;
+}
+
+.viper-clifford-features .description p {
+  font-size: 16px;
+  text-align: left;
+  color: #7d7d7d;
+  text-align: justify;
+  line-height: 20px;
+}
+
+.alarms {
+  margin: 0 auto;
+  width: 900px;
+  margin-bottom: 1.5em;
+  padding-bottom: 1em;
+  border-bottom: solid 1px #ccc;
+}
+
+.alarms h2 {
+  width: 100%;
+  background-color: #cb591e;
+  color: #ffffff;
+  text-align: center;
+  font-size: 2em;
+  padding: .25em 0;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.35);
+  margin-bottom: 1em;
+}
+
+.alarms .row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5em;
+}
+
+.alarms .row .column {
+  position: relative;
+  flex: 0 1 24%;
+}
+
+.alarms .row .column .box {
+  background-color: #ffffff;
+  border: 1px solid #cb591e;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  text-align: center;
+  width: 100%;
+  position: relative;
+  z-index: 0;
+}
+
+.alarms .row .column .box:after {
+  background-color: transparent;
+  border-radius: 0 0 100px 100px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.4);
+  content: "";
+  height: 100px;
+  opacity: .6;
+  width: 170px;
+  position: absolute;
+  left: 20px;
+  bottom: 0;
+  z-index: -1;
+}
+
+.alarms .row .column img {
+  width: 100%;
+  max-width: 200px;
+  max-height: 200px;
+  height: auto;
+}
+
+.alarms .row .column img.moto-x {
+  width: 95px;
+  height: auto;
+}
+
+.alarms .row .column .title-botton {
+  height: 50px;
+  width: 100%;
+  background-color: rgba(203, 89, 30, 0.9);
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5px;
+}
+
+.alarms .row .column .title-botton h3 {
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  width: 100%;
+}
+
+.alarms .row .column .title-botton a.button {
+  color: #424242;
+  text-decoration: none;
+  background-color: #ffffff;
+  padding: 5px;
+  font-size: 14px;
+  position: relative;
+  padding-left: 5px;
+  margin-left: 5px;
+  transition: all .5s;
+}
+
+.alarms .row .column .title-botton a.button:hover {
+  background-color: #424242;
+  color: #ffffff;
+}
+
+.alarms .row .column .title-botton a.button i.icon-plus-circle {
+  position: relative;
+  top: 2px;
+}
+
+.protect {
+  margin: 0 auto 2em;
+  padding: 1em;
+  padding-bottom: 2em;
+  border-bottom: solid 1px #ccc;
+  width: 900px;
+}
+
+.protect .protect-logo {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.protect .banners-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.protect .banners-wrapper .banner-v2,
+.protect .banners-wrapper .banner-v4 {
+  width: 49%;
+}
+
+.protect .banners-wrapper .banner-v2 img,
+.protect .banners-wrapper .banner-v4 img {
+  max-width: 490px;
+  width: 100%;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.logos-wrapper,
+.banners-wrapper {
+  margin: 0 auto;
+  width: 900px;
+  display: flex;
+}
+
+.banners-wrapper .ontas-logo-mobile,
+.banners-wrapper .directed-logo-mobile {
+  display: none;
+}
+
+.logos-wrapper {
+  align-items: center;
+  padding-bottom: 1em;
+}
+
+.logos-wrapper .ontas-logo,
+.logos-wrapper .directed-logo {
+  text-align: center;
+  width: 50%;
+}
+
+.banners-wrapper {
+  justify-content: space-between;
+  padding: 0 1em 1em;
+  padding-bottom: 2em;
+  border-bottom: solid 1px #ccc;
+}
+
+.banners-wrapper .ontas-banner,
+.banners-wrapper .viper-banner {
+  width: 49%;
+}
+
+.banners-wrapper .ontas-banner img,
+.banners-wrapper .viper-banner img {
+  max-width: 470px;
+  width: 100%;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.antiassault-film {
+  align-items: center;
+  border-bottom: solid 1px #ccc;
+  color: #7d7d7d;
+  margin: 2em auto 1.5em;
+  padding-bottom: 1em;
+  width: 900px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+}
+
+.antiassault-film .information {
+  width: 68%;
+}
+
+.antiassault-film .information h2, .antiassault-film .information h3 {
+  font-weight: bold;
+}
+
+.antiassault-film .information h2 {
+  font-size: 1.2em;
+  margin-bottom: 2em;
+}
+
+.antiassault-film .information h3 {
+  font-size: 1.1em;
+  margin-bottom: .5em;
+}
+
+.antiassault-film .information h3 span {
+  margin-right: .5em;
+  color: #cb591e;
+}
+
+.antiassault-film .information p {
+  font-size: 17px;
+  margin: .5em 0 2em 1em;
+}
+
+.antiassault-film .side {
+  width: 30%;
+}
+
+.antiassault-film .side img {
+  display: block;
+  max-width: 305px;
+  margin-bottom: 1em;
+  width: 100%;
+}
+
+.antiassault-film .side p {
+  color: #7d7d7d;
+  margin-bottom: 1em;
+  text-align: justify;
+}
+
+.max-limit {
+  margin: 0 auto;
+  width: 900px;
+  color: #7d7d7d;
+  margin-bottom: 2em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.max-limit p {
+  margin-bottom: 1em;
+}
+
+.max-limit .information {
+  width: 53%;
+}
+
+.max-limit .information img {
+  width: 100%;
+  max-width: 265px;
+}
+
+.max-limit .information p {
+  text-align: justify;
+}
+
+.max-limit .information .brands-lists {
+  display: flex;
+}
+
+.max-limit .information .brands-lists ul {
+  flex: 1 0 30%;
+  margin: 1em 0 1.5em 1em;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.max-limit .information .brands-lists li {
+  margin-bottom: .5em;
+  list-style-type: disc;
+  color: #cb591e;
+}
+
+.max-limit .information .brands-lists li:last-child {
+  margin: 0;
+}
+
+.max-limit .information .brands-lists li span {
+  color: #7d7d7d;
+}
+
+.max-limit .side {
+  width: 45%;
+}
+
+.max-limit .side img {
+  margin-bottom: 1em;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  width: 100%;
+  max-width: 388px;
+}
+
+.max-limit .side ul {
+  margin: .5em 0 1em 1em;
+}
+
+.max-limit .side ul li {
+  list-style-type: disc;
+  color: #cb591e;
+  margin: .5em 0;
+}
+
+.max-limit .side ul li span {
+  color: #7d7d7d;
+}

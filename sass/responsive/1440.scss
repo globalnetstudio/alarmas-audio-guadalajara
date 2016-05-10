@@ -1,0 +1,10 @@
+/* Large 1440px */
+@media (min-width: 1440px) and (max-width: 1679px) {
+  .flex-caption {
+    font-size: 2.4em;
+    bottom: 38%;
+  }
+  .carousel, .flexslider {
+    min-height: 350px;
+  }
+}

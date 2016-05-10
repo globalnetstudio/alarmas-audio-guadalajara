@@ -1,0 +1,15 @@
+/* ------------ FLEXSLIDER ------------ */
+.flexslider .slides > li {
+  position: relative;
+  z-index: 0;
+}
+
+.flex-caption {
+  color: #fff;
+  text-align: center;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+  width: 100%;
+  position: absolute;
+  font-weight: bold;
+  z-index: 1;
+}

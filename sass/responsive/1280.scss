@@ -1,0 +1,15 @@
+/* Large 1280px */
+@media (min-width: 1280px) and (max-width: 1359px) {
+  .flex-caption {
+    font-size: 2.2em;
+    bottom: 35%;
+  }
+  .carousel, .flexslider {
+    min-height: 350px;
+  }
+  // Thanks
+  .thanks-content .message {
+    margin: 30px auto;
+    width: 90%;
+  }
+}

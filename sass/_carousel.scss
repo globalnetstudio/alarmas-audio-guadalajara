@@ -1,0 +1,42 @@
+/* --------- 03 - CAROUSEL --------- */
+.carousel {  
+  width: 100%;
+  position: relative;
+  top: -129px;
+  margin-bottom: -129px;
+  z-index: 0;
+  background-color: #222;
+}
+
+.carousel img {
+  width: 100%;
+}
+
+.carousel .zig-zag-form {
+  position: absolute;
+  bottom: -6px;
+  z-index: 5;
+}
+
+.carousel .zig-zag-form img {
+  height: auto;
+  width: 100%;
+}
+
+.carousel .custom-controls-container {
+  position: absolute;
+  bottom: 25%;
+  width: 100%;
+  z-index: 10;
+}
+
+.flexslider {
+  background-color: none;
+  border: none;
+}
+
+.left-chevron,
+.right-chevron {
+  position: absolute;
+  z-index: -1;
+}

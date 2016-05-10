@@ -1,0 +1,196 @@
+/* ------------------ 02 - HEADER ------------------ */
+.header {
+  position: relative;
+  width: 100%;
+  height: 129px;
+  z-index: 10;
+}
+
+.header .left-background {
+  top: -1px;
+  left: 0;
+  position: absolute;
+  z-index: 10;
+  width: 40%;
+  height: 129px;
+  background: url(../images/header/left-background.jpg) repeat-x left center;
+}
+
+.header .middle-background {
+  position: absolute;
+  top: -1px;
+  left: 40%;
+  height: 129px;
+  width: 126px;
+  background: url(../images/header/middle-background.png) no-repeat left center;
+  z-index: 20;
+}
+
+.header .right-background {
+  background-color: #feffff;
+  height: 12px;
+  width: 100%;
+  position: relative;
+  top: 116px;
+  z-index: 0;
+  box-shadow: 0 7px 0 #cb591e;
+}
+
+.header .logo {
+  position: absolute;
+  top: 10px;
+  left: 40%;
+  margin-left: -255px;
+  width: 315px;
+  z-index: 30;
+}
+
+.header .logo img {
+  max-width: 100%;
+  height: auto;
+}
+
+.header .main-menu {
+  width: 100%;
+  position: absolute;
+  bottom: -56px;
+  z-index: 40;
+}
+
+.header .main-menu #menu-button {
+  display: none;
+}
+
+.header .main-menu ul {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  width: 900px;
+}
+
+.header .main-menu ul li {
+  position: relative;
+  height: 50px;
+  flex: auto;
+  text-align: center;
+  display: block;
+}
+
+.header .main-menu ul li:last-child {
+  border-right: none;
+}
+
+.header .main-menu ul li a {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  padding: 14px 0;
+  letter-spacing: 2px;
+  width: 100%;
+  transition: all .5s;
+}
+
+.header .main-menu ul li a:hover {
+  background-color: rgba(181, 79, 27, 0.8);
+}
+
+.header .main-menu ul li.active a {
+  color: #cb591e;
+  font-weight: bold;
+}
+
+.header .main-menu ul li.active a:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.header .main-menu ul li:before {
+  background-color: #818385;
+  content: "";
+  height: 10px;
+  position: absolute;
+  width: 2px;
+  box-shadow: 0 40px 0 0 #818385;
+  z-index: 1;
+  right: 0;
+}
+
+.header .main-menu ul li:last-child:before {
+  display: none;
+}
+
+.header .address {
+  color: #ffffff;
+  height: 116px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.header .address .left-column {
+  margin-right: 7px;
+}
+
+.header .address i.icon-mark:before,
+.header .address i.icon-mail:before,
+.header .address i.icon-phone:before {
+  position: relative;
+  top: 2px;
+  padding-right: 5px;
+  font-size: 18px;
+}
+
+.header .address p {
+  margin-bottom: 10px;
+  font-size: .95em;
+}
+
+.header .address .social-icons {
+  margin-top: 10px;
+}
+
+.header .address .social-icons > div {
+  display: inline-block;
+  margin-right: 2px;
+  height: 30px;
+  width: 30px;
+}
+
+.header .address .social-icons > div a {
+  text-decoration: none;
+}
+
+.header .address .social-icons > div i {
+  color: #ffffff;
+  position: relative;
+  font-size: 22px;
+}
+
+.header .address .social-icons > div i:before {
+  position: relative;
+  top: 5px;
+  left: 3px;
+}
+
+.header .address .social-icons .twitter {
+  background-color: #62aee6;
+}
+
+.header .address .social-icons .facebook {
+  background-color: #243f8b;
+}
+
+.header .address .social-icons .youtube {
+  background-color: #db1f25;
+}
+
+.header .address .social-icons .youtube i:before {
+  top: 5px;
+}
+
+.header .address .social-icons .google-plus {
+  background-color: #da4835;
+}
