@@ -2,6 +2,7 @@
 	include('./_partials/api.php'); // Cargar API
 	ob_start(); // Habilitar Output Buffering
 ?>
+<?php $_SESSION['mail-sended'] = true; ?>
 <?php if(isset($_SESSION['mail-sended']) && $_SESSION['mail-sended'] == true) : ?>
 
 	<?php
