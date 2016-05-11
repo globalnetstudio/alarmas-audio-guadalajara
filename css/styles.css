@@ -2212,7 +2212,7 @@ label.error {
   }
   .alarms-content .alarms .row .column .title-botton a.button {
     padding: 5px 10px;
-    font-size: 18px;
+    font-size: 14px;
   }
   .alarms-content .alarms .row .column .title-botton a.button:before {
     display: none;
@@ -2284,8 +2284,9 @@ label.error {
   .alarms-content .antiassault-film .side img {
     margin: 0 auto 1em;
   }
-  .alarms-content .antiassault-film .information h2,
-  .alarms-content .antiassault-film .information p {
+  .alarms-content .antiassault-film .information h2, .alarms-content .antiassault-film .information p,
+  .alarms-content .antiassault-film .side h2,
+  .alarms-content .antiassault-film .side p {
     margin-bottom: 1em;
   }
   .alarms-content .max-limit {
@@ -2307,6 +2308,12 @@ label.error {
   }
   .product-content .wrapper {
     display: block;
+  }
+  .product-content .wrapper .product-image {
+    margin-bottom: 20px;
+  }
+  .product-content .wrapper .description-features .description {
+    margin-bottom: 1em;
   }
   .product-content .back-btn {
     position: static !important;
@@ -2343,39 +2350,48 @@ label.error {
   .confort-content .locker-sensor {
     display: block;
   }
-  .confort-content .locker-sensor .locker, .confort-content .locker-sensor .sensor {
+  .confort-content .locker-sensor .locker,
+  .confort-content .locker-sensor .sensor {
     display: block;
     width: 100%;
   }
-  .confort-content .locker-sensor .locker .product-image, .confort-content .locker-sensor .sensor .product-image {
+  .confort-content .locker-sensor .locker .product-image,
+  .confort-content .locker-sensor .sensor .product-image {
     box-shadow: none;
     border: none;
     text-align: center;
     height: auto;
     margin-right: 0;
   }
-  .confort-content .locker-sensor .locker .description, .confort-content .locker-sensor .sensor .description {
+  .confort-content .locker-sensor .locker .description,
+  .confort-content .locker-sensor .sensor .description {
     margin: 0 0 1em;
   }
-  .confort-content .locker-sensor .locker .description h3, .confort-content .locker-sensor .sensor .description h3 {
+  .confort-content .locker-sensor .locker .description h3,
+  .confort-content .locker-sensor .sensor .description h3 {
     text-align: center;
   }
-  .confort-content .locker-sensor .locker .description li, .confort-content .locker-sensor .sensor .description li {
+  .confort-content .locker-sensor .locker .description li,
+  .confort-content .locker-sensor .sensor .description li {
     margin-bottom: .5em;
   }
   .confort-content .photocel-sensor {
     display: block;
   }
-  .confort-content .photocel-sensor .photocel, .confort-content .photocel-sensor .retro-sensor {
+  .confort-content .photocel-sensor .photocel,
+  .confort-content .photocel-sensor .retro-sensor {
     width: 100%;
   }
-  .confort-content .photocel-sensor .photocel .description, .confort-content .photocel-sensor .retro-sensor .description {
+  .confort-content .photocel-sensor .photocel .description,
+  .confort-content .photocel-sensor .retro-sensor .description {
     margin-bottom: 0 0 1em;
   }
-  .confort-content .photocel-sensor .photocel .description h3, .confort-content .photocel-sensor .retro-sensor .description h3 {
+  .confort-content .photocel-sensor .photocel .description h3,
+  .confort-content .photocel-sensor .retro-sensor .description h3 {
     text-align: center;
   }
-  .confort-content .photocel-sensor .photocel .description p, .confort-content .photocel-sensor .retro-sensor .description p {
+  .confort-content .photocel-sensor .photocel .description p,
+  .confort-content .photocel-sensor .retro-sensor .description p {
     text-align: justify;
     font-size: 17px;
     line-height: 22px;
@@ -2435,8 +2451,8 @@ label.error {
   .confort-content .tom-tom .description li,
   .confort-content .simple .description li,
   .confort-content .easy-go .description li {
-    margin: 1em 0;
     font-size: 16px;
+    margin: 1em 0;
   }
   .confort-content .camera .product-logo,
   .confort-content .parrot .product-logo,
