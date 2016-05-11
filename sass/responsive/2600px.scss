@@ -1,0 +1,10 @@
+/* --------- 2600px --------- */
+@media (min-width: 2600px) {
+  .flex-caption {
+    font-size: 4em;
+    bottom: 40%;
+  }
+  .carousel, .flexslider {
+    min-height: 400px;
+  }
+}

@@ -1,75 +1,325 @@
-.alarm-controls h2 {
-  color: #0f1217;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 27px;
-  text-align: center;
-  margin-bottom: 0;
-}
+/* ------------------ 05 - ALARMAS ------------------ */
+.alarms-content {
 
-.alarms-audio-confort {
-  background: #fff url(/images/home/home-back-pattern.jpg) repeat;
-  background-size: 1127px 528px;
-  margin-bottom: -5px;
-  padding-bottom: 30px;
-  width: 100%
-}
+  .alarms {
+    margin: 0 auto;
+    width: 900px;
+    margin-bottom: 1.5em;
+    padding-bottom: 1em;
+    border-bottom: solid 1px #ccc;
 
-.alarms-audio-confort .wrapper {
-  width: 1080px;
-  margin: 0 auto
-}
+    h2 {
+      width: 100%;
+      background-color: #cb591e;
+      color: #ffffff;
+      text-align: center;
+      font-size: 2em;
+      padding: .25em 0;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.35);
+      margin-bottom: 1em;
+    }
 
-.alarms-audio-confort .title {
-  display: block;
-  text-align: center;
-  padding-top: 20px;
-}
+    // -------------- REJILLAS ALARMAS --------------
+    .row {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 1.5em;
+      .column {
+        position: relative;
+        flex: 0 1 24%;
 
-.alarms-audio-confort .title img {
-  max-width: 590px;
-  width: 100%
-}
+        .box {
+          background-color: #ffffff;
+          border: 1px solid #cb591e;
+          margin: 0 auto;
+          padding-bottom: 10px;
+          text-align: center;
+          width: 100%;
+          position: relative;
+          z-index: 0;
 
-.alarms-audio-confort .brands {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+          // Sombra Inferior
+          &:after {
+            background-color: transparent;
+            border-radius: 0 0 100px 100px;
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.4);
+            content: "";
+            height: 100px;
+            opacity: .6;
+            width: 170px;
+            position: absolute;
+            left: 20px;
+            bottom: 0;
+            z-index: -1;
+          }
+        }
 
-.alarms-audio-confort .brands .brand {
-  flex: 0 1 33%;
-  display: flex;
-  justify-content: center;
-}
+        img {
+          height: auto;
+          max-height: 200px;
+          max-width: 200px;
+          width: 100%;
 
-.alarms-audio-confort .brands .brand img {
-  height: auto;
-  max-width: 350px;
-  width: 100%;
-}
+          &.moto-x {
+            width: 95px;
+            height: auto;
+          }
+        }
 
-.alarms-audio-confort .brands .brand a {
-  color: #cb591e;
-  font-size: 30px;
-  display: block;
-  text-decoration: none;
-  font-weight: bold;
-  text-align: center;
-}
+        .title-botton {
+          background-color: rgba(203, 89, 30, 0.9);
+          height: 50px;
+          padding: 0 5px;
+          width: 100%;
+          position: absolute;
+          bottom: 0;
+          z-index: 1;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
 
-.alarms-audio-confort .brands .brand a:hover {
-  color: #FF592C;
-}
+          h3 {
+            color: #ffffff;
+            font-size: 16px;
+            text-align: center;
+            width: 100%;
+          }
 
-.alarms-audio-confort .brands .brand span {
-  display: block;  
-}
+          a.button {
+            color: #424242;
+            text-decoration: none;
+            background-color: #ffffff;
+            padding: 5px;
+            font-size: 14px;
+            position: relative;
+            padding-left: 5px;
+            margin-left: 5px;
+            transition: all .5s;
 
-.avital-products {
-  margin-bottom: -5px;
-}
+            i.icon-plus-circle {
+              position: relative;
+              top: 2px;
+            }
+          }
 
-.alarms-specialists {
-  border-top: solid 8px #cb591e;
-  margin-bottom: -5px;
+          a.button:hover {
+            background-color: #424242;
+            color: #ffffff;
+          }
+        }
+      }
+    }
+  }
+
+  // ----------- PROTECT -----------
+  .protect {
+    margin: 0 auto 2em;
+    padding: 1em;
+    padding-bottom: 2em;
+    border-bottom: solid 1px #ccc;
+    width: 900px;
+
+    .protect-logo {
+      text-align: center;
+      margin-bottom: 1em;
+    }
+
+    // ----------- BANNERS WRAPPER -----------
+    .banners-wrapper {
+      display: flex;
+      justify-content: space-between;
+
+      .banner-v2,
+      .banner-v4 {
+        width: 49%;
+      }
+
+      .banner-v2 img,
+      .banner-v4 img {
+        max-width: 490px;
+        width: 100%;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+      }
+    }
+  }
+
+  .banners-wrapper,
+  .logos-wrapper {
+    display: flex;
+    margin: 0 auto;
+    width: 900px;
+  }
+
+  .banners-wrapper .ontas-logo-mobile,
+  .banners-wrapper .directed-logo-mobile {
+    display: none;
+  }
+
+  .logos-wrapper {
+    align-items: center;
+    padding-bottom: 1em;
+  }
+
+  .logos-wrapper .ontas-logo,
+  .logos-wrapper .directed-logo {
+    text-align: center;
+    width: 50%;
+  }
+
+  // -------------- Banners Wrapper --------------
+  .banners-wrapper {
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 0 1em 1em;
+    padding-bottom: 2em;
+    border-bottom: solid 1px #ccc;
+
+    .ontas-banner,
+    .viper-banner {
+      width: 49%;
+
+      img {
+        max-width: 470px;
+        width: 100%;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+      }
+    }
+  }
+
+  .antiassault-film {
+    align-items: center;
+    border-bottom: solid 1px #ccc;
+    color: #7d7d7d;
+    margin: 2em auto 1.5em;
+    padding-bottom: 1em;
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+
+    .information {
+      width: 68%;
+
+      h2, h3 {
+        font-weight: bold;
+      }
+
+      h2 {
+        font-size: 1.2em;
+        margin-bottom: 2em;
+      }
+
+      h3 {
+        font-size: 1.1em;
+        margin-bottom: .5em;
+
+        span {
+          margin-right: .5em;
+          color: #cb591e;
+        }
+      }
+
+      p {
+        font-size: 17px;
+        margin: .5em 0 2em 1em;
+      }
+    }
+
+    .side {
+      width: 30%;
+
+      img {
+        display: block;
+        max-width: 305px;
+        margin-bottom: 1em;
+        width: 100%;
+      }
+
+      p {
+        color: #7d7d7d;
+        margin-bottom: 1em;
+        text-align: justify;
+      }
+    }
+
+  }
+
+  // --------- MAX LIMIT ---------
+  .max-limit {
+    margin: 0 auto;
+    width: 900px;
+    color: #7d7d7d;
+    margin-bottom: 2em;
+    display: flex;
+    justify-content: space-between;
+
+    p {
+      margin-bottom: 1em;
+    }
+
+    // -------- INFORMATION --------
+    .information {
+      width: 53%;
+
+      img {
+        width: 100%;
+        max-width: 265px;
+      }
+
+      p {
+        text-align: justify;
+      }
+
+      // -------- BRAND LISTS --------
+      .brands-lists {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+
+        ul {
+          flex: 1 0 30%;
+          margin: 1em 0 1.5em 1em;
+          justify-content: space-between;
+          align-items: center;
+          li {
+            margin-bottom: .5em;
+            list-style-type: disc;
+            color: #cb591e;
+            &:last-child {
+              margin: 0;
+            }
+            span {
+              color: #7d7d7d;
+            }
+          }
+
+        }
+      }
+    }
+
+    // -------- SIDE --------
+    .side {
+      width: 45%;
+
+      img {
+        margin-bottom: 1em;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+        width: 100%;
+        max-width: 388px;
+      }
+
+      ul {
+        margin: .5em 0 1em 1em;
+        li {
+          list-style-type: disc;
+          color: #cb591e;
+          margin: .5em 0;
+          span {
+            color: #7d7d7d;
+          }
+        }
+      }
+    }
+  }
 }

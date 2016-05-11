@@ -1,0 +1,502 @@
+@media (max-width: 599px) {
+  .header {
+    height: 390px;
+    border-bottom: 8px solid #cb591e;
+
+    .left-background {
+      width: 100%;
+    }
+
+    .middle-background {
+      background: none;
+    }
+
+    .right-background {
+      display: none;
+    }
+
+    .logo {
+      margin-left: 0;
+      margin: 40px auto 0;
+      width: 100%;
+      max-width: 350px;
+      position: relative;
+      left: 0;
+      top: 10px;
+    }
+
+    .address {
+      color: #3A3A3A;
+      position: relative;
+      margin: 1em .5em;
+      left: 0;
+      display: block;
+
+      p {
+        font-size: 16px;
+        text-align: center;
+      }
+
+      .social-icons {
+        display: block;
+        margin: 15px auto 0;
+        width: 150px;
+      }
+    }
+
+    .main-menu {
+      top: -40px;
+      bottom: initial;
+      #menu-button {
+        background-color: #222;
+        color: #ffffff;
+        cursor: pointer;
+        display: block;
+        font-weight: bold;
+        margin-bottom: 2px;
+        padding: .75em 1em;
+        text-align: center;
+      }
+
+      ul {
+        display: none;
+        width: 100%;
+
+        li:first-child {
+          margin-top: 0;
+        }
+
+        li.active a:hover {
+          background-color: #000;
+        }
+
+        li {
+          margin-top: -1px;
+          a {
+            padding-left: 1em;
+            background-color: #222;
+            &:hover {
+              background-color: #cb591e;
+            }
+          }
+          &:before,
+          &:after {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+
+  .flex-caption {
+    font-size: 1.4em;
+    bottom: 38%;
+  }
+
+  .carousel, .flexslider {
+    min-height: 0;
+  }
+
+  .carousel {
+    top: 0;
+    margin-bottom: 0;
+  }
+
+  .home-content {
+    .security-alarms-group .alarm-controls {
+      width: 100%;
+
+      img {
+        height: auto;
+        width: 100%;
+      }
+    }
+
+    .alarms-audio-confort {
+      .wrapper {
+        padding: 0 5%;
+        width: 100%;
+      }
+      .brands {
+        flex-direction: column;
+      }
+      
+    }
+
+    .security-alarms-group {
+      .security-comfort,
+      .alarm-controls {
+        margin: 0 auto;
+        width: 90%;
+      }
+      .security-comfort {
+        padding-top: 1em;
+        h2 {
+          font-size: 18px;
+        }
+      }
+      .alarm-controls h2 {
+        font-size: 25px;
+      }
+    }
+
+    .viper-clifford-features {
+      display: block;
+      width: 100%;
+
+      .clifford-features {
+        margin-bottom: 1em;
+        text-align: center;
+      }
+    }
+  }
+
+  .alarms-content {
+    .alarms {
+      width: 90%;
+
+      h2 {
+        margin-top: .5em;
+        padding: .25em 0;
+        font-size: 1.5em;
+      }
+
+      .row {
+        display: block;
+
+        .column {
+          margin-bottom: 1em;
+          .title-botton {
+            padding: 10px 15px;
+
+            .moto-x {
+              margin-bottom: 0;
+            }
+
+            h3 {
+              font-size: 18px;
+            }
+
+            a.button {
+              padding: 5px 10px;
+              font-size: 18px;
+            }
+
+            a.button:before {
+              display: none;
+            }
+          }
+
+
+          img {
+            margin-bottom: 28px;
+          }
+
+          .box {
+            box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
+            &:after {
+              display: none;
+            }
+          }
+
+        }
+
+      }
+    }
+
+    .protect,
+    .logos-wrapper,
+    .banners-wrapper {
+      width: 100%;
+    }
+
+    .protect {
+      display: block;
+      .banners-wrapper {
+        display: block;
+        padding: 0;
+        text-align: center;
+        .banner-v2,
+        .banner-v4 {
+          width: 100%;
+          margin-bottom: 1em;
+        }
+      }
+
+    }
+
+    .logos-wrapper {
+      display: none;
+    }
+
+    .banners-wrapper {
+      display: block;
+      .ontas-banner,
+      .viper-banner {
+        margin-bottom: 1em;
+        width: 100%;
+        text-align: center;
+      }
+
+      .ontas-banner .ontas-logo-mobile,
+      .ontas-banner .directed-logo-mobile,
+      .viper-banner .ontas-logo-mobile,
+      .viper-banner .directed-logo-mobile {
+        display: block;
+        margin: 1em auto;
+        box-shadow: none;
+      }
+
+      .ontas-banner .ontas-logo-mobile,
+      .viper-banner .ontas-logo-mobile {
+        max-width: 167px;
+      }
+      .ontas-banner .directed-logo-mobile,
+      .viper-banner .directed-logo-mobile {
+        max-width: 209px;
+      }
+    }
+
+    .antiassault-film {
+      display: block;
+      width: 90%;
+    }
+    .antiassault-film .information,
+    .antiassault-film .side {
+      width: 100%;
+    }
+    .antiassault-film .information img,
+    .antiassault-film .side img {
+      margin: 0 auto 1em;
+    }
+    .antiassault-film .information h2,
+    .antiassault-film .information p {
+      margin-bottom: 1em;
+    }
+    .max-limit {
+      display: block;
+      width: 90%;
+    }
+    .max-limit .information,
+    .max-limit .side {
+      width: 100%;
+    }
+    .max-limit .information img,
+    .max-limit .side img {
+      display: inline-block;
+      margin: 0 auto 1em;
+    }
+  }
+
+  .product-content {
+    margin-top: 20px;
+    width: 90%;
+    .wrapper {
+      display: block;
+    }
+    .back-btn {
+      position: static !important;
+      text-align: center;
+      background-color: #cb591e;
+    }
+    p {
+      margin-left: 0;
+    }
+  }
+
+  .audio-content {
+    .row,
+    .directed-logo,
+    .information {
+      margin-top: 1em;
+      width: 90%;
+    }
+    .row {
+      display: block;
+    }
+    .row .column {
+      width: 100%;
+      margin-bottom: 1em;
+    }
+    .information {
+      margin-bottom: 1em;
+      text-align: center;
+      line-height: 1.4em;
+      letter-spacing: 2px;
+      font-size: 18px;
+    }
+  }
+
+  .confort-content {
+    margin: 1em auto;
+    width: 90%;
+    .locker-sensor {
+      display: block;
+    }
+    .locker-sensor .locker, .locker-sensor .sensor {
+      display: block;
+      width: 100%;
+    }
+    .locker-sensor .locker .product-image, .locker-sensor .sensor .product-image {
+      box-shadow: none;
+      border: none;
+      text-align: center;
+      height: auto;
+      margin-right: 0;
+    }
+    .locker-sensor .locker .description, .locker-sensor .sensor .description {
+      margin: 0 0 1em;
+    }
+    .locker-sensor .locker .description h3, .locker-sensor .sensor .description h3 {
+      text-align: center;
+    }
+    .locker-sensor .locker .description li, .locker-sensor .sensor .description li {
+      margin-bottom: .5em;
+    }
+    .photocel-sensor {
+      display: block;
+    }
+    .photocel-sensor .photocel, .photocel-sensor .retro-sensor {
+      width: 100%;
+    }
+    .photocel-sensor .photocel .description, .photocel-sensor .retro-sensor .description {
+      margin-bottom: 0 0 1em;
+    }
+    .photocel-sensor .photocel .description h3, .photocel-sensor .retro-sensor .description h3 {
+      text-align: center;
+    }
+    .photocel-sensor .photocel .description p, .photocel-sensor .retro-sensor .description p {
+      text-align: justify;
+      font-size: 17px;
+      line-height: 22px;
+    }
+    .photocel-sensor .retro-sensor .product-image {
+      border: none;
+      box-shadow: none;
+      width: 100%;
+      text-align: center;
+      margin: 0 0 1em;
+    }
+    .camera,
+    .parrot,
+    .parrot-mini,
+    .pka,
+    .tom-tom,
+    .simple,
+    .easy-go {
+      display: block;
+    }
+    .camera .product-image,
+    .parrot .product-image,
+    .parrot-mini .product-image,
+    .pka .product-image,
+    .tom-tom .product-image,
+    .simple .product-image,
+    .easy-go .product-image {
+      border: none;
+      box-shadow: none;
+      width: 100%;
+      text-align: center;
+    }
+    .camera .description h3,
+    .parrot .description h3,
+    .parrot-mini .description h3,
+    .pka .description h3,
+    .tom-tom .description h3,
+    .simple .description h3,
+    .easy-go .description h3 {
+      text-align: center;
+    }
+    .camera .description p,
+    .parrot .description p,
+    .parrot-mini .description p,
+    .pka .description p,
+    .tom-tom .description p,
+    .simple .description p,
+    .easy-go .description p {
+      text-align: justify;
+      font-size: 17px;
+      line-height: 22px;
+    }
+    .camera .description li,
+    .parrot .description li,
+    .parrot-mini .description li,
+    .pka .description li,
+    .tom-tom .description li,
+    .simple .description li,
+    .easy-go .description li {
+      margin: 1em 0;
+      font-size: 16px;
+    }
+    .camera .product-logo,
+    .parrot .product-logo,
+    .parrot-mini .product-logo,
+    .pka .product-logo,
+    .tom-tom .product-logo,
+    .simple .product-logo,
+    .easy-go .product-logo {
+      width: 100%;
+      text-align: center;
+    }
+    .simple .bottom-description ul {
+      width: 100%;
+      margin-left: 1em;
+    }
+    .easy-go .product-image {
+      margin-bottom: 1em;
+    }
+  }
+
+  .contact-content {
+    width: 90%;
+    h2 {
+      margin-top: .5em;
+    }
+    .message {
+      font-size: 18px;
+    }
+    .message span {
+      display: block;
+    }
+    .form .form-inputs {
+      display: block;
+    }
+    .form .form-inputs div {
+      display: block;
+      margin-bottom: .5em;
+      width: 100%;
+    }
+    .form .checkbox span {
+      display: block;
+      margin-bottom: .5em;
+    }
+    .form .buttons button {
+      width: 48%;
+      margin-bottom: 1em;
+    }
+    .form .buttons button:first-child {
+      margin-right: 2%;
+    }
+    .address {
+      display: block;
+    }
+    .address .address-1,
+    .address .address-2 {
+      margin: 0 auto 1.5em;
+      width: 100%;
+    }
+    .address .address-1 .information,
+    .address .address-2 .information {
+      margin-top: -5px;
+    }
+  }
+
+  .footer {
+    padding: 1em .75em;
+  }
+
+  .footer .copyright span {
+    margin-top: .5em;
+    display: block;
+  }
+}

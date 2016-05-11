@@ -25,66 +25,63 @@
 			<!-- .alarm-controls -->
 			<div class="alarm-controls">
 				<h2>Asesoria y Satisfacción Garantizada</h2>
-				<img class="img-responsive" src="/images/controles-clifford.jpg" alt="Controles para alarmas Clifford">
+				<img src="/images/controles-clifford.jpg" alt="Controles para alarmas Clifford">
 			</div>
 			<!-- /.alarm-controls -->
 
 		</section>
 		<!-- /.security-alarms-group -->
 
-	</section>
-	<!-- /.home-content -->
+		<!-- .alarms-audio-confort -->
+		<div class="alarms-audio-confort">
 
-	<!-- .alarms-audio-confort -->
-	<div class="alarms-audio-confort">
+			<!-- .wrapper -->
+			<div class="wrapper">
 
-		<!-- .wrapper -->
-		<div class="wrapper">
+				<!-- .title -->
+				<div class="title">
+					<img src="/images/home/seguridad-y-confort.png" alt="Seguridad y Confort">
+				</div>
+				<!-- /.title -->
 
-			<!-- .title -->
-			<div class="title">
-				<img src="/images/home/seguridad-y-confort.png" alt="Seguridad y Confort">
+				<!-- .brands -->
+				<div class="brands">
+
+					<!-- .alarms-circle -->
+					<div class="brand alarms-circle">
+						<a href="/alarmas">
+							<img class="alarms-circle" src="/images/home/alarms-circle.png" alt="Alarmas">
+							<span>Alarmas</span>
+						</a>
+					</div>
+					<!-- /.alarms-circle -->
+					
+					<!-- .audio-circle -->
+					<div class="brand audio-circle">
+						<a href="/audio">
+							<img class="audio-circle" src="/images/home/audio-circle.png" alt="Audio">
+							<span>Audio</span>
+						</a>
+					</div>
+					<!-- /.audio-circle -->
+					
+					<!-- .confort-circle -->
+					<div class="brand confort-circle">
+						<a href="/confort">
+							<img class="confort-circle" src="/images/home/confort-circle.png" alt="Confort">
+							<span>Confort</span>
+						</a>
+					</div>
+					<!-- /.confort-circle -->
+
+				</div>
+				<!-- /.brands -->
+
 			</div>
-			<!-- /.title -->
-
-			<!-- .brands -->
-			<div class="brands">
-
-				<!-- .alarms-circle -->
-				<div class="brand alarms-circle">
-					<a href="/alarmas">
-						<img class="alarms-circle" src="/images/home/alarms-circle.png" alt="Alarmas">
-						<span>Alarmas</span>
-					</a>
-				</div>
-				<!-- /.alarms-circle -->
-				
-				<!-- .audio-circle -->
-				<div class="brand audio-circle">
-					<a href="/audio">
-						<img class="audio-circle" src="/images/home/audio-circle.png" alt="Audio">
-						<span>Audio</span>
-					</a>
-				</div>
-				<!-- /.audio-circle -->
-				
-				<!-- .confort-circle -->
-				<div class="brand confort-circle">
-					<a href="/confort">
-						<img class="confort-circle" src="/images/home/confort-circle.png" alt="Confort">
-						<span>Confort</span>
-					</a>
-				</div>
-				<!-- /.confort-circle -->
-
-			</div>
-			<!-- /.brands -->
+			<!-- /.wrapper -->
 
 		</div>
-		<!-- /.wrapper -->
-
-	</div>
-	<!-- /.alarms-audio-confort -->
+		<!-- /.alarms-audio-confort -->
 
 	<!-- .avital-products -->
 	<div class="avital-products">
@@ -116,5 +113,8 @@
 		<!-- /.description -->
 	</div>
 	<!-- /.viper-clifford-features -->
+
+</section>
+<!-- /.home-content -->
 
 <?php include_once('./_partials/footer.php'); ?>

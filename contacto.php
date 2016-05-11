@@ -137,38 +137,38 @@
 		</div>
 		<!-- /.form -->
 
-			<!-- .address -->
-			<div id="maps" class="address">
+		<!-- .address -->
+		<div id="maps" class="address">
 
-				<!-- .address-1 -->
-				<div class="address-1">
-					<iframe id="map1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d466.6341174333861!2d-103.37438530417224!3d20.666611339304254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428ae09a6bdb1bf%3A0x67cf219efcce854f!2sALARMAS+VIPER-CLIFFORD!5e0!3m2!1ses-419!2smx!4v1461864473325" frameborder="0" style="border:0" allowfullscreen></iframe>
+			<!-- .address-1 -->
+			<div class="address-1">
+				<iframe id="map1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d466.6341174333861!2d-103.37438530417224!3d20.666611339304254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428ae09a6bdb1bf%3A0x67cf219efcce854f!2sALARMAS+VIPER-CLIFFORD!5e0!3m2!1ses-419!2smx!4v1461864473325" frameborder="0" style="border:0" allowfullscreen></iframe>
 
-					<!-- .information -->
-					<div class="information">
-						<p><i class="icon-mark"></i>&nbsp;<b>Sucursal Agustín Yáñez</b></p>
-						<p>Agustín Yáñez #2256-A, Col. Arcos Sur, CP. 44150, Guadalajara, Jal.</p>
-						<p>Tel: (33) 3630 - 4029</p>
-					</div>
-					<!-- /.information -->
+				<!-- .information -->
+				<div class="information">
+					<p><i class="icon-mark"></i>&nbsp;<b>Sucursal Agustín Yáñez</b></p>
+					<p>Agustín Yáñez #2256-A, Col. Arcos Sur, CP. 44150, Guadalajara, Jal.</p>
+					<p>Tel: (33) 3630 - 4029</p>
 				</div>
-				<!-- /.address-1 -->
-			
-				<!-- .address-1 -->
-				<div class="address-2">
-					<iframe id="map2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1109.8332956156764!2d-103.42540391680933!3d20.668791376585375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428ae99a81412ff%3A0x47468a9f8aa05ce0!2sAv.+Patria+440%2C+La+Estancia%2C+45030+Zapopan%2C+Jal.!5e0!3m2!1ses-419!2smx!4v1461866025001" frameborder="0" style="border:0" allowfullscreen></iframe>
-
-					<!-- .information -->
-					<div class="information">
-						<p><i class="icon-mark"></i>&nbsp;<b>Sucursal Patria</b></p>
-						<p>Av Patria #440-D, Col. La Estancia, CP. 45030, Zapopan, Jal.</p>
-						<p>Tel: (33) 3070-0576</p>
-					</div>
-					<!-- /.information -->
-				</div>
-				<!-- /.address-1 -->
+				<!-- /.information -->
 			</div>
-			<!-- /.address -->
+			<!-- /.address-1 -->
+		
+			<!-- .address-1 -->
+			<div class="address-2">
+				<iframe id="map2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1109.8332956156764!2d-103.42540391680933!3d20.668791376585375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428ae99a81412ff%3A0x47468a9f8aa05ce0!2sAv.+Patria+440%2C+La+Estancia%2C+45030+Zapopan%2C+Jal.!5e0!3m2!1ses-419!2smx!4v1461866025001" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+				<!-- .information -->
+				<div class="information">
+					<p><i class="icon-mark"></i>&nbsp;<b>Sucursal Patria</b></p>
+					<p>Av Patria #440-D, Col. La Estancia, CP. 45030, Zapopan, Jal.</p>
+					<p>Tel: (33) 3070-0576</p>
+				</div>
+				<!-- /.information -->
+			</div>
+			<!-- /.address-1 -->
+		</div>
+		<!-- /.address -->
 
 	</section>
 	<!-- /.contact-content -->
