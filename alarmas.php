@@ -24,6 +24,7 @@
 						<!-- title-botton -->
 						<div class="title-botton">
 							<h3>Viper 5706V</h3>
+							<a class="button" href="alarmas/viper-5706v"><i class="icon-plus-circle"></i>&nbsp;Detalles</a>
 						</div>
 						<!-- ./title-botton -->
 					</div>
@@ -39,6 +40,7 @@
 						<!-- title-botton -->
 						<div class="title-botton">
 							<h3>Viper 5305V</h3>
+							<a class="button" href="alarmas/viper-5305v"><i class="icon-plus-circle"></i>&nbsp;Detalles</a>
 						</div>
 						<!-- ./title-botton -->
 					</div>
@@ -54,6 +56,7 @@
 						<!-- title-botton -->
 						<div class="title-botton">
 							<h3>Viper 3606V</h3>
+							<a class="button" href="alarmas/viper-3606v"><i class="icon-plus-circle"></i>&nbsp;Detalles</a>
 						</div>
 						<!-- ./title-botton -->
 					</div>
@@ -69,6 +72,7 @@
 						<!-- title-botton -->
 						<div class="title-botton">
 							<h3>Viper3106V</h3>
+							<a class="button" href="alarmas/viper-3106v"><i class="icon-plus-circle"></i>&nbsp;Detalles</a>
 						</div>
 						<!-- ./title-botton -->
 					</div>
@@ -88,6 +92,7 @@
 						<!-- title-botton -->
 						<div class="title-botton">
 							<h3>Viper 3100V</h3>
+							<a class="button" href="alarmas/viper-3100v"><i class="icon-plus-circle"></i>&nbsp;Detalles</a>
 						</div>
 						<!-- ./title-botton -->
 					</div>
@@ -187,6 +192,7 @@
 						<!-- title-botton -->
 						<div class="title-botton">
 							<h3>Clifford Smartstart</h3>
+							<a class="button" href="/alarmas/clifford-smart-start"><i class="icon-plus-circle"></i>&nbsp;Detalles</a>
 						</div>
 						<!-- ./title-botton -->
 					</div>
@@ -222,7 +228,8 @@
 						<!-- title-botton -->
 						<div class="title-botton">
 							<h3 class="hide">Padlock Moto X</h3>
-							<img class="moto-x" src="/images/icons/moto-x.png" alt="">
+							<img class="moto-x" src="/images/icons/moto-x.png" alt="Padlock Moto X">
+							<a class="button" href="/alarmas/padlock-moto-x"><i class="icon-plus-circle"></i>&nbsp;Detalles</a>
 						</div>
 						<!-- ./title-botton -->
 					</div>

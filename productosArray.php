@@ -1,6 +1,38 @@
 <?php
 
 $products = [
+	'viper-5706v' =>	[
+		'name' 				=> 'Viper 5706V',
+		'image'       => 'viper-5706v-big.jpg',
+		'description' => '<p>Responder LC3 la tercera generación de “Responder”. Complementado con la tecnología  SST para un alcance de hasta una milla Nuevos iconos de prioridad y el texto se ven en una pantalla de cristal líquido de 20% más grande.</p><br>',
+		'features' 		=> '<ul><li>Batería recargable de iones de litio tipo de recarga micro-USB.</li><li>Todo en el control remoto LCD más delgado del mercado.</li><li>Arranque de Motor a Distancia (Opcional).</li><li>Protección Total de su Vehículo con inmovilizador FailSafe Sensor de impactos Stinger® DoubleGuard®.</li><li>Sirena Revenger® de seis tonos e Inmovilizador Failsafe®.</li></ul><br>
+		</ul> <p>Este sistema sistema de seguridad de ultima generación también ofrece configuraciones útiles como de entrada sin llave, apertura de cajuela, encendido de luces exteriores y exteriores o lo que usted pueda imaginar.</p>',
+	],
+	'viper-3606v' =>	[
+		'name' 				=> 'Viper 3606V',
+		'image'       => 'viper-3606v-big.jpg',
+		'description' => '<p>Este sistema de seguridad va a proteger su vehículo con las tecnologías electrónicas más sofisticadas disponibles en la actualidad.</p><br>',
+		'features' 		=> '<ul><li>Sensor de impactos Stinger® DoubleGuard®</li><li>Sirena Revenger®  de seis tonos.</li><li>Inmovilizador Failsafe®.</li>
+		</ul><br><p>Este sistema sistema  de seguridad de ultima generación también ofrece configuraciones útiles  como de entrada sin llave, apertura de cajuela, encendido de luces exteriores y exteriores o lo que usted pueda imaginar</p>',
+	],
+	'viper-5305v' =>	[
+		'name' 				=> 'Viper 5305V',
+		'image'       => 'viper-5305v-big.jpg',
+		'description' => '<p>Encienda su auto desde 1/4 de Milla con este sistema de 2 Vias Encendido Remoto + Sistema de Seguridad.</p><br>',
+		'features' 		=> '<ul><li>Alcance hasta 1/4 de Milla</li><li>Display de LCD</li><li>Interface OnScreen</li><li>Viper SmartStart compatible</li><li>Led Indicador</li><li>Inmovilizador Failsafe®</li><li>Sensor de Impactos Stinger® Double Guard®</li><li>Sirena de 6 Tonos Revenger®</li></ul>',
+	],
+	'viper-3100v' =>	[
+		'name' 				=> 'Viper 3100V',
+		'image'       => 'viper-3100v-big.jpg',
+		'description' => '<p>Sistema Viper de gama de entrada ahora con control de 4 botones.</p><p>Este sistema de seguridad Viper 3106v va a proteger su vehículo con las tecnologías electrónicas más sofisticadas disponibles en la actualidad,</p><br>',
+		'features' 		=> '<ul><li>Sensor de impactos Stinger® DoubleGuard®,</li><li>Sirena Revenger®  de seis tonos e Inmovilizador Failsafe® .</li><li>Protege  Puertas, Cofre y Cajuela</li><li>Este sistema sistema  de seguridad de ultima generación también ofrece</li><li>configuraciones útiles  como de entrada sin llave.</li></ul>',
+	],
+	'viper-3106v' =>	[
+		'name' 				=> 'Viper 3106V',
+		'image'       => 'viper-3106v-big.jpg',
+		'description' => '<p>Este sistema de seguridad Viper 3106v va a proteger su vehículo con las tecnologías electrónicas más sofisticadas disponibles en la actualidad.</p><br><p>Este sistema sistema  de seguridad de ultima generación también ofrece configuraciones útiles  como de entrada sin llave.</p><br>',
+		'features' 		=> '<ul><li>Incluye Antiasalto que se activa desde el control remoto.</li><li>Sistema Viper de gama de entrada ahora con control de 4 botones.</li><li>Receptor RX + para incrementar el rango de alcance de los controles.</li><li>Sensor de impactos Stinger® DoubleGuard®.</li><li>Sirena Revenger® de seis tonos e Inmovilizador Failsafe®.</li><li>Protege Puertas, Cofre y Cajuela.</li></ul>',
+	],
 	'clifford-5706x' =>	[
 		'name' 				=> 'Clifford 5706X',
 		'image'       => 'clifford-5706x-big.jpg',
@@ -23,7 +55,14 @@ $products = [
 		'name' 				=> 'Clifford 3606X',
 		'image'       => 'clifford-3606x-big.jpg',
 		'description' => '<p>Este sistema de seguridad Clifford protejerá tu vehículo con las tecnologías electrónicas más sofísticadas disponibles en la actualidad, incluyendo el sensor de choque Stinger&copy;, DoubleGuard&copy;, Revenger&copy; sirena de seis tonos y Failsafe&copy; inmovilizador.</p>',
-		'features' 		=> '<p>Este sistema ofrece características de conveniencia <b>ESCALABLES</b> como la entrada sin llave, arranque de motor, apertura de cajuela, cierre de ventanillas, etc.</p><p>(opcionales) y es totalmente compatible con el <b>SMARTSTART</b> y <b>PKE</b> <b>(Sistema de presencia)</b></p>',
+		'features' 		=> '<p>Este sistema ofrece características de conveniencia <b>ESCALABLES</b> como la entrada sin llave, arranque de motor, apertura de cajuela, cierre de ventanillas, etc.</p><p>(opcionales) y es totalmente compatible con el <b>SMARTSTART</b> y <b>PKE</b><b>(Sistema de presencia)</b></p>',
+	],
+	'padlock-moto-x' => [
+		'name' 				=> 'Padlock Motox',
+		'image'       => 'padlock-moto-x-big.jpg',
+		'description' => '<p>Alarma para motocicletas Marca Olimpus Modelo MOTOX</p><br>',
+		'features' 		=> '<ul><li>Exclusivo rutina antiasalto para mayor seguridad (monitorea el pedal neutro).</li><li>Controles con doble función (presencia o manual); Batería de litio, y resistente al agua; pequeño y ergonómico.</li><li>Código de aprendizaje: memoriza hasta 4 mandos a distancia.</li><li>Contraseña personalizada digital de 2 dígitos para la desactivación.</li><li>Pitido Indicaciones activación y desactivación.</li><li>El pánico y localizador.</li><li>Reactivación automática (programable).</li><li>Memoria de disparos.</li><li>Función Antiasalto ACTIVO (unidad del mando a distancia).</li><li>Función Antiasalto pasiva (activada al alejarse).</li>
+<li>Cuando se utiliza la función de alarma en el manual.</li></ul>',
 	],
 	'arrow-5.1' => [
 		'name' 				=> 'Arrow 5.1',
@@ -42,6 +81,12 @@ $products = [
 		'image'       => 'automate-am-1.5-big.jpg',
 		'description' => '<p><b>Los controles de Fábrica todos son iguales por que se instalan en serie</b></p><p><b>Automate:</b> Amplía la seguridad de los controles remoto originales de fábrica, por su corte de encendido ya que su instalación es diferente en cada auto, no en serie.</p>.',
 		'features' 		=> '<ul><li>Automate Funciona con los controles Originales de fábrica, del auto (OEM)</li><li>Cada vez que desactiva o activa cambia el código de seguridad</li><li>Al encender el motor del auto Cierra los seguros, al apagar abre los seguros (Eléctricos)</li><li>El sensor de golpes doble guardia, nos da aviso si es golpeado el auto, por medio de la Sierna de alto sonido</li><li>Activación automática a los 30 segundos de cerra la útima puerta, se protege el autio y cierra los seguros.</li></ul>',
+	],
+	'clifford-smart-start' => [
+		'name' 				=> 'Clifford SmartStart',
+		'image'       => 'clifford-smart-start-big.jpg',
+		'description' => '<p>Ahora usted puede encender su auto a distancia, bloquear y desbloquear el coche con sólo presionar un botón en el teléfono inteligente; utilizando el Clifford SmartStart App de Directed, el líder en la seguridad del vehículo y arranque remoto. La sencilla interfaz gráfica permite controlar las siguientes características de su sistema Clifford ya instalado:</p><br>',
+		'features' 		=> '<ul><li>Bloquear / Activar</li><li>Desbloquear / Desactivar</li><li>Encendido del coche</li><li>Apertura del maletero</li><li>Pánico</li><li>Canales Aux</li></ul><p>También puede controlar varios vehículos - ideal para familias! - Y asignar más de un usuario para controlar un vehículo.</p><p><b>Es fácil con SmartStart!</b></p><p><b>¡Pero esto es sólo el comienzo!</b> SmartStart Clifford se carga con características adicionales, incluyendo la localización por GPS, SmartSchedule, estado del vehículo,  el control del hogar, buscador de coches y mucho más. 3.0 permite un "coche conectado en la nube" como nunca antes, proporcionando un nivel completamente nuevo de 2 vías interacción con su vehículo.</p><p>La conectividad se gestiona a través de la red dirigida Cloud Services (DCS) que une coche, aplicación, usuario final, y el Internet.</p> ',
 	],
 	'avital-3100l' => [
 		'name' 				=> 'Avital 3100L',
