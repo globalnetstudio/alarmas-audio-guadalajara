@@ -324,6 +324,11 @@ b {
   margin-bottom: 0;
 }
 
+.home-content .security-alarms-group .alarm-controls img {
+  height: auto;
+  width: 100%;
+}
+
 .home-content .alarms-audio-confort {
   background: #fff url(/images/home/home-back-pattern.jpg) repeat;
   background-size: 1127px 528px;
