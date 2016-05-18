@@ -11,12 +11,12 @@
 	$fn = false; $ln = false; $ph = false; $em = false; $be = false; $bp = false; $qc = false;
 
 	// Asignar variables del formulario y limpiar espacios del inicio
-	$firstName = (isset($_POST['firstName']))  ? trim($_POST['firstName']) : '';
-	$lastName  = (isset($_POST['lastName']))   ? trim($_POST['lastName'])  : '';
-	$phone     = (isset($_POST['phone']))      ? trim($_POST['phone'])      : '';
-	$email     = (isset($_POST['email']))      ? trim($_POST['email'])      : '';
-	$byEmail   = (isset($_POST['byEmail']))    ? trim($_POST['byEmail'])    : '';
-	$byPhone   = (isset($_POST['byPhone']))    ? trim($_POST['byPhone'])    : '';
+	$firstName = (isset($_POST['firstName']))  ? clean($_POST['firstName']) : '';
+	$lastName  = (isset($_POST['lastName']))   ? clean($_POST['lastName'])  : '';
+	$phone     = (isset($_POST['phone']))      ? clean($_POST['phone'])      : '';
+	$email     = (isset($_POST['email']))      ? clean($_POST['email'])      : '';
+	$byEmail   = (isset($_POST['byEmail']))    ? clean($_POST['byEmail'])    : '';
+	$byPhone   = (isset($_POST['byPhone']))    ? clean($_POST['byPhone'])    : '';
 	$questionsComments = (isset($_POST['questionComment'])) ? trim($_POST['questionComment']) : '';
 
 	// Validación campos vacios

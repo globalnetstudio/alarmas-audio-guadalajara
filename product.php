@@ -1,20 +1,15 @@
-<?php include('./_partials/api.php'); ?>
+<?php include('./_partials/api.php');
 
-<?php if(!isset($_GET['producto']) && !$_GET['producto']) : ?>
+require_once('productosArray.php');
 
-	<?php header('Location: /alarmas'); exit(); ?>
-
-<?php else:	?>
-
-<?php
-
-	require_once('productosArray.php');
+if(!array_key_exists($_GET['producto'], $products)) :
+	// Redirecciona a alarmas si no existe el producto en el array
+	header('Location: /alarmas'); exit();
+else:
 	$product = $products[$_GET['producto']];
 	$pageTitle= $product['name']; $page = 'alarms';
-
+	include_once('./_partials/head.php');
 ?>
-
-<?php include_once('./_partials/head.php'); ?>
 
 	<h1 class="hide">Alarmas y Audio Guadalajara</h1>
 
