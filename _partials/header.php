@@ -60,25 +60,25 @@
 			<div class="social-icons">
 				<!-- .twitter -->
 				<div class="twitter">
-					<a href="https://twitter.com/alarmasclifford"><i class="icon-twitter"></i></a>
+					<a href="https://twitter.com/alarmasclifford" target="_blank"><i class="icon-twitter"></i></a>
 				</div>
 				<!-- /.twitter -->
 
 				<!-- .facebook -->
 				<div class="facebook">
-					<a href="https://www.facebook.com/alarmascliffordguadalajara.mtoribio"><i class="icon-facebook"></i></a>
+					<a href="https://www.facebook.com/alarmascliffordguadalajara.mtoribio" target="_blank"><i class="icon-facebook"></i></a>
 				</div>
 				<!-- /.facebook -->
 
 				<!-- .youtube -->
 				<div class="youtube">
-					<a href="#"><i class="icon-youtube"></i></a>
+					<a href="#" target="_blank"><i class="icon-youtube"></i></a>
 				</div>
 				<!-- /.youtube -->
 
 				<!-- .google-plus -->
 				<div class="google-plus">
-					<a href="#"><i class="icon-google-plus"></i></a>
+					<a href="#" target="_blank"><i class="icon-google-plus"></i></a>
 				</div>
 				<!-- /.google-plus -->
 			</div>
