@@ -1,3 +1,7 @@
+		<div id="scroll-top">
+			<a href="#"><i class="icon-arrow-up-circle"></i></a>
+		</div><!-- /#scroll-up -->
+
 		<footer class="footer">
 			<p class="copyright">Copyright <?php echo date('Y'); ?> &copy; Alarmas &amp; Audio <span>&#8226; Todos los Derechos Reservados</span></p>
 			<p class="created-by">Desarrollado por <a href="http://globalnetstudio.com/" target="_blank"><img class="global-net-studio-logo" src="/images/icons/global-net-studio-logo.png" alt=""> Global Net Studio</a></p>
@@ -9,6 +13,7 @@
 		<script src="/js/menu.js"></script>
 		<script src="/js/jquery-validate.min.js"></script>
 		<script src="/js/maps.js"></script>
+		<script src="/js/scripts.js"></script>
 		<script>
 			$(function() {
 				$('.flexslider').flexslider({

@@ -400,7 +400,7 @@ b {
   display: block;
 }
 
-.home-content .avital-products {
+.home-content .viper-products {
   margin-bottom: -5px;
 }
 
@@ -1706,6 +1706,34 @@ b {
   .thanks-content h2 {
     font-size: 1.2em;
   }
+}
+
+#scroll-top {
+  display: none;
+  position: fixed;
+  right: 10px;
+  bottom: 5px;
+}
+
+#scroll-top:before {
+  content: "";
+  background-color: #fff;
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  left: 7px;
+  top: 7px;
+  border-radius: 25px;
+  z-index: -1;
+}
+
+#scroll-top a {
+  text-decoration: none;
+  color: #cb591e;
+}
+
+#scroll-top .icon-arrow-up-circle {
+  font-size: 40px;
 }
 
 /* ------------ 09 - FOOTER ------------ */

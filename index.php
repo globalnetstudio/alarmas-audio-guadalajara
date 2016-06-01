@@ -83,11 +83,11 @@
 		</div>
 		<!-- /.alarms-audio-confort -->
 
-	<!-- .avital-products -->
-	<div class="avital-products">
-		<img class="img-responsive" src="/images/avital-products.jpg" alt="Productos Avital">
+	<!-- .viper-products -->
+	<div class="viper-products">
+		<img class="img-responsive" src="/images/viper-products.jpg" alt="Viper Products">
 	</div>
-	<!-- /.avital-products -->
+	<!-- /.viper-products -->
 
 	<!-- .alarms-specialists -->
 	<div class="alarms-specialists">
